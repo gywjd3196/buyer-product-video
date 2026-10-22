@@ -15,7 +15,7 @@ function home() {
  const japan=data.posts.find(p=>p.id==='DaVBW_MS3QL');
  const taiwan=data.posts.find(p=>p.id==='DYhb86Woyrw');
  app.innerHTML = `<section class="fork-hero" aria-labelledby="hero-title">
-  <h1 id="hero-title">제품별로 발견하고,<br>국가별로 만나는 피더린</h1>
+  <h1 id="hero-title">인플루언서가 전하는 피더린<br>제품별·국가별 마케팅 영상</h1>
   <div class="hero-paths" aria-label="탐색 방식 선택">
    <a class="hero-path hero-path-products" href="#products" aria-labelledby="product-path-title" aria-describedby="product-path-description">
     <div class="hero-path-copy"><h2 id="product-path-title">제품별 영상</h2><p id="product-path-description">피더린의 제품을 소개하는 크리에이터 콘텐츠.<br class="desktop-break"> 관심 있는 제품의 대표 영상을 만나보세요.</p><span class="hero-path-cta">살펴보기<span aria-hidden="true">↗</span></span></div>

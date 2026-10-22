@@ -9,9 +9,10 @@
   <script type="module" src="app.js"></script>
 </head>
 <body>
-  <header><a class="wordmark" href="#" aria-label="PYDERIN 처음으로">PYDERIN<span>BUYER VIDEO LIBRARY</span></a><a class="header-link" href="#">바이어 제품 영상 <span>↗</span></a></header>
+  <a href="#app" class="skip-link">본문으로 바로가기</a>
+  <header><a class="wordmark" href="#" aria-label="PYDERIN 처음으로">PYDERIN<span>BUYER VIDEO LIBRARY</span></a><nav class="header-nav" aria-label="주 메뉴"><a href="#products" data-nav="products">제품별</a><a href="#countries" data-nav="countries">국가별</a><a class="official-link" href="https://pyderin.com" target="_blank" rel="noopener noreferrer">공식 사이트 ↗</a></nav></header>
   <main id="app" tabindex="-1"><p class="loading" role="status">영상 라이브러리를 불러오고 있습니다…</p></main>
   <footer><span>PYDERIN® <span class="footer-dot">/</span> Buyer Video Library</span><span>제품과 시장을 연결하는 크리에이터 콘텐츠</span></footer>
-  <dialog id="video-dialog"><div class="dialog-top"><span id="dialog-title"></span><button id="close-dialog" aria-label="영상 닫기">✕</button></div><div id="embed"></div><p class="embed-note">Instagram 설정에 따라 로그인이 필요하거나 재생이 제한될 수 있습니다.</p><a id="original-link" target="_blank" rel="noopener noreferrer">Instagram에서 원본 보기 ↗</a></dialog>
+  <dialog id="video-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span id="dialog-title"></span><button id="close-dialog" aria-label="영상 닫기">✕</button></div><div id="embed"></div><p class="embed-note"></p><a id="original-link" target="_blank" rel="noopener noreferrer">Instagram에서 원본 보기 ↗</a></dialog>
 </body>
 </html>

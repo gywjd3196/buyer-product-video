@@ -5,3 +5,8 @@ node_modules/
 raw/
 *.xlsx
 __pycache__/
+# Independently managed Sites in the shared workspace.
+japan-showcase/
+pyderin-reels-showcase/
+pyderin-taiwan-reels-showcase/
+research/

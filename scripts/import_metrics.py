@@ -20,7 +20,7 @@ with open(args.csv, encoding='utf-8-sig', newline='') as f:
         if row['media_type'] != 'video': raise ValueError('Rankings require confirmed videos')
         url=urlparse(row['source_url'])
         if url.scheme!='https' or not url.netloc: raise ValueError('HTTPS metric evidence URL required')
-        updates.append((row['id'],dict(views=int(row['views']),viewsCheckedAt=row['checked_at'],metricSource=row['source_url'],mediaType='video')))
+        updates.append((row['id'],dict(views=int(row['views']),viewsCheckedAt=row['checked_at'],metricSource=row['source_url'],mediaType='video',viewsApproximate=False,viewsDisplay=None,metricBasis='tracking' if url.netloc=='superinfluencer.web.app' else 'verified')))
 for pid, metrics in updates: posts[pid].update(metrics)
 path.write_text(json.dumps(data,ensure_ascii=False,indent=2))
 print(f'Updated {len(updates)} video measurements')

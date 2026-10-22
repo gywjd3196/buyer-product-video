@@ -1,0 +1,36 @@
+# Hero product cutouts
+
+Mode: built-in image_gen, background-extraction with transparent_background=true.
+
+The original product photos remain unchanged. These cutouts are used only in the homepage composition.
+
+## reju-cream
+
+Output: dist/assets/cutouts/reju-cream.png
+
+Use case: background-extraction
+Asset type: transparent product cutout for the PYDERIN buyer website.
+Input image: edit target, the supplied reju-cream product photograph.
+Primary request: Remove only the white backdrop and gray floor shadow. Retain the entire physical product and its carton/package as one clean cutout, on actual transparent background.
+Constraints: Preserve product shape, perspective, colors, material texture, logos and every printed label exactly as in the photograph. Do not redraw, stylize, add anything or change any text. Keep the original product grouping and original square framing. Crisp natural edges, no white halo, no solid background, no checkerboard painted into the output.
+
+## hydro-serum
+
+Output: dist/assets/cutouts/hydro-serum.png
+
+Use case: background-extraction
+Asset type: transparent product cutout for the PYDERIN buyer website.
+Input image: edit target, the supplied hydro-serum product photograph.
+Primary request: Remove only the white backdrop and gray floor shadow. Retain the entire physical product and its carton/package as one clean cutout, on actual transparent background.
+Constraints: Preserve product shape, perspective, colors, material texture, logos and every printed label exactly as in the photograph. Do not redraw, stylize, add anything or change any text. Keep the original product grouping and original square framing. Crisp natural edges, no white halo, no solid background, no checkerboard painted into the output.
+
+## clear-mask
+
+Output: dist/assets/cutouts/clear-mask.png
+
+Use case: background-extraction
+Asset type: transparent product cutout for the PYDERIN buyer website.
+Input image: edit target, the supplied clear-mask product photograph.
+Primary request: Remove only the white backdrop and gray floor shadow. Retain the entire physical product and its carton/package as one clean cutout, on actual transparent background.
+Constraints: Preserve product shape, perspective, colors, material texture, logos and every printed label exactly as in the photograph. Do not redraw, stylize, add anything or change any text. Keep the original product grouping and original square framing. Crisp natural edges, no white halo, no solid background, no checkerboard painted into the output.
+

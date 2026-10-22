@@ -10,6 +10,7 @@ body.is-home{background:#fff;color:#0d0d0f;font-family:'Pretendard Variable','No
 .is-home main{max-width:1440px;padding:0 32px;min-height:0}
 .fork-hero{padding-top:64px;margin-bottom:40px}
 .fork-hero h1{font-size:72px;line-height:1;letter-spacing:-1.44px;text-align:center;font-weight:700;margin:0 0 64px;color:#0a0a0a;word-break:keep-all}
+.fork-hero h1>span{display:block;text-wrap:balance}
 .hero-paths{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 .hero-path{display:block;min-width:0;height:680px;border-radius:24px;overflow:hidden;position:relative;isolation:isolate;outline-offset:6px;transition:box-shadow .25s}
 .hero-path:hover{box-shadow:0 12px 34px #17284014}

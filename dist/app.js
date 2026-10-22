@@ -12,7 +12,34 @@ const recorded = id => data.posts.filter(p => !p.unavailable && p.productIds.inc
 const productCard = p => `<a href="#product/${p.id}" class="product-card ${p.tone}"><div class="product-art">${image(p)}<span class="card-arrow" aria-hidden="true">↗</span></div><div class="product-info"><span class="eyebrow">${p.line}</span><h3>${p.name}</h3><p>${p.fullName}</p><div class="card-bottom"><span>${recorded(p.id) ? '조회수 높은 영상 최대 3개' : '등록 콘텐츠 최대 3개'}</span><span>영상 보기 →</span></div></div></a>`;
 
 function home() {
- app.innerHTML = `<section class="intro"><div class="eyebrow"><span class="green-dot"></span> GLOBAL MARKETING LIBRARY</div><h1>피더린의 매력을,<br><span>세계의 시선으로.</span></h1><p>제품별로 살펴보거나, 관심 있는 시장을 선택하세요.<br>크리에이터가 전하는 PYDERIN의 이야기가 시작됩니다.</p></section><section class="entry-grid" aria-label="탐색 방식 선택"><a href="#products" class="entry-card entry-products"><div class="entry-copy"><span class="eyebrow">01 / EXPLORE BY PRODUCT</span><h2>제품별 영상 보기</h2><p>관심 있는 제품을 선택하고<br>대표 콘텐츠를 만나보세요.</p><span class="round-arrow" aria-hidden="true">↗</span></div><div class="product-collage" aria-hidden="true">${image(product('reju-cream'))}${image(product('hydro-serum'))}${image(product('clear-mask'))}</div><span class="entry-bottom">${data.products.length} PRODUCTS <span>제품별 최대 3개 콘텐츠 →</span></span></a><a href="#countries" class="entry-card entry-countries"><div class="entry-copy"><span class="eyebrow">02 / EXPLORE BY MARKET</span><h2>국가별 영상 보기</h2><p>일본과 대만의 크리에이터가<br>소개하는 피더린을 만나보세요.</p><span class="round-arrow" aria-hidden="true">↗</span></div><div class="country-art" aria-hidden="true"><div class="country-disc japan"><i></i><span>JAPAN</span></div><div class="country-disc taiwan"><i>✦</i><span>TAIWAN</span></div><div class="orbit"></div></div><span class="entry-bottom">2 MARKETS <span>일본 · 대만 쇼케이스 →</span></span></a></section><div class="home-note"><span>One brand. Different perspectives.</span><p>PYDERIN · BUYER VIDEO COLLECTION</p></div>`;
+ const japan=data.posts.find(p=>p.id==='DaVBW_MS3QL');
+ const taiwan=data.posts.find(p=>p.id==='DYhb86Woyrw');
+ app.innerHTML = `<section class="fork-hero" aria-labelledby="hero-title">
+  <h1 id="hero-title">제품별로 발견하고,<br>국가별로 만나는 피더린</h1>
+  <div class="hero-paths" aria-label="탐색 방식 선택">
+   <a class="hero-path hero-path-products" href="#products" aria-labelledby="product-path-title" aria-describedby="product-path-description">
+    <div class="hero-path-copy"><h2 id="product-path-title">제품별 영상</h2><p id="product-path-description">피더린의 제품을 소개하는 크리에이터 콘텐츠.<br class="desktop-break"> 관심 있는 제품의 대표 영상을 만나보세요.</p><span class="hero-path-cta">살펴보기<span aria-hidden="true">↗</span></span></div>
+    <div class="product-path-art" aria-hidden="true">
+     <div class="product-color-cloud"></div>
+     <div class="collection-glass"><div class="collection-glass-top"><span></span><span>Product collection</span><span>•••</span></div>
+      <div class="hero-product-shelf">${['reju-cream','hydro-serum','clear-mask'].map(id=>`<div class="hero-product-tile"><img src="${product(id).image}" alt="" width="600" height="600"><span>${product(id).line}</span></div>`).join('')}</div>
+      <div class="collection-caption"><span class="collection-brand">PYDERIN</span><span>제품의 매력을, 영상으로.</span><i>↗</i></div>
+     </div>
+     <div class="product-count-pill"><span>✓</span> ${data.products.length} products to discover</div>
+     <div class="product-selection-note"><span class="note-dot"></span><div><small>CURATED FOR BUYERS</small><p>한 제품당 최대 3개.<br>크리에이터의 시선으로 만나보세요.</p></div></div>
+    </div>
+   </a>
+   <a class="hero-path hero-path-markets" href="#countries" aria-labelledby="market-path-title" aria-describedby="market-path-description">
+    <div class="hero-path-copy"><h2 id="market-path-title">국가별 영상</h2><p id="market-path-description">일본과 대만의 크리에이터가 전하는 피더린.<br class="desktop-break"> 현지의 생생한 브랜드 이야기를 살펴보세요.</p><span class="hero-path-cta">살펴보기<span aria-hidden="true">↗</span></span></div>
+    <div class="market-path-art" aria-hidden="true">
+     <div class="hero-phone"><img src="${escape(japan?.poster||product('reju-cream').image)}" alt="" fetchpriority="high"><div class="hero-phone-label"><span>JAPAN</span><span>↗</span></div><div class="hero-phone-play">▶</div><div class="hero-phone-caption"><small>CREATOR STORY</small><span>@${escape(japan?.creator||'PYDERIN')}</span></div></div>
+     <div class="hero-country-note"><span class="hero-note-eyebrow">GLOBAL STORIES</span><div><i class="jp-dot"></i> JAPAN <span>01</span></div><div><i class="tw-dot"></i> TAIWAN <span>02</span></div><p>One brand.<br>Different perspectives.</p></div>
+     <div class="hero-taiwan-preview"><img src="${escape(taiwan?.poster||product('clear-mask').image)}" alt=""><span>TAIWAN <i>↗</i></span></div>
+     <div class="market-speech-bubble">세계의 시선으로 만나는<br><strong>PYDERIN.</strong></div>
+    </div>
+   </a>
+  </div>
+ </section>`;
 }
 function products() {
  app.innerHTML = `${crumb('제품별')}<section class="page-intro"><div><span class="eyebrow">EXPLORE BY PRODUCT</span><h1>어떤 제품이 궁금하세요?<span class="title-count">${data.products.length}</span></h1><p>제품을 선택하면 조회수가 기록된 영상부터 최대 3개의 콘텐츠를 보여드립니다.</p></div><span class="small-label">PYDERIN COLLECTION</span></section><div class="filter-bar" role="group" aria-label="제품 라인 필터">${[['all','전체 제품'],['REJUVUSTER','리쥬부스터'],['HYDROVUSTER','하이드로부스터'],['CLEARVUSTER','클리어부스터']].map(([id,n],i)=>`<button data-filter="${id}" aria-pressed="${i===0}">${n}</button>`).join('')}</div><section id="product-grid" class="product-grid" aria-label="제품 목록">${data.products.map(productCard).join('')}</section>`;
@@ -81,6 +108,7 @@ function route() {
  if(dialog.open) dialog.close();
  app.classList.remove('showcase-main');
  const [view,id]=location.hash.slice(1).split('/');
+ document.body.classList.toggle('is-home',!view);
  document.querySelectorAll('[data-nav]').forEach(a=>{
   const active=a.dataset.nav==='products'?(view==='products'||view==='product'):(view==='countries'||view==='country');
   if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');

@@ -64,6 +64,7 @@ export const messages={
  '세계의 시선으로 만나는 피더린':['世界の視点で出会うPYDERIN','從世界的視角認識 PYDERIN','PYDERIN around the world.'],
  '일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.':['日本と台湾のクリエイターによるPYDERINのストーリーをご覧ください。','探索日本與台灣在地創作者分享的 PYDERIN 故事。','Explore PYDERIN stories told by local creators in Japan and Taiwan.'],
  '국가별 쇼케이스':['国別ショーケース','各國精選展示','Market showcases'],
+ '{market} 쇼케이스를 불러오는 중…':['{market}のショーケースを読み込んでいます…','正在載入{market}精選展示…','Loading the {market} showcase…'],
  '일본':['日本','日本','Japan'], '대만':['台湾','台灣','Taiwan'],
  '크리에이터 영상 {count}개':['クリエイター動画 {count}件','{count} 支創作者影片','{count} creator videos'],
  '{market}에서 만나는 PYDERIN':['{market}で出会うPYDERIN','在{market}遇見 PYDERIN','Meet PYDERIN in {market}'],

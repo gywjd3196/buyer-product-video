@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=d019b041e7';
+import {t} from './i18n.js?v=d74a2c9a5f';
 
 const footer=document.querySelector('#biz');
 const toggle=footer.querySelector('#bizToggle');

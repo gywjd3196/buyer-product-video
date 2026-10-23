@@ -1,9 +1,10 @@
 import {selectPosts, verified} from './ranking.js?v=1ea4b48ae0';
-import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=d019b041e7';
-import {updateBusinessLanguage} from './business.js?v=af214c5a5e';
+import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=d74a2c9a5f';
+import {updateBusinessLanguage} from './business.js?v=3a2db0bce3';
 const app=document.querySelector('#app');
 const languageSelect=document.querySelector('#site-language');
 let data,loadFailed=false,activeProductFilter='all',activeCountryFilter='';
+const warmedMarketOrigins=new Set();
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const format=n=>new Intl.NumberFormat(getLanguage()).format(n);
 const product=id=>localizeProduct(data.products.find(p=>p.id===id));
@@ -34,11 +35,34 @@ function products(){
  }));
 }
 function countries(){
+ for(const market of data.markets){
+  const origin=new URL(market.url).origin;if(warmedMarketOrigins.has(origin))continue;
+  warmedMarketOrigins.add(origin);
+  for(const rel of ['dns-prefetch','preconnect']){const link=document.createElement('link');link.rel=rel;link.href=origin;document.head.append(link);}
+ }
  app.innerHTML=`<section class="page-intro market-list-intro"><div><h1>${t('세계의 시선으로 만나는 피더린')}</h1><p>${t('일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.')}</p></div></section><section class="market-grid" aria-label="${t('국가별 쇼케이스')}">${data.markets.map(m=>{
   const ids=m.code==='JP'?['DaZ9pv2TFOY','DaVBW_MS3QL','DXEl4BGj4t5']:['Da9nhtcvTN4','DYhb86Woyrw','DXlzlduEvyu'];
-  return `<a href="${escape(m.url)}" class="market-card ${m.code==='JP'?'japan':'taiwan'}"><div class="market-visual" aria-hidden="true"><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"></div>`).join('')}</div></div><div class="market-info"><h2>${t(m.name)}</h2><span class="market-link-arrow" aria-hidden="true">↗</span></div></a>`;
+  return `<a href="${escape(m.url)}" class="market-card ${m.code==='JP'?'japan':'taiwan'}" data-market-name="${escape(m.name)}"><div class="market-visual" aria-hidden="true"><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"></div>`).join('')}</div></div><div class="market-info"><h2>${t(m.name)}</h2><span class="market-link-arrow" aria-hidden="true">↗</span></div><span class="market-loading" hidden><span class="market-spinner" aria-hidden="true"></span><span class="market-loading-text" role="status" aria-live="polite" aria-atomic="true"></span></span></a>`;
  }).join('')}</section>`;
+ app.querySelectorAll('.market-card').forEach(card=>card.addEventListener('click',event=>{
+  // Keep native navigation and modifier-click/new-tab behavior intact.
+  if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  resetMarketLoading();
+  card.classList.add('is-loading');
+  card.querySelector('.market-loading').hidden=false;
+  card.querySelector('.market-loading-text').textContent=t('{market} 쇼케이스를 불러오는 중…',{market:t(card.dataset.marketName)});
+ }));
 }
+function resetMarketLoading(){
+ app.querySelectorAll('.market-card.is-loading').forEach(card=>{
+  card.classList.remove('is-loading');
+  card.querySelector('.market-loading').hidden=true;
+  card.querySelector('.market-loading-text').textContent='';
+ });
+}
+window.addEventListener('pageshow',resetMarketLoading);
+window.addEventListener('pagehide',resetMarketLoading);
+window.addEventListener('keydown',event=>{if(event.key==='Escape')resetMarketLoading();});
 function marketDetail(code){
  const market=data.markets.find(m=>m.code===code);if(!market)return missing();
  const name=t(market.name);app.classList.add('showcase-main');

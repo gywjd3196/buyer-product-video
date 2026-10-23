@@ -5,6 +5,7 @@ const app=document.querySelector('#app');
 const languageSelect=document.querySelector('#site-language');
 let data,loadFailed=false,activeProductFilter='all',activeCountryFilter='';
 const warmedMarketOrigins=new Set();
+let showcaseLoadTimer;
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const format=n=>new Intl.NumberFormat(getLanguage()).format(n);
 const product=id=>localizeProduct(data.products.find(p=>p.id===id));
@@ -42,7 +43,7 @@ function countries(){
  }
  app.innerHTML=`<section class="page-intro market-list-intro"><div><h1>${t('세계의 시선으로 만나는 피더린')}</h1><p>${t('일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.')}</p></div></section><section class="market-grid" aria-label="${t('국가별 쇼케이스')}">${data.markets.map(m=>{
   const ids=m.code==='JP'?['DaZ9pv2TFOY','DaVBW_MS3QL','DXEl4BGj4t5']:['Da9nhtcvTN4','DYhb86Woyrw','DXlzlduEvyu'];
-  return `<a href="${escape(m.url)}" class="market-card ${m.code==='JP'?'japan':'taiwan'}" data-market-name="${escape(m.name)}"><div class="market-visual" aria-hidden="true"><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"></div>`).join('')}</div></div><div class="market-info"><h2>${t(m.name)}</h2><span class="market-link-arrow" aria-hidden="true">↗</span></div><span class="market-loading" hidden><span class="market-spinner" aria-hidden="true"></span><span class="market-loading-text" role="status" aria-live="polite" aria-atomic="true"></span></span></a>`;
+  return `<a href="#country/${m.code}" class="market-card ${m.code==='JP'?'japan':'taiwan'}" data-market-name="${escape(m.name)}"><div class="market-visual" aria-hidden="true"><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"></div>`).join('')}</div></div><div class="market-info"><h2>${t(m.name)}</h2><span class="market-link-arrow" aria-hidden="true">↗</span></div><span class="market-loading" hidden><span class="market-spinner" aria-hidden="true"></span><span class="market-loading-text" role="status" aria-live="polite" aria-atomic="true"></span></span></a>`;
  }).join('')}</section>`;
  app.querySelectorAll('.market-card').forEach(card=>card.addEventListener('click',event=>{
   // Keep native navigation and modifier-click/new-tab behavior intact.
@@ -63,10 +64,34 @@ function resetMarketLoading(){
 window.addEventListener('pageshow',resetMarketLoading);
 window.addEventListener('pagehide',resetMarketLoading);
 window.addEventListener('keydown',event=>{if(event.key==='Escape')resetMarketLoading();});
+function updateShowcaseLanguage(){
+ const frame=app.querySelector('.showcase-frame');if(!frame)return false;
+ const market=data.markets.find(m=>m.code===frame.dataset.market);
+ frame.title=t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:t(market.name)});
+ app.querySelector('.showcase-loading p').textContent=t('{market} 쇼케이스를 불러오는 중…',{market:t(market.name)});
+ app.querySelector('.showcase-loading button').textContent=t('다시 불러오기');
+ frame.contentWindow?.setShowcaseLanguage?.(getLanguage());
+ document.title=t(market.name)+' '+t('쇼케이스')+' · PYDERIN';return true;
+}
+function finishShowcaseLoading(frame){
+ if(!frame?.isConnected||!frame.contentWindow?.setShowcaseLanguage)return;
+ clearTimeout(showcaseLoadTimer);updateShowcaseLanguage();
+ app.querySelector('.showcase-loading').hidden=true;app.setAttribute('aria-busy','false');
+}
+window.addEventListener('message',event=>{
+ const frame=app.querySelector('.showcase-frame');
+ if(event.origin===location.origin&&event.source===frame?.contentWindow&&event.data?.type==='pyderin:showcase-ready')finishShowcaseLoading(frame);
+});
 function marketDetail(code){
  const market=data.markets.find(m=>m.code===code);if(!market)return missing();
- const name=t(market.name);app.classList.add('showcase-main');
- app.innerHTML=`<section class="showcase-toolbar"><div><span class="eyebrow">LOCAL SHOWCASE</span><h1>${t('{market}에서 만나는 PYDERIN',{market:name})}</h1></div><div class="showcase-actions"><nav class="market-tabs" aria-label="${t('국가 선택')}">${data.markets.map(m=>`<a href="#country/${m.code}" ${m.code===code?'aria-current="page"':''}>${t(m.name)}</a>`).join('')}</nav><a class="external-link" href="${market.url}" target="_blank" rel="noopener noreferrer">${t('새 창에서 보기 ↗')}</a></div></section><div class="showcase-frame-wrap"><iframe class="showcase-frame" src="${market.url}" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><p class="showcase-note">${t('쇼케이스 안내')} <a href="${market.url}" target="_blank" rel="noopener noreferrer">${t('새 창에서 보기 ↗')}</a></p>`;
+ const name=t(market.name),folder=code==='JP'?'japan':'taiwan';app.classList.add('showcase-main');app.setAttribute('aria-busy','true');
+ app.innerHTML=`<iframe class="showcase-frame" data-market="${code}" src="showcases/${folder}/index.html?lang=${getLanguage()}&v=b5bce05d30" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe><div class="showcase-loading" role="status" aria-live="polite"><span class="market-spinner" aria-hidden="true"></span><p>${t('{market} 쇼케이스를 불러오는 중…',{market:name})}</p><button hidden>${t('다시 불러오기')}</button></div>`;
+ const frame=app.querySelector('.showcase-frame'),overlay=app.querySelector('.showcase-loading');
+ const showRetry=()=>{if(!frame.isConnected||overlay.hidden)return;overlay.querySelector('.market-spinner').hidden=true;overlay.querySelector('p').textContent=t('데이터를 불러오지 못했습니다.');overlay.querySelector('button').hidden=false;};
+ frame.addEventListener('load',()=>{if(frame.contentWindow?.setShowcaseLanguage)finishShowcaseLoading(frame);else showRetry();});
+ frame.addEventListener('error',showRetry);
+ overlay.querySelector('button').addEventListener('click',()=>route());
+ showcaseLoadTimer=setTimeout(showRetry,15000);
 }
 function viewsText(post){
  return new Intl.NumberFormat(getLanguage(),{notation:'compact',maximumFractionDigits:getLanguage()==='en-US'?2:1}).format(post.views);
@@ -133,16 +158,17 @@ function applyShellLanguage(){
 }
 function missing(){app.innerHTML=`<div class="empty-state"><h1>${t('페이지를 찾을 수 없습니다.')}</h1><a href="#">${t('홈으로 돌아가기 →')}</a></div>`;}
 function route(options={}){
- if(!data)return;const position=window.scrollY;stopInlineMedia();app.classList.remove('showcase-main');
+ if(!data)return;const position=window.scrollY;stopInlineMedia();clearTimeout(showcaseLoadTimer);app.removeAttribute('aria-busy');app.classList.remove('showcase-main');
  if(!options.preservePosition){activeProductFilter='all';activeCountryFilter='';}
  const [view,id]=location.hash.slice(1).split('/');document.body.classList.toggle('is-home',!view);
+ document.body.classList.toggle('is-country-detail',view==='country'&&data.markets.some(m=>m.code===id));
  const isMarket=view==='countries'||view==='country';document.body.classList.toggle('is-market',isMarket);document.querySelector('meta[name="theme-color"]').content=isMarket?'#090a0b':'#ffffff';
  if(!view)home();else if(view==='products')products();else if(view==='countries')countries();else if(view==='product')productDetail(id);else if(view==='country')marketDetail(id);else missing();
  document.title=(view==='product'&&product(id)?product(id).name:view==='country'?t(data.markets.find(m=>m.code===id)?.name||'')+' '+t('쇼케이스'):view==='products'?t('제품별 영상'):view==='countries'?t('국가별 쇼케이스'):t('바이어 영상 라이브러리'))+' · PYDERIN';
  window.scrollTo({top:options.preservePosition?position:0});if(!options.preservePosition)app.focus({preventScroll:true});
 }
 function loadError(){app.innerHTML=`<div class="empty-state"><h1>${t('데이터를 불러오지 못했습니다.')}</h1><p>${t('잠시 후 페이지를 새로고침해 주세요.')}</p><button id="retry-load">${t('다시 불러오기')}</button></div>`;document.querySelector('#retry-load').addEventListener('click',()=>location.reload());}
-languageSelect.addEventListener('change',()=>{setLanguage(languageSelect.value);applyShellLanguage();if(data)route({preservePosition:true});else if(loadFailed)loadError();else document.querySelector('.loading').textContent=t('영상 라이브러리를 불러오고 있습니다…');});
+languageSelect.addEventListener('change',()=>{setLanguage(languageSelect.value);applyShellLanguage();if(data){if(!updateShowcaseLanguage())route({preservePosition:true});}else if(loadFailed)loadError();else document.querySelector('.loading').textContent=t('영상 라이브러리를 불러오고 있습니다…');});
 document.querySelector('.skip-link').addEventListener('click',e=>{e.preventDefault();app.focus();});
 app.addEventListener('click',event=>{const trigger=event.target.closest('button[data-play]');if(trigger)playInline(trigger.dataset.play,trigger);});
 applyShellLanguage();document.querySelector('.loading').textContent=t('영상 라이브러리를 불러오고 있습니다…');

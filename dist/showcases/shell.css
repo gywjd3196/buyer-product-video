@@ -1,0 +1,13 @@
+/* The parent library owns the header. The showcase owns the only scroll area. */
+.topbar{display:none!important}
+html{color-scheme:dark;scroll-behavior:smooth}
+html[lang=en] .intro h1{white-space:normal}
+html[lang=en] .story-copy h2{white-space:normal}
+@media(max-width:800px){
+ .story-copy h2,.story-copy h2 strong{white-space:normal;overflow-wrap:anywhere}
+ html[lang=en] .intro h1{font-size:clamp(25px,7vw,34px);line-height:1.15}
+ html[lang=en] .business-fab:after{content:'Contact';font-size:13px}
+ html[lang=zh] .business-fab:after{content:'洽詢'}
+ html[lang=ja] .business-fab:after{content:'相談'}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

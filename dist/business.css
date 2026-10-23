@@ -7,3 +7,8 @@
 
 .biz{color-scheme:light;--accent:#00358e}.is-home footer.biz{margin-inline:0}.biz-row>span{max-width:100%;text-align:left;overflow-wrap:anywhere}.biz-mail{flex-wrap:wrap}.biz-top{flex-wrap:wrap}.biz-logo{filter:none}.biz-mail-copy:hover{background:#f1f1f1;color:#111}
 @media(max-width:680px){.biz{margin-bottom:0;padding:18px 18px calc(72px + env(safe-area-inset-bottom));font-size:12px}.biz-top{gap:8px}.biz-logo{height:26px}.biz-sns{width:28px;height:28px}.biz-toggle{font-size:12px}.biz-body{max-height:360px}.biz-row{gap:4px}}
+
+/* The hub has no floating actions to reserve space for while collapsed. */
+.biz{transition:padding-bottom 420ms cubic-bezier(.22,.85,.28,1)}
+.biz.closed{padding-bottom:calc(14 * var(--u))}
+@media(max-width:680px){.biz.closed{padding-bottom:calc(18px + env(safe-area-inset-bottom))}}

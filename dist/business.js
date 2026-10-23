@@ -7,6 +7,7 @@ const email=footer.querySelector('#bizMail');
 const copy=footer.querySelector('#bizMailCopy');
 const status=footer.querySelector('#bizMailDone');
 let copyTimer;
+let revealRequest=0;
 
 export function updateBusinessLanguage(){
  footer.querySelectorAll('[data-i18n]').forEach(element=>{element.textContent=t(element.dataset.i18n);});
@@ -15,10 +16,20 @@ export function updateBusinessLanguage(){
  status.textContent='';copy.classList.remove('copied');clearTimeout(copyTimer);
 }
 
-toggle.addEventListener('click',()=>{
+window.addEventListener('hashchange',()=>{revealRequest++;});
+toggle.addEventListener('click',async()=>{
+ const request=++revealRequest;
  const closed=footer.classList.toggle('closed');
  body.inert=closed;
  toggle.setAttribute('aria-expanded',String(!closed));
+ if(closed)return;
+ // Wait for the footer's final height before revealing all expanded content.
+ await Promise.allSettled(footer.getAnimations({subtree:true}).map(animation=>animation.finished));
+ if(request!==revealRequest||footer.classList.contains('closed'))return;
+ footer.scrollIntoView({
+  behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',
+  block:footer.offsetHeight>window.innerHeight?'start':'end'
+ });
 });
 
 copy.addEventListener('click',async()=>{

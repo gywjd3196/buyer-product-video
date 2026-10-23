@@ -1,6 +1,6 @@
 import {selectPosts, verified} from './ranking.js?v=1ea4b48ae0';
 import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=d019b041e7';
-import {updateBusinessLanguage} from './business.js?v=6edd8cf5c3';
+import {updateBusinessLanguage} from './business.js?v=af214c5a5e';
 const app=document.querySelector('#app');
 const languageSelect=document.querySelector('#site-language');
 let data,loadFailed=false,activeProductFilter='all',activeCountryFilter='';

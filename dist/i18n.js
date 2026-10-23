@@ -41,7 +41,7 @@ export const messages={
  '제품 목록':['製品一覧','產品列表','Product collection'],
  '조회수 높은 영상 최대 3개':['再生数上位の動画を最大3件','最多 3 則高觀看次數影片','Up to 3 top-viewed videos'],
  '등록 콘텐츠 최대 3개':['登録コンテンツを最大3件','最多 3 則已登錄內容','Up to 3 listed posts'],
- '영상 보기 →':['動画を見る →','觀看影片 →','View videos →'],
+ '영상 보기':['動画を見る','觀看影片','View videos'],
  '세계의 시선으로 만나는 피더린':['世界の視点で出会うPYDERIN','從世界的視角認識 PYDERIN','PYDERIN around the world.'],
  '일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.':['日本と台湾のクリエイターによるPYDERINのストーリーをご覧ください。','探索日本與台灣在地創作者分享的 PYDERIN 故事。','Explore PYDERIN stories told by local creators in Japan and Taiwan.'],
  '국가별 쇼케이스':['国別ショーケース','各國精選展示','Market showcases'],

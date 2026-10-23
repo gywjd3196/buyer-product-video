@@ -1,5 +1,5 @@
 import {selectPosts, verified} from './ranking.js';
-import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js';
+import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=b6df0afd75';
 const app=document.querySelector('#app');
 const dialog=document.querySelector('#video-dialog');
 const languageSelect=document.querySelector('#site-language');
@@ -9,29 +9,19 @@ const format=n=>new Intl.NumberFormat(getLanguage()).format(n);
 const product=id=>localizeProduct(data.products.find(p=>p.id===id));
 const image=p=>`<img src="${escape(p.image)}" alt="${escape(p.name)}" loading="lazy" width="600" height="600">`;
 const crumb=text=>`<nav class="breadcrumb" aria-label="${t('현재 위치')}"><a href="#">${t('홈')}</a><span>/</span>${text}</nav>`;
-const recorded=id=>data.posts.filter(p=>!p.unavailable&&p.productIds.includes(id)&&verified(p)).length;
-const productCard=raw=>{const p=localizeProduct(raw);return `<a href="#product/${p.id}" class="product-card ${p.tone}"><div class="product-art">${image(p)}<span class="card-arrow" aria-hidden="true">↗</span></div><div class="product-info"><span class="eyebrow">${p.line}</span><h3>${p.name}</h3><p>${p.fullName}</p><div class="card-bottom"><span>${t(recorded(p.id)?'조회수 높은 영상 최대 3개':'등록 콘텐츠 최대 3개')}</span><span>${t('영상 보기 →')}</span></div></div></a>`;};
+const productCard=raw=>{const p=localizeProduct(raw);return `<a href="#product/${p.id}" class="product-card ${p.tone}"><div class="product-art">${image(p)}<span class="card-arrow"><span class="card-arrow-label">${t('영상 보기')}</span><span class="card-arrow-icon" aria-hidden="true">↗</span></span></div><div class="product-info"><h3>${p.name}</h3></div></a>`;};
 function home(){
  const japan=data.posts.find(p=>p.id==='DaVBW_MS3QL'),taiwan=data.posts.find(p=>p.id==='DYhb86Woyrw');
  app.innerHTML=`<section class="fork-hero" aria-labelledby="hero-title">
   <h1 id="hero-title"><span>${t('인플루언서가 전하는 피더린')}</span><span>${t('제품별·국가별 마케팅 영상')}</span></h1>
   <div class="hero-paths" aria-label="${t('탐색 방식 선택')}">
-   <a class="hero-path hero-path-products" href="#products" aria-labelledby="product-path-title" aria-describedby="product-path-description">
-    <div class="hero-path-copy"><h2 id="product-path-title">${t('제품별 영상')}</h2><p id="product-path-description">${t('피더린의 제품을 소개하는 크리에이터 콘텐츠.')}<br class="desktop-break"> ${t('관심 있는 제품의 대표 영상을 만나보세요.')}</p><span class="hero-path-cta">${t('살펴보기')}<span aria-hidden="true">↗</span></span></div>
-    <div class="product-path-art" aria-hidden="true">
-     <div class="product-color-cloud"></div><div class="product-orbit"></div><span class="art-edition">THE PYDERIN COLLECTION / 01</span>
-     <div class="hero-product-shelf">${['reju-cream','hydro-serum','clear-mask'].map(id=>`<div class="hero-product-cutout ${id}"><img src="assets/cutouts/${id}.png" alt="" width="1280" height="1280"></div>`).join('')}</div>
-     <div class="path-art-caption"><span><strong>${String(data.products.length).padStart(2,'0')}</strong> PRODUCTS</span><span>${t('제품의 매력을, 영상으로.')}<i>↗</i></span></div>
-    </div>
+   <a class="hero-path hero-path-products" href="#products" aria-labelledby="product-path-title">
+    <div class="hero-path-copy"><h2 id="product-path-title">${t('제품별 영상')}</h2><span class="hero-path-cta">${t('살펴보기')}<span aria-hidden="true">↗</span></span></div>
+    <div class="product-path-art" aria-hidden="true"><div class="hero-product-shelf">${['reju-cream','hydro-serum','clear-mask'].map(id=>`<div class="hero-product-cutout ${id}"><img src="assets/cutouts/${id}.png" alt="" width="1280" height="1280"></div>`).join('')}</div></div>
    </a>
-   <a class="hero-path hero-path-markets" href="#countries" aria-labelledby="market-path-title" aria-describedby="market-path-description">
-    <div class="hero-path-copy"><h2 id="market-path-title">${t('국가별 영상')}</h2><p id="market-path-description">${t('일본과 대만의 크리에이터가 전하는 피더린.')}<br class="desktop-break"> ${t('현지의 생생한 브랜드 이야기를 살펴보세요.')}</p><span class="hero-path-cta">${t('살펴보기')}<span aria-hidden="true">↗</span></span></div>
-    <div class="market-path-art" aria-hidden="true">
-     <span class="art-edition">ONE BRAND, MANY VOICES / 02</span><img class="market-brand-watermark" src="assets/pyderin-logo.png" alt="">
-     <div class="creator-film film-japan"><img src="${escape(japan?.poster||product('reju-cream').image)}" alt="" fetchpriority="high"><span class="film-play">▶</span><div class="film-caption"><span>JAPAN<small>@${escape(japan?.creator||'PYDERIN')}</small></span><i>01</i></div></div>
-     <div class="creator-film film-taiwan"><img src="${escape(taiwan?.poster||product('clear-mask').image)}" alt=""><span class="film-play">▶</span><div class="film-caption"><span>TAIWAN<small>@${escape(taiwan?.creator||'PYDERIN')}</small></span><i>02</i></div></div>
-     <div class="path-art-caption"><span><strong>02</strong> MARKETS</span><span>${t('세계의 시선으로 만나는 피더린.')}<i>↗</i></span></div>
-    </div>
+   <a class="hero-path hero-path-markets" href="#countries" aria-labelledby="market-path-title">
+    <div class="hero-path-copy"><h2 id="market-path-title">${t('국가별 영상')}</h2><span class="hero-path-cta">${t('살펴보기')}<span aria-hidden="true">↗</span></span></div>
+    <div class="market-path-art" aria-hidden="true"><div class="creator-film film-japan"><img src="${escape(japan?.poster||product('reju-cream').image)}" alt="" fetchpriority="high"></div><div class="creator-film film-taiwan"><img src="${escape(taiwan?.poster||product('clear-mask').image)}" alt=""></div></div>
    </a>
   </div>
  </section>`;
@@ -47,7 +37,7 @@ function products(){
 function countries(){
  app.innerHTML=`<section class="page-intro market-list-intro"><div><h1>${t('세계의 시선으로 만나는 피더린')}</h1><p>${t('일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.')}</p></div></section><section class="market-grid" aria-label="${t('국가별 쇼케이스')}">${data.markets.map(m=>{
   const ids=m.code==='JP'?['DaZ9pv2TFOY','DaVBW_MS3QL','DXEl4BGj4t5']:['Da9nhtcvTN4','DYhb86Woyrw','DXlzlduEvyu'];
-  return `<a href="${escape(m.url)}" class="market-card"><div class="market-visual ${m.code==='JP'?'japan':'taiwan'}" aria-hidden="true"><span class="market-code">${m.code}</span><span class="market-visual-label">PYDERIN / ${m.english}</span><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"><span>@${escape(p.creator)}</span></div>`).join('')}</div></div><div class="market-info"><span class="eyebrow">${m.english} SHOWCASE</span><h2>${t(m.name)}${t(m.name)!==m.native?` <small>${m.native}</small>`:''}<span aria-hidden="true">↗</span></h2><p>${t('크리에이터 영상 {count}개',{count:m.featuredCount})} · ${m.code==='JP'?'日本語':'繁體中文'} / 한국어</p></div></a>`;
+  return `<a href="${escape(m.url)}" class="market-card ${m.code==='JP'?'japan':'taiwan'}"><div class="market-visual" aria-hidden="true"><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"></div>`).join('')}</div></div><div class="market-info"><h2>${t(m.name)}</h2><span class="market-link-arrow" aria-hidden="true">↗</span></div></a>`;
  }).join('')}</section>`;
 }
 function marketDetail(code){
@@ -66,7 +56,7 @@ function videoCard(post,index,ranked=false){
 }
 function productDetail(id){
  const p=product(id);if(!p)return missing();
- app.innerHTML=`${crumb(`<a href="#products">${t('제품별')}</a><span>/</span>${p.name}`)}<section class="detail-hero ${p.tone}"><div class="detail-image">${image(p)}</div><div class="detail-copy"><span class="eyebrow">${p.line}</span><h1>${p.name}</h1><p>${p.fullName}</p><div class="detail-tags"><span>${t('제품별 최대 3개 콘텐츠')}</span><a href="${escape(p.source)}" target="_blank" rel="noopener noreferrer">${t('공식 제품 정보 ↗')}</a></div></div></section><section class="videos-section"><div class="section-heading"><div><span class="eyebrow">CREATOR SELECTION</span><h2>${t('영상으로 만나는 {product}',{product:p.name})}</h2></div></div><div class="selection-bar"><div class="filter-bar" role="group" aria-label="${t('영상 국가 필터')}">${[['','전체 국가'],['일본','일본'],['대만','대만']].map(([value,name])=>`<button data-country="${value}" aria-pressed="${value===activeCountryFilter}">${t(name)}</button>`).join('')}</div><span id="selection-count" class="small-label" aria-live="polite"></span></div><div id="selection-notice"></div><div id="video-grid" class="video-grid"></div><div class="detail-foot"><span>${t('자료 기준 {date} · 기록된 조회수가 높은 순',{date:data.snapshotDate})}</span><a href="#products">${t('다른 제품 둘러보기 →')}</a></div></section>`;
+ app.innerHTML=`${crumb(`<a href="#products">${t('제품별')}</a><span>/</span>${p.name}`)}<section class="detail-hero ${p.tone}"><div class="detail-image">${image(p)}</div><div class="detail-copy"><h1>${p.name}</h1><p>${p.fullName}</p><div class="detail-tags"><a href="${escape(p.source)}" target="_blank" rel="noopener noreferrer">${t('공식 제품 정보 ↗')}</a></div></div></section><section class="videos-section"><div class="section-heading"><div><h2>${t('영상으로 만나는 {product}',{product:p.name})}</h2></div></div><div class="selection-bar"><div class="filter-bar" role="group" aria-label="${t('영상 국가 필터')}">${[['','전체 국가'],['일본','일본'],['대만','대만']].map(([value,name])=>`<button data-country="${value}" aria-pressed="${value===activeCountryFilter}">${t(name)}</button>`).join('')}</div><span id="selection-count" class="small-label" aria-live="polite"></span></div><div id="selection-notice"></div><div id="video-grid" class="video-grid"></div><div class="detail-foot"><span>${t('자료 기준 {date} · 기록된 조회수가 높은 순',{date:data.snapshotDate})}</span><a href="#products">${t('다른 제품 둘러보기 →')}</a></div></section>`;
  function update(country=''){
   const selection=selectPosts(data.posts,{productId:id,country,limit:3}),cards=selection.selected;
   document.querySelector('#selection-count').textContent=`${cards.length} CONTENTS`;
@@ -111,7 +101,7 @@ function route(options={}){
  if(!data)return;const position=window.scrollY;if(dialog.open)dialog.close();app.classList.remove('showcase-main');
  if(!options.preservePosition){activeProductFilter='all';activeCountryFilter='';}
  const [view,id]=location.hash.slice(1).split('/');document.body.classList.toggle('is-home',!view);
- const isMarket=view==='countries'||view==='country';document.body.classList.toggle('is-market',isMarket);document.querySelector('meta[name="theme-color"]').content=isMarket?'#090a0b':'#ffffff';
+ const isMarket=view==='countries'||view==='country';document.body.classList.toggle('is-market',isMarket);document.querySelector('meta[name="theme-color"]').content='#ffffff';
  if(!view)home();else if(view==='products')products();else if(view==='countries')countries();else if(view==='product')productDetail(id);else if(view==='country')marketDetail(id);else missing();
  document.title=(view==='product'&&product(id)?product(id).name:view==='country'?t(data.markets.find(m=>m.code===id)?.name||'')+' '+t('쇼케이스'):view==='products'?t('제품별 영상'):view==='countries'?t('국가별 쇼케이스'):t('바이어 영상 라이브러리'))+' · PYDERIN';
  window.scrollTo({top:options.preservePosition?position:0});if(!options.preservePosition)app.focus({preventScroll:true});

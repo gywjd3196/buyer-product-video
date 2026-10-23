@@ -45,7 +45,7 @@ function products(){
  }));
 }
 function countries(){
- app.innerHTML=`${crumb(t('국가별'))}<section class="page-intro"><div><span class="eyebrow">EXPLORE BY MARKET</span><h1>${t('세계의 시선으로 만나는 피더린')}</h1><p>${t('일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.')}</p></div><span class="small-label">02 LOCAL SHOWCASES</span></section><section class="market-grid" aria-label="${t('국가별 쇼케이스')}">${data.markets.map(m=>{
+ app.innerHTML=`<section class="page-intro market-list-intro"><div><h1>${t('세계의 시선으로 만나는 피더린')}</h1><p>${t('일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.')}</p></div></section><section class="market-grid" aria-label="${t('국가별 쇼케이스')}">${data.markets.map(m=>{
   const ids=m.code==='JP'?['DaZ9pv2TFOY','DaVBW_MS3QL','DXEl4BGj4t5']:['Da9nhtcvTN4','DYhb86Woyrw','DXlzlduEvyu'];
   return `<a href="#country/${m.code}" class="market-card"><div class="market-visual ${m.code==='JP'?'japan':'taiwan'}" aria-hidden="true"><span class="market-code">${m.code}</span><span class="market-visual-label">PYDERIN / ${m.english}</span><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"><span>@${escape(p.creator)}</span></div>`).join('')}</div></div><div class="market-info"><span class="eyebrow">${m.english} SHOWCASE</span><h2>${t(m.name)}${t(m.name)!==m.native?` <small>${m.native}</small>`:''}<span aria-hidden="true">↗</span></h2><p>${t('크리에이터 영상 {count}개',{count:m.featuredCount})} · ${m.code==='JP'?'日本語':'繁體中文'} / 한국어</p><div class="market-action">${t('쇼케이스 둘러보기')} <span>→</span></div></div></a>`;
  }).join('')}</section>`;

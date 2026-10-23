@@ -47,7 +47,6 @@ export const messages={
  '국가별 쇼케이스':['国別ショーケース','各國精選展示','Market showcases'],
  '일본':['日本','日本','Japan'], '대만':['台湾','台灣','Taiwan'],
  '크리에이터 영상 {count}개':['クリエイター動画 {count}件','{count} 支創作者影片','{count} creator videos'],
- '쇼케이스 둘러보기':['ショーケースを見る','探索精選展示','Explore showcase'],
  '{market}에서 만나는 PYDERIN':['{market}で出会うPYDERIN','在{market}遇見 PYDERIN','Meet PYDERIN in {market}'],
  '국가 선택':['国を選択','選擇國家','Select market'],
  '새 창에서 보기 ↗':['新しいウィンドウで見る ↗','在新視窗開啟 ↗','Open in new window ↗'],

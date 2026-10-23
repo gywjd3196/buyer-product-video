@@ -8,6 +8,12 @@ export const getLanguage=()=>language;
 export function setLanguage(next){if(!languages.some(l=>l.code===next))return;language=next;try{localStorage.setItem('pyderin-buyer-language',next);}catch{}}
 // Korean is the source language. Each row contains Japanese, Traditional Chinese (Taiwan), and US English.
 export const messages={
+ '크리에이터':['クリエイター','創作者','Creator'],
+ '확인 중':['確認中','確認中','Pending'],
+ '인스타 원본 보기':['Instagramで見る','查看 Instagram 原文','View on Instagram'],
+ '조회수 기준':['再生数について','觀看次數說明','About view counts'],
+ '영상 {count}개':['動画 {count}件','{count} 支影片','{count} videos'],
+ '게시물이 표시되지 않으면 아래 인스타 원본을 확인해 주세요.':['投稿が表示されない場合は、下のInstagramリンクからご覧ください。','若貼文未顯示，請透過下方連結查看 Instagram 原文。','If the post does not appear, open the Instagram post below.'],
  '언어 선택':['言語を選択','選擇語言','Select language'],
  '주 메뉴':['メインメニュー','主選單','Main menu'],
  'PYDERIN 처음으로':['PYDERIN ホーム','PYDERIN 首頁','PYDERIN home'],

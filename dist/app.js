@@ -1,9 +1,8 @@
 import {selectPosts, verified} from './ranking.js';
-import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=b6df0afd75';
+import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=6955e036e9';
 const app=document.querySelector('#app');
-const dialog=document.querySelector('#video-dialog');
 const languageSelect=document.querySelector('#site-language');
-let data,lastTrigger,loadFailed=false,activeProductFilter='all',activeCountryFilter='';
+let data,loadFailed=false,activeProductFilter='all',activeCountryFilter='';
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const format=n=>new Intl.NumberFormat(getLanguage()).format(n);
 const product=id=>localizeProduct(data.products.find(p=>p.id===id));
@@ -45,42 +44,59 @@ function marketDetail(code){
  app.innerHTML=`<section class="showcase-toolbar"><div><span class="eyebrow">LOCAL SHOWCASE</span><h1>${t('{market}에서 만나는 PYDERIN',{market:name})}</h1></div><div class="showcase-actions"><nav class="market-tabs" aria-label="${t('국가 선택')}">${data.markets.map(m=>`<a href="#country/${m.code}" ${m.code===code?'aria-current="page"':''}>${t(m.name)}</a>`).join('')}</nav><a class="external-link" href="${market.url}" target="_blank" rel="noopener noreferrer">${t('새 창에서 보기 ↗')}</a></div></section><div class="showcase-frame-wrap"><iframe class="showcase-frame" src="${market.url}" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><p class="showcase-note">${t('쇼케이스 안내')} <a href="${market.url}" target="_blank" rel="noopener noreferrer">${t('새 창에서 보기 ↗')}</a></p>`;
 }
 function viewsText(post){
- const count=getLanguage()==='ko'?(post.viewsDisplay||format(post.views)):format(post.views);
- return `${post.viewsApproximate?t('약 '):''}${count}${getLanguage()==='ko'&&post.viewsDisplay?.includes('만')?'':t('회')}`;
+ return new Intl.NumberFormat(getLanguage(),{notation:'compact',maximumFractionDigits:getLanguage()==='en-US'?2:1}).format(post.views);
 }
-function videoCard(post,index,ranked=false){
+function videoCover(post){
  const p=product(post.productIds[0]);
- const cover=post.poster?`<img class="real-poster" src="${escape(post.poster)}" alt="${escape(t('{creator} 영상 미리보기',{creator:post.creator}))}" loading="lazy">`:p?image(p):'<span class="archive-mark">PYDERIN<span>CREATOR CONTENT</span></span>';
- return `<article class="video-card"><button class="video-cover ${p?.tone||'neutral'}" data-play="${post.id}" aria-label="${escape(post.creator)} ${t(ranked?'영상 재생':'게시물 보기')}">${cover}<span class="video-label">${ranked?'CREATOR FILM':t('등록 콘텐츠')}</span><span class="play" aria-hidden="true">▶</span>${ranked?`<span class="rank">${String(index+1).padStart(2,'0')}</span>`:''}${!post.poster?`<span class="image-credit">${t(p?'연관 제품 이미지':'Instagram에서 콘텐츠 확인')}</span>`:''}</button><div class="video-meta"><span class="eyebrow">${post.country==='일본'?'JAPAN':'TAIWAN'} · INSTAGRAM</span><h3>@${escape(post.creator)}</h3><p>${post.productIds.map(id=>escape(product(id)?.name)).filter(Boolean).join(' · ')}</p><div class="video-bottom"><span>${ranked?`${t('조회수')} <strong>${viewsText(post)}</strong>`:t('조회수 확인 예정')}</span><a href="${escape(post.url)}" target="_blank" rel="noopener noreferrer" aria-label="${escape(t('{creator} Instagram 원본 보기',{creator:post.creator}))}">${t('원본 보기 ↗')}</a></div>${ranked?`<small>${t(post.metricBasis==='showcase'?'쇼케이스 기록':'조회수 확인')} ${escape(post.viewsCheckedAt)} · <a href="${escape(post.metricSource)}" target="_blank" rel="noopener noreferrer">${t('출처 ↗')}</a></small>`:''}</div></article>`;
+ const cover=post.poster?`<img class="real-poster" src="${escape(post.poster)}" alt="${escape(t('{creator} 영상 미리보기',{creator:post.creator}))}" loading="lazy">`:p?image(p):'<span class="archive-mark">PYDERIN</span>';
+ return `<button class="video-cover" data-play="${escape(post.id)}" aria-label="${escape(post.creator+' '+t(post.videoSrc?'영상 재생':'게시물 보기'))}">${cover}<span class="play" aria-hidden="true">${post.videoSrc?'▶':'↗'}</span>${!post.poster?`<span class="image-credit">${t(p?'연관 제품 이미지':'Instagram에서 콘텐츠 확인')}</span>`:''}</button>`;
+}
+function videoCard(post){
+ const ranked=verified(post);
+ return `<article class="video-card" data-post="${escape(post.id)}"><div class="video-stage">${videoCover(post)}</div><div class="video-feedback" role="status" hidden></div><div class="video-meta"><div class="video-stats"><div class="creator-identity"><span class="metric-label">${t('크리에이터')}</span><h3>@${escape(post.creator)}</h3></div><div class="view-metric"><span class="metric-label">${t('조회수')}</span><div class="view-value" ${ranked?`title="${escape((post.viewsApproximate?t('약 '):'')+format(post.views))}"`:''}>${ranked?`${post.viewsApproximate?`<span class="metric-approx">${t('약 ')}</span>`:''}<strong>${viewsText(post)}</strong>`:`<span class="metric-pending">${t('확인 중')}</span>`}</div></div></div><a class="instagram-button" href="${escape(post.url)}" target="_blank" rel="noopener noreferrer" aria-label="${escape(t('{creator} Instagram 원본 보기',{creator:post.creator}))}"><span>${t('인스타 원본 보기')}</span><span aria-hidden="true">↗</span></a></div></article>`;
 }
 function productDetail(id){
  const p=product(id);if(!p)return missing();
- app.innerHTML=`<section class="detail-hero ${p.tone}"><div class="detail-image">${image(p)}</div><div class="detail-copy"><h1>${p.name}</h1><p>${p.fullName}</p><div class="detail-tags"><a href="${escape(p.source)}" target="_blank" rel="noopener noreferrer">${t('공식 제품 정보 ↗')}</a></div></div></section><section class="videos-section"><div class="section-heading"><div><h2>${t('영상으로 만나는 {product}',{product:p.name})}</h2></div></div><div class="selection-bar"><div class="filter-bar" role="group" aria-label="${t('영상 국가 필터')}">${[['','전체 국가'],['일본','일본'],['대만','대만']].map(([value,name])=>`<button data-country="${value}" aria-pressed="${value===activeCountryFilter}">${t(name)}</button>`).join('')}</div><span id="selection-count" class="small-label" aria-live="polite"></span></div><div id="selection-notice"></div><div id="video-grid" class="video-grid"></div><div class="detail-foot"><span>${t('자료 기준 {date} · 기록된 조회수가 높은 순',{date:data.snapshotDate})}</span><a href="#products">${t('다른 제품 둘러보기 →')}</a></div></section>`;
+ app.innerHTML=`<section class="detail-hero ${p.tone}"><div class="detail-image">${image(p)}</div><div class="detail-copy"><h1>${p.name}</h1><p>${p.fullName}</p><div class="detail-tags"><a href="${escape(p.source)}" target="_blank" rel="noopener noreferrer">${t('공식 제품 정보 ↗')}</a></div></div></section><section class="videos-section"><div class="section-heading"><div><h2>${t('영상으로 만나는 {product}',{product:p.name})}</h2></div></div><div class="selection-bar"><div class="filter-bar" role="group" aria-label="${t('영상 국가 필터')}">${[['','전체 국가'],['일본','일본'],['대만','대만']].map(([value,name])=>`<button data-country="${value}" aria-pressed="${value===activeCountryFilter}">${t(name)}</button>`).join('')}</div><span id="selection-count" class="small-label" aria-live="polite"></span></div><div id="video-grid" class="video-grid"></div><div id="selection-notice"></div><div class="detail-foot"><span>${t('자료 기준 {date} · 기록된 조회수가 높은 순',{date:data.snapshotDate})}</span><a href="#products">${t('다른 제품 둘러보기 →')}</a></div></section>`;
  function update(country=''){
+  stopInlineMedia();
   const selection=selectPosts(data.posts,{productId:id,country,limit:3}),cards=selection.selected;
-  document.querySelector('#selection-count').textContent=`${cards.length} CONTENTS`;
-  document.querySelector('#selection-notice').innerHTML=selection.ranked.length?`<p class="selection-note">${t('조회수가 기록된 영상부터 높은 순으로 선별했습니다.')} ${selection.references.length?t('조회수 미확인 콘텐츠는 뒤에 표시됩니다.')+' ':''}${t('전체 영상의 확정 순위는 아닙니다.')}</p>`:`<p class="selection-note">${t('이 제품은 조회수를 확인 중입니다. 시트에 등록된 관련 콘텐츠를 먼저 보여드립니다.')}</p>`;
-  document.querySelector('#video-grid').innerHTML=cards.length?cards.map((post,i)=>videoCard(post,i,verified(post))).join(''):`<div class="empty-state"><h3>${t('이 국가의 콘텐츠를 준비하고 있습니다.')}</h3><p>${t('전체 국가 또는 다른 국가를 선택해 주세요.')}</p></div>`;
-  app.querySelectorAll('[data-play]').forEach(b=>b.addEventListener('click',()=>play(b.dataset.play,b)));
+  document.querySelector('#selection-count').textContent=t('영상 {count}개',{count:cards.length});
+  const note=selection.ranked.length?`${t('조회수가 기록된 영상부터 높은 순으로 선별했습니다.')} ${selection.references.length?t('조회수 미확인 콘텐츠는 뒤에 표시됩니다.')+' ':''}${t('전체 영상의 확정 순위는 아닙니다.')}`:t('이 제품은 조회수를 확인 중입니다. 시트에 등록된 관련 콘텐츠를 먼저 보여드립니다.');
+  const sources=cards.filter(verified).map(post=>`<li><span>@${escape(post.creator)} · ${escape(post.viewsCheckedAt)}</span><a href="${escape(post.metricSource)}" target="_blank" rel="noopener noreferrer">${t('출처 ↗')}</a></li>`).join('');
+  document.querySelector('#selection-notice').innerHTML=`<details class="metric-note"><summary>${t('조회수 기준')}</summary><p>${note}</p>${sources?`<ul>${sources}</ul>`:''}</details>`;
+  document.querySelector('#video-grid').innerHTML=cards.length?cards.map(videoCard).join(''):`<div class="empty-state"><h3>${t('이 국가의 콘텐츠를 준비하고 있습니다.')}</h3><p>${t('전체 국가 또는 다른 국가를 선택해 주세요.')}</p></div>`;
  }
  app.querySelectorAll('[data-country]').forEach(button=>button.addEventListener('click',()=>{
   activeCountryFilter=button.dataset.country;
   app.querySelectorAll('[data-country]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));update(activeCountryFilter);
  }));update(activeCountryFilter);
 }
-function play(id,trigger){
- const post=data.posts.find(p=>p.id===id);if(!post)return;lastTrigger=trigger;
- document.querySelector('#dialog-title').textContent='@'+post.creator;
- document.querySelector('#original-link').href=post.url;
- const note=document.querySelector('.embed-note');let media;
+function stopInlineMedia(exceptStage){
+ app.querySelectorAll('.video-stage video').forEach(video=>{if(video.parentElement!==exceptStage)video.pause();});
+ app.querySelectorAll('.video-stage iframe').forEach(frame=>{
+  const stage=frame.parentElement;if(stage===exceptStage)return;
+  const card=stage.closest('.video-card'),post=data?.posts.find(p=>p.id===card.dataset.post);
+  if(post){stage.innerHTML=videoCover(post);card.querySelector('.video-feedback').hidden=true;}
+ });
+}
+function playInline(id,trigger){
+ const post=data.posts.find(p=>p.id===id);if(!post)return;
+ const stage=trigger.closest('.video-stage'),note=stage.parentElement.querySelector('.video-feedback');
+ stopInlineMedia(stage);note.hidden=true;note.textContent='';
  if(post.videoSrc){
-  media=document.createElement('video');media.src=post.videoSrc;media.controls=true;media.playsInline=true;media.preload='metadata';if(post.poster)media.poster=post.poster;
+  const media=document.createElement('video');media.controls=true;media.playsInline=true;media.preload='metadata';media.tabIndex=0;media.src=post.videoSrc;if(post.poster)media.poster=post.poster;
   media.setAttribute('aria-label',t('{creator} 크리에이터 영상',{creator:post.creator}));
-  media.addEventListener('error',()=>{note.textContent=t('영상을 불러오지 못했습니다. 아래 Instagram 원본 링크에서 확인해 주세요.');});note.textContent=t('재생 버튼을 눌러 영상을 감상하세요.');
+  const showError=()=>{if(!media.isConnected)return;note.textContent=t('영상을 불러오지 못했습니다. 아래 Instagram 원본 링크에서 확인해 주세요.');note.hidden=false;};
+  media.addEventListener('error',showError);
+  media.addEventListener('play',()=>stopInlineMedia(stage));
+  media.addEventListener('playing',()=>{note.hidden=true;});
+  stage.replaceChildren(media);media.focus({preventScroll:true});
+  media.play().catch(error=>{if(!media.isConnected||error.name==='AbortError')return;if(error.name==='NotAllowedError'){note.textContent=t('재생 버튼을 눌러 영상을 감상하세요.');note.hidden=false;}else showError();});
  }else{
-  media=document.createElement('iframe');media.src=post.url+'embed/';media.title=t('Instagram 게시물 · {creator}',{creator:post.creator});media.allow='autoplay; encrypted-media; picture-in-picture';media.referrerPolicy='strict-origin-when-cross-origin';note.textContent=t('Instagram 설정에 따라 로그인이 필요할 수 있습니다. 표시되지 않으면 원본 보기를 이용해 주세요.');
+  const frame=document.createElement('iframe');frame.src=post.url.replace(/\/?$/,'/')+'embed/';frame.title=t('Instagram 게시물 · {creator}',{creator:post.creator});frame.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';
+  stage.replaceChildren(frame);frame.focus({preventScroll:true});note.textContent=t('게시물이 표시되지 않으면 아래 인스타 원본을 확인해 주세요.');note.hidden=false;
  }
- document.querySelector('#embed').replaceChildren(media);dialog.showModal();
 }
 function applyShellLanguage(){
  document.documentElement.lang=getLanguage();languageSelect.value=getLanguage();
@@ -91,13 +107,11 @@ function applyShellLanguage(){
  document.querySelector('.official-link').textContent=t('공식 사이트 ↗');
  document.querySelector('.skip-link').textContent=t('본문으로 바로가기');
  document.querySelector('footer>span:last-child').textContent=t('제품과 시장을 연결하는 크리에이터 콘텐츠');
- document.querySelector('#close-dialog').setAttribute('aria-label',t('영상 닫기'));
- document.querySelector('#original-link').textContent=t('Instagram에서 원본 보기 ↗');
  document.querySelector('meta[name="description"]').content='PYDERIN · '+t('바이어 영상 라이브러리');
 }
 function missing(){app.innerHTML=`<div class="empty-state"><h1>${t('페이지를 찾을 수 없습니다.')}</h1><a href="#">${t('홈으로 돌아가기 →')}</a></div>`;}
 function route(options={}){
- if(!data)return;const position=window.scrollY;if(dialog.open)dialog.close();app.classList.remove('showcase-main');
+ if(!data)return;const position=window.scrollY;stopInlineMedia();app.classList.remove('showcase-main');
  if(!options.preservePosition){activeProductFilter='all';activeCountryFilter='';}
  const [view,id]=location.hash.slice(1).split('/');document.body.classList.toggle('is-home',!view);
  const isMarket=view==='countries'||view==='country';document.body.classList.toggle('is-market',isMarket);document.querySelector('meta[name="theme-color"]').content='#ffffff';
@@ -108,8 +122,6 @@ function route(options={}){
 function loadError(){app.innerHTML=`<div class="empty-state"><h1>${t('데이터를 불러오지 못했습니다.')}</h1><p>${t('잠시 후 페이지를 새로고침해 주세요.')}</p><button id="retry-load">${t('다시 불러오기')}</button></div>`;document.querySelector('#retry-load').addEventListener('click',()=>location.reload());}
 languageSelect.addEventListener('change',()=>{setLanguage(languageSelect.value);applyShellLanguage();if(data)route({preservePosition:true});else if(loadFailed)loadError();else document.querySelector('.loading').textContent=t('영상 라이브러리를 불러오고 있습니다…');});
 document.querySelector('.skip-link').addEventListener('click',e=>{e.preventDefault();app.focus();});
-document.querySelector('#close-dialog').addEventListener('click',()=>dialog.close());
-dialog.addEventListener('close',()=>{document.querySelector('#embed video')?.pause();document.querySelector('#embed').replaceChildren();if(lastTrigger?.isConnected)lastTrigger.focus();});
-dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+app.addEventListener('click',event=>{const trigger=event.target.closest('button[data-play]');if(trigger)playInline(trigger.dataset.play,trigger);});
 applyShellLanguage();document.querySelector('.loading').textContent=t('영상 라이브러리를 불러오고 있습니다…');
 try{const response=await fetch('catalog.json');if(!response.ok)throw Error();data=await response.json();window.addEventListener('hashchange',route);route();}catch{loadFailed=true;loadError();}

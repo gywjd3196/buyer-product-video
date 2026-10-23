@@ -1,5 +1,6 @@
 import {selectPosts, verified} from './ranking.js?v=1ea4b48ae0';
-import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=6955e036e9';
+import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=d019b041e7';
+import {updateBusinessLanguage} from './business.js?v=6edd8cf5c3';
 const app=document.querySelector('#app');
 const languageSelect=document.querySelector('#site-language');
 let data,loadFailed=false,activeProductFilter='all',activeCountryFilter='';
@@ -103,7 +104,7 @@ function applyShellLanguage(){
  document.querySelector('.header-nav').setAttribute('aria-label',t('주 메뉴'));
  document.querySelector('.official-link').textContent=t('공식 사이트 ↗');
  document.querySelector('.skip-link').textContent=t('본문으로 바로가기');
- document.querySelector('footer>span:last-child').textContent=t('제품과 시장을 연결하는 크리에이터 콘텐츠');
+ updateBusinessLanguage();
  document.querySelector('meta[name="description"]').content='PYDERIN · '+t('바이어 영상 라이브러리');
 }
 function missing(){app.innerHTML=`<div class="empty-state"><h1>${t('페이지를 찾을 수 없습니다.')}</h1><a href="#">${t('홈으로 돌아가기 →')}</a></div>`;}
@@ -111,7 +112,7 @@ function route(options={}){
  if(!data)return;const position=window.scrollY;stopInlineMedia();app.classList.remove('showcase-main');
  if(!options.preservePosition){activeProductFilter='all';activeCountryFilter='';}
  const [view,id]=location.hash.slice(1).split('/');document.body.classList.toggle('is-home',!view);
- const isMarket=view==='countries'||view==='country';document.body.classList.toggle('is-market',isMarket);document.querySelector('meta[name="theme-color"]').content='#ffffff';
+ const isMarket=view==='countries'||view==='country';document.body.classList.toggle('is-market',isMarket);document.querySelector('meta[name="theme-color"]').content=isMarket?'#090a0b':'#ffffff';
  if(!view)home();else if(view==='products')products();else if(view==='countries')countries();else if(view==='product')productDetail(id);else if(view==='country')marketDetail(id);else missing();
  document.title=(view==='product'&&product(id)?product(id).name:view==='country'?t(data.markets.find(m=>m.code===id)?.name||'')+' '+t('쇼케이스'):view==='products'?t('제품별 영상'):view==='countries'?t('국가별 쇼케이스'):t('바이어 영상 라이브러리'))+' · PYDERIN';
  window.scrollTo({top:options.preservePosition?position:0});if(!options.preservePosition)app.focus({preventScroll:true});

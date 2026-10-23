@@ -8,6 +8,19 @@ export const getLanguage=()=>language;
 export function setLanguage(next){if(!languages.some(l=>l.code===next))return;language=next;try{localStorage.setItem('pyderin-buyer-language',next);}catch{}}
 // Korean is the source language. Each row contains Japanese, Traditional Chinese (Taiwan), and US English.
 export const messages={
+ '사업자 정보':['事業者情報','公司資訊','Company information'],
+ '(주)피더린':['株式会社PYDERIN','PYDERIN 股份有限公司','PYDERIN Co., Ltd.'],
+ '주소':['住所','地址','Address'],
+ '06127 서울특별시 강남구 봉은사로22길 18':['06127 ソウル特別市江南区奉恩寺路22キル18','06127 韓國首爾特別市江南區奉恩寺路22街18','18 Bongeunsa-ro 22-gil, Gangnam-gu, Seoul 06127, South Korea'],
+ '이메일':['メール','電子郵件','Email'],
+ '대표자명':['代表者','負責人','Representative'],
+ '김영훈':['キム・ヨンフン','金榮勳','Younghoon Kim'],
+ '개인정보보호책임자':['個人情報保護責任者','個資保護負責人','Privacy officer'],
+ '피더린 인스타그램':['PYDERIN Instagram','PYDERIN Instagram','PYDERIN Instagram'],
+ '피더린 유튜브':['PYDERIN YouTube','PYDERIN YouTube','PYDERIN YouTube'],
+ '이메일 복사':['メールアドレスをコピー','複製電子郵件地址','Copy email address'],
+ '복사됨':['コピーしました','已複製','Copied'],
+ '이메일 주소를 선택했습니다. 복사해 주세요.':['メールアドレスを選択しました。コピーしてください。','已選取電子郵件地址，請複製。','Email address selected. Please copy it.'],
  '크리에이터':['クリエイター','創作者','Creator'],
  '확인 중':['確認中','確認中','Pending'],
  '인스타 원본 보기':['Instagramで見る','查看 Instagram 原文','View on Instagram'],

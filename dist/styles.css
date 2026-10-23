@@ -3,7 +3,8 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:'Pretendard Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}a,button{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}img{max-width:100%}h1,h2,h3,p{word-break:keep-all}button{color:inherit}
-body.is-market{--paper:#fff;--surface:#f6f6f4;--ink:#101114;--muted:#6c7078;--line:#e8e9ed;--accent:#101114;color-scheme:light}
+body.is-market{--paper:#090a0b;--surface:#17191c;--ink:#f5f5f2;--muted:#a5a9ad;--line:#2b2e32;--accent:#f5f5f2;color-scheme:dark}
+body.is-market .wordmark img{filter:brightness(0) invert(1)}
 header{height:80px;max-width:1440px;margin:auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
 .wordmark{display:block;flex-shrink:0}.wordmark img{display:block;width:128px;height:auto}
 .header-nav{display:flex;align-items:center;gap:28px;font-size:14px}.header-nav a{padding:11px 4px;color:var(--muted);position:relative}.header-nav a:hover{color:var(--ink)}.header-nav a[aria-current=page]{color:var(--ink);font-weight:700}.header-nav a[aria-current=page]:after{content:'';width:5px;height:5px;border-radius:50%;background:var(--accent);position:absolute;bottom:0;left:calc(50% - 2.5px)}
@@ -84,3 +85,10 @@ h1:lang(ja),h2:lang(ja),h3:lang(ja),p:lang(ja),h1:lang(zh),h2:lang(zh),h3:lang(z
 /* Country filters use the current product line color on hover. */
 @media(hover:hover) and (pointer:fine){.country-filters button[data-country]:hover{border-color:var(--product-accent);box-shadow:inset 0 0 0 1px var(--product-accent);background:var(--paper);color:var(--product-accent)}}
 .country-filters button[data-country]:focus-visible{outline-color:var(--product-accent)}
+
+/* Match the dark country showcases while keeping the existing minimal cards. */
+.is-market .market-card{background:linear-gradient(145deg,#202022,#151619);box-shadow:inset 0 0 0 1px #ffffff12}
+.is-market .market-card.taiwan{background:linear-gradient(145deg,#1c2229,#14181e)}
+.is-market .market-card:hover,.is-market .market-card:focus-visible{box-shadow:inset 0 0 0 1px #ffffff40}
+.is-market .market-link-arrow{background:#ffffff0d;border-color:#ffffff24;color:#f5f5f2}
+.is-market .market-card:hover .market-link-arrow,.is-market .market-card:focus-visible .market-link-arrow{background:#f5f5f2;border-color:#f5f5f2;color:#101114}

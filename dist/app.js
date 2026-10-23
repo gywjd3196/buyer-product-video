@@ -1,4 +1,4 @@
-import {selectPosts, verified} from './ranking.js';
+import {selectPosts, verified} from './ranking.js?v=1ea4b48ae0';
 import {getLanguage,setLanguage,t,localizeProduct} from './i18n.js?v=6955e036e9';
 const app=document.querySelector('#app');
 const languageSelect=document.querySelector('#site-language');
@@ -60,7 +60,7 @@ function productDetail(id){
  app.innerHTML=`<section class="detail-hero ${p.tone}"><div class="detail-image">${image(p)}</div><div class="detail-copy"><h1>${p.name}</h1><p>${p.fullName}</p><div class="detail-tags"><a href="${escape(p.source)}" target="_blank" rel="noopener noreferrer">${t('공식 제품 정보 ↗')}</a></div></div></section><section class="videos-section"><div class="section-heading"><div><h2>${t('영상으로 만나는 {product}',{product:p.name})}</h2></div></div><div class="selection-bar"><div class="filter-bar country-filters ${p.tone}" role="group" aria-label="${t('영상 국가 필터')}">${[['','전체 국가'],['일본','일본'],['대만','대만']].map(([value,name])=>`<button data-country="${value}" aria-pressed="${value===activeCountryFilter}">${t(name)}</button>`).join('')}</div><span id="selection-count" class="small-label" aria-live="polite"></span></div><div id="video-grid" class="video-grid"></div><div class="detail-foot"><a class="browse-products-button" href="#products">${t('다른 제품 둘러보기 →')}</a></div></section>`;
  function update(country=''){
   stopInlineMedia();
-  const selection=selectPosts(data.posts,{productId:id,country,limit:3}),cards=selection.selected;
+  const selection=selectPosts(data.posts,{productId:id,country,limit:3,playableOnly:true}),cards=selection.selected;
   document.querySelector('#selection-count').textContent=t('영상 {count}개',{count:cards.length});
   document.querySelector('#video-grid').innerHTML=cards.length?cards.map(videoCard).join(''):`<div class="empty-state"><h3>${t('이 국가의 콘텐츠를 준비하고 있습니다.')}</h3><p>${t('전체 국가 또는 다른 국가를 선택해 주세요.')}</p></div>`;
  }
@@ -121,4 +121,4 @@ languageSelect.addEventListener('change',()=>{setLanguage(languageSelect.value);
 document.querySelector('.skip-link').addEventListener('click',e=>{e.preventDefault();app.focus();});
 app.addEventListener('click',event=>{const trigger=event.target.closest('button[data-play]');if(trigger)playInline(trigger.dataset.play,trigger);});
 applyShellLanguage();document.querySelector('.loading').textContent=t('영상 라이브러리를 불러오고 있습니다…');
-try{const response=await fetch('catalog.json');if(!response.ok)throw Error();data=await response.json();window.addEventListener('hashchange',route);route();}catch{loadFailed=true;loadError();}
+try{const response=await fetch('catalog.json?v=5cef085f33');if(!response.ok)throw Error();data=await response.json();window.addEventListener('hashchange',route);route();}catch{loadFailed=true;loadError();}

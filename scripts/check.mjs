@@ -12,7 +12,13 @@ for(const p of data.posts){
  const allowed=['id','url','creator','country','productIds','productLabel','views','viewsCheckedAt','metricSource','mediaType','sources','viewsApproximate','viewsDisplay','videoSrc','poster','metricBasis','unavailable'];
  assert(Object.keys(p).every(k=>allowed.includes(k)), 'Unexpected public data field');
  if(p.views!==null) assert(verified(p), 'Recorded views must have provenance');
- for(const key of ['videoSrc','poster']) if(p[key]) assert.match(p[key],/^https:\/\/pyderin-(japan|taiwan)-reels-showcase\.tambeautyofficial\.chatgpt\.site\/assets\/[\w.-]+$/);
+ for(const key of ['videoSrc','poster']) if(p[key]) {
+  const url=new URL(p[key]);
+  if(url.hostname==='storage.googleapis.com') {
+   assert.equal(url.search,'');
+   assert.match(url.pathname,new RegExp('^/creo-studio-app-media/'+(key==='videoSrc'?'videos':'covers')+'/instagram/'+p.id+'\\.'+(key==='videoSrc'?'mp4':'(?:jpg|jpeg|png|webp)')+'$'));
+  } else assert.match(p[key],/^https:\/\/pyderin-(japan|taiwan)-reels-showcase\.tambeautyofficial\.chatgpt\.site\/assets\/[\w.-]+$/);
+ }
 }
 const base={country:'일본',productIds:['reju-cream'],mediaType:'video',viewsCheckedAt:'2026-10-21',metricSource:'https://www.instagram.com/p/test/'};
 const posts=[{...base,id:'a',views:100},{...base,id:'b',views:200},{...base,id:'c',views:0},{...base,id:'d',views:null},{...base,id:'e',views:500,mediaType:'unverified'},{...base,id:'f',views:600,country:'대만'},{...base,id:'g',views:700,productIds:['hydro-serum']},{...base,id:'h',views:999,metricSource:null}];
@@ -25,9 +31,12 @@ assert.equal(selectPosts(posts.slice(0,3),{limit:3}).complete,true);
 assert.equal(selection.selected.length,3,'Product limit must include both ranked and reference posts');
 assert.equal(selection.references.length,0);
 assert.equal(selectPosts([{...base,id:'hidden',views:900,unavailable:true}],{limit:3}).selected.length,0);
+assert.deepEqual(selectPosts([{...base,id:'link-only',views:500}, {...base,id:'playable',views:100,videoSrc:'video.mp4'}],{limit:3,playableOnly:true}).selected.map(p=>p.id),['playable']);
 for(const product of data.products) for(const country of [undefined,'일본','대만']) {
- const result=selectPosts(data.posts,{productId:product.id,country,limit:3});
+ const result=selectPosts(data.posts,{productId:product.id,country,limit:3,playableOnly:true});
  assert(result.selected.length<=3);
+ if(!country) assert.equal(result.selected.length,3,`${product.id} needs three playable videos`);
+ assert(result.selected.every(p=>p.videoSrc&&p.poster));
  assert(result.selected.every(p=>p.productIds.includes(product.id)&&(!country||p.country===country)));
  assert(result.ranked.every((p,i)=>i===0||result.ranked[i-1].views>=p.views));
 }

@@ -1,6 +1,6 @@
 {
   "title": "바이어 제품 영상",
-  "snapshotDate": "2026-10-22",
+  "snapshotDate": "2026-10-23",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1J1pAbmN_d5wqdFQKnq5V9kgUJ2t_5o-uji7B4xXO3Zs/edit",
   "products": [
     {
@@ -81,10 +81,14 @@
           "cell": "O2"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 38045,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DUSgEPQiaS7.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DUSgEPQiaS7.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DVINFaLkVrf",
@@ -99,10 +103,14 @@
           "cell": "O3"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 101556,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DVINFaLkVrf.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DVINFaLkVrf.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DVrg3k6klsQ",
@@ -117,10 +125,14 @@
           "cell": "O4"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 63238,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DVrg3k6klsQ.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DVrg3k6klsQ.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DWL8Po-kRpj",
@@ -153,10 +165,14 @@
           "cell": "O7"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 19184,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DWOYaCdDzLh.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DWOYaCdDzLh.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXEl4BGj4t5",
@@ -173,15 +189,14 @@
           "cell": "O8"
         }
       ],
-      "views": 111000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 111179,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "11.1만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DXEl4BGj4t5.mp4",
-      "poster": "assets/posters/DXEl4BGj4t5.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXEl4BGj4t5.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXEl4BGj4t5.jpg"
     },
     {
       "id": "DWoExQED6C3",
@@ -214,10 +229,14 @@
           "cell": "O10"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 178936,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DWGh95tiXCF.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DWGh95tiXCF.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DWQMRn6BfgW",
@@ -232,10 +251,14 @@
           "cell": "O11"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 72170,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DWQMRn6BfgW.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DWQMRn6BfgW.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DW6L4MGDWpo",
@@ -250,10 +273,14 @@
           "cell": "O12"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 46338,
+      "viewsCheckedAt": "2026-10-19",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DW6L4MGDWpo.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DW6L4MGDWpo.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXUE8tWk9F8",
@@ -268,10 +295,12 @@
           "cell": "O13"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 37105,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXUD3HfCe0S",
@@ -286,10 +315,12 @@
           "cell": "O14"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 44531,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXGjlYhE7RP",
@@ -304,10 +335,14 @@
           "cell": "O15"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 51500,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXGjlYhE7RP.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXGjlYhE7RP.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXOi34nEZ0T",
@@ -322,10 +357,14 @@
           "cell": "O16"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 7380,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXOi34nEZ0T.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXOi34nEZ0T.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYjh03SS60Y",
@@ -340,10 +379,12 @@
           "cell": "O17"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 63440,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXlzlduEvyu",
@@ -361,15 +402,14 @@
           "cell": "O18"
         }
       ],
-      "views": 382000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 382078,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "38.2만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DXlzlduEvyu.mp4",
-      "poster": "assets/posters/DXlzlduEvyu.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXlzlduEvyu.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXlzlduEvyu.jpg"
     },
     {
       "id": "DXbpavBEWvX",
@@ -384,10 +424,14 @@
           "cell": "O19"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 62491,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXbpavBEWvX.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXbpavBEWvX.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXbgA9dkqcK",
@@ -402,10 +446,14 @@
           "cell": "O20"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 20879,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXbgA9dkqcK.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXbgA9dkqcK.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXoVOK4EkbI",
@@ -420,10 +468,14 @@
           "cell": "O21"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 104097,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXoVOK4EkbI.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXoVOK4EkbI.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DX_RYUvPY0C",
@@ -438,10 +490,14 @@
           "cell": "O22"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 42157,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DX_RYUvPY0C.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DX_RYUvPY0C.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXrAVFxERIa",
@@ -456,10 +512,14 @@
           "cell": "O23"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14213,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXrAVFxERIa.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXrAVFxERIa.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DY12aWSxj5D",
@@ -474,10 +534,14 @@
           "cell": "O24"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 43589,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DY12aWSxj5D.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DY12aWSxj5D.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DX6WPq5PzbY",
@@ -492,10 +556,14 @@
           "cell": "O25"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 21392,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DX6WPq5PzbY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DX6WPq5PzbY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DY1_EFQz2Xy",
@@ -510,10 +578,14 @@
           "cell": "O26"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 53984,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DY1_EFQz2Xy.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DY1_EFQz2Xy.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXjMFJZjplh",
@@ -532,10 +604,14 @@
           "cell": "G2"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 58972,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXjMFJZjplh.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXjMFJZjplh.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DY7JH_GTwuq",
@@ -554,10 +630,14 @@
           "cell": "G3"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 64278,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DY7JH_GTwuq.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DY7JH_GTwuq.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DXtzeWIEUT9",
@@ -572,10 +652,14 @@
           "cell": "O29"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 36309,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DXtzeWIEUT9.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DXtzeWIEUT9.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYGtwapxCEv",
@@ -590,10 +674,14 @@
           "cell": "O30"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 73329,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYGtwapxCEv.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYGtwapxCEv.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DX1Z3wnv8zw",
@@ -608,10 +696,14 @@
           "cell": "O31"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 11366,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DX1Z3wnv8zw.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DX1Z3wnv8zw.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYWqvRIII4M",
@@ -626,10 +718,14 @@
           "cell": "O32"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 137308,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYWqvRIII4M.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYWqvRIII4M.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYMOw4HqE5m",
@@ -644,10 +740,14 @@
           "cell": "O33"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 80782,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYMOw4HqE5m.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYMOw4HqE5m.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYCN_DXMaZL",
@@ -666,10 +766,14 @@
           "cell": "G4"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 20539,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYCN_DXMaZL.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYCN_DXMaZL.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYRkAXhRSN4",
@@ -702,10 +806,14 @@
           "cell": "O36"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 44153,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DX_q2hEvHZy.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DX_q2hEvHZy.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DX6TdKYo2hM",
@@ -720,10 +828,14 @@
           "cell": "O37"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 68029,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DX6TdKYo2hM.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DX6TdKYo2hM.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYhb86Woyrw",
@@ -741,15 +853,14 @@
           "cell": "O38"
         }
       ],
-      "views": 2070000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 2068652,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "207만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DYhb86Woyrw.mp4",
-      "poster": "assets/posters/DYhb86Woyrw.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYhb86Woyrw.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYhb86Woyrw.jpg"
     },
     {
       "id": "DYMfVboz_D0",
@@ -764,10 +875,12 @@
           "cell": "O39"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 106820,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYrpLOPStN2",
@@ -782,10 +895,12 @@
           "cell": "O40"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 271788,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DasHTxhRc_C",
@@ -800,10 +915,14 @@
           "cell": "O41"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 29218,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DasHTxhRc_C.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DasHTxhRc_C.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaU5RGBC7f-",
@@ -818,10 +937,14 @@
           "cell": "O42"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 39017,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaU5RGBC7f-.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaU5RGBC7f-.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZuSeJvJN_O",
@@ -836,10 +959,12 @@
           "cell": "O43"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 16593,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZMs8OIxAtY",
@@ -854,10 +979,14 @@
           "cell": "O44"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 96179,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZMs8OIxAtY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZMs8OIxAtY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYrXWDgpL7K",
@@ -872,10 +1001,14 @@
           "cell": "O45"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 99167,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYrXWDgpL7K.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYrXWDgpL7K.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZCCea9PIhm",
@@ -890,10 +1023,14 @@
           "cell": "O47"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 107481,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZCCea9PIhm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZCCea9PIhm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaiK3uypk8W",
@@ -908,10 +1045,14 @@
           "cell": "O48"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 17894,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaiK3uypk8W.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaiK3uypk8W.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZmnWzpSGUe",
@@ -926,10 +1067,14 @@
           "cell": "O50"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9145,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZmnWzpSGUe.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZmnWzpSGUe.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZH7626Skrz",
@@ -944,10 +1089,14 @@
           "cell": "O51"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 22086,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZH7626Skrz.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZH7626Skrz.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZPb3goT_BT",
@@ -962,10 +1111,14 @@
           "cell": "O52"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 20635,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZPb3goT_BT.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZPb3goT_BT.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DY9kswhxooh",
@@ -980,10 +1133,14 @@
           "cell": "O53"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 101694,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DY9kswhxooh.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DY9kswhxooh.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DadDOLKTMb6",
@@ -998,10 +1155,14 @@
           "cell": "O54"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 13343,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DadDOLKTMb6.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DadDOLKTMb6.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZCmPOdx4nd",
@@ -1016,10 +1177,14 @@
           "cell": "O55"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 164750,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZCmPOdx4nd.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZCmPOdx4nd.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZCmWpgpoSy",
@@ -1034,10 +1199,14 @@
           "cell": "O56"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 19437,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZCmWpgpoSy.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZCmWpgpoSy.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DYl8WczAQ_T",
@@ -1052,10 +1221,14 @@
           "cell": "O57"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 59318,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DYl8WczAQ_T.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DYl8WczAQ_T.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZCr_RVgHbe",
@@ -1070,10 +1243,12 @@
           "cell": "O58"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 286850,
+      "viewsCheckedAt": "2026-10-14",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZziffeJ0is",
@@ -1088,10 +1263,14 @@
           "cell": "O59"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 44488,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZziffeJ0is.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZziffeJ0is.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZZw6TITT8P",
@@ -1106,10 +1285,14 @@
           "cell": "O60"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 21899,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZZw6TITT8P.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZZw6TITT8P.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZZsmR4tt2J",
@@ -1128,10 +1311,14 @@
           "cell": "G5"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 25941,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZZsmR4tt2J.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZZsmR4tt2J.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbQdcR0zWYv",
@@ -1164,10 +1351,14 @@
           "cell": "O63"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 148203,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaDE3MSsZ4Z.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaDE3MSsZ4Z.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaczaWzJYdz",
@@ -1182,10 +1373,14 @@
           "cell": "O64"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 34073,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaczaWzJYdz.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaczaWzJYdz.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaSGOJkTzEE",
@@ -1200,10 +1395,14 @@
           "cell": "O66"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 100678,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaSGOJkTzEE.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaSGOJkTzEE.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbQPczkzh25",
@@ -1218,10 +1417,14 @@
           "cell": "O67"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9680,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbQPczkzh25.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbQPczkzh25.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZ9tLN0SeIO",
@@ -1236,10 +1439,14 @@
           "cell": "O68"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 29144,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZ9tLN0SeIO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZ9tLN0SeIO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaVBW_MS3QL",
@@ -1261,15 +1468,14 @@
           "cell": "G6"
         }
       ],
-      "views": 456000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 455059,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "45.6만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/urchin-japan.mp4",
-      "poster": "assets/posters/urchin-japan-poster.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaVBW_MS3QL.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaVBW_MS3QL.jpg"
     },
     {
       "id": "DakA1xMBDT6",
@@ -1284,10 +1490,14 @@
           "cell": "O70"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 8119,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DakA1xMBDT6.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DakA1xMBDT6.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Da9nhtcvTN4",
@@ -1305,15 +1515,14 @@
           "cell": "O71"
         }
       ],
-      "views": 114000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 114076,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "11.4만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/Da9nhtcvTN4.mp4",
-      "poster": "assets/posters/Da9nhtcvTN4.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Da9nhtcvTN4.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Da9nhtcvTN4.jpg"
     },
     {
       "id": "DaKqMFYRSE2",
@@ -1328,10 +1537,14 @@
           "cell": "O72"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 38660,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaKqMFYRSE2.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaKqMFYRSE2.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaFWEgdTMmI",
@@ -1346,10 +1559,14 @@
           "cell": "O73"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 17608,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaFWEgdTMmI.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaFWEgdTMmI.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaVB4-xz1sq",
@@ -1364,10 +1581,14 @@
           "cell": "O74"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 54361,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaVB4-xz1sq.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaVB4-xz1sq.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dacp1FPyhfr",
@@ -1386,10 +1607,14 @@
           "cell": "G7"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 21371,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dacp1FPyhfr.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dacp1FPyhfr.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DZ6cq_mz3DP",
@@ -1408,10 +1633,14 @@
           "cell": "G8"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 15592,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DZ6cq_mz3DP.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DZ6cq_mz3DP.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dacq9ugPfEm",
@@ -1426,10 +1655,14 @@
           "cell": "O78"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 23970,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dacq9ugPfEm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dacq9ugPfEm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Daz5ehxz7gt",
@@ -1444,10 +1677,14 @@
           "cell": "O79"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 20301,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Daz5ehxz7gt.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Daz5ehxz7gt.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DazE7UhxVXf",
@@ -1462,10 +1699,14 @@
           "cell": "O80"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 29130,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DazE7UhxVXf.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DazE7UhxVXf.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaPs55CS_ft",
@@ -1480,10 +1721,14 @@
           "cell": "O81"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 11024,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaPs55CS_ft.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaPs55CS_ft.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaMWl8wpbOw",
@@ -1520,10 +1765,14 @@
           "cell": "O83"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 212606,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DahvwHmOJJO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DahvwHmOJJO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dayo9jizo51",
@@ -1542,10 +1791,14 @@
           "cell": "G10"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 85122,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dayo9jizo51.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dayo9jizo51.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dac3nc_Bsxl",
@@ -1560,10 +1813,14 @@
           "cell": "O85"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 70568,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dac3nc_Bsxl.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dac3nc_Bsxl.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaujTJ-Jmsg",
@@ -1578,10 +1835,14 @@
           "cell": "O86"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 51653,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaujTJ-Jmsg.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaujTJ-Jmsg.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DaZ9pv2TFOY",
@@ -1599,15 +1860,14 @@
           "cell": "O87"
         }
       ],
-      "views": 157000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 157711,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "15.7만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DaZ9pv2TFOY.mp4",
-      "poster": "assets/posters/DaZ9pv2TFOY.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DaZ9pv2TFOY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DaZ9pv2TFOY.jpg"
     },
     {
       "id": "Db7-jJGgRTs",
@@ -1626,10 +1886,14 @@
           "cell": "G11"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 71451,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Db7-jJGgRTs.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Db7-jJGgRTs.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DazsthHxtbe",
@@ -1648,10 +1912,14 @@
           "cell": "O2"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 15297,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DazsthHxtbe.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DazsthHxtbe.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbZ4xhjqUKT",
@@ -1666,10 +1934,14 @@
           "cell": "O91"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 57102,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbZ4xhjqUKT.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbZ4xhjqUKT.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcdUTvFTqlX",
@@ -1684,10 +1956,14 @@
           "cell": "O92"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 16028,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcdUTvFTqlX.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcdUTvFTqlX.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbapZW_PO7L",
@@ -1702,10 +1978,14 @@
           "cell": "O93"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 142423,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbapZW_PO7L.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbapZW_PO7L.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dbr8U3Oy9qz",
@@ -1723,15 +2003,14 @@
           "cell": "O94"
         }
       ],
-      "views": 303000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 303750,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "30.3만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/Dbr8U3Oy9qz.mp4",
-      "poster": "assets/posters/Dbr8U3Oy9qz.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbr8U3Oy9qz.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dbr8U3Oy9qz.jpg"
     },
     {
       "id": "DbYDtXIBAAY",
@@ -1746,10 +2025,14 @@
           "cell": "O95"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 34894,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbYDtXIBAAY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbYDtXIBAAY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbK10kxvNDx",
@@ -1764,10 +2047,14 @@
           "cell": "O97"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14096,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbK10kxvNDx.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbK10kxvNDx.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcLJtfTPcHB",
@@ -1786,10 +2073,14 @@
           "cell": "G13"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 13677,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcLJtfTPcHB.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcLJtfTPcHB.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcTBN22zql7",
@@ -1804,10 +2095,14 @@
           "cell": "O100"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 20455,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcTBN22zql7.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcTBN22zql7.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcbKzsiBlQl",
@@ -1828,15 +2123,14 @@
           "cell": "G14"
         }
       ],
-      "views": 109000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 52760,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "10.9만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DcbKzsiBlQl.mp4",
-      "poster": "assets/posters/DcbKzsiBlQl.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcbKzsiBlQl.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcbKzsiBlQl.jpg"
     },
     {
       "id": "DbAuXV5vYUI",
@@ -1855,10 +2149,14 @@
           "cell": "O15"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 230342,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbAuXV5vYUI.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbAuXV5vYUI.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeO0OPdPL8G",
@@ -1873,10 +2171,14 @@
           "cell": "O103"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3322,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeO0OPdPL8G.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeO0OPdPL8G.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd3IHGKz9_1",
@@ -1891,10 +2193,14 @@
           "cell": "O104"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3732,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd3IHGKz9_1.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd3IHGKz9_1.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbX4LZWP5S_",
@@ -1913,10 +2219,14 @@
           "cell": "G15"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 15511,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbX4LZWP5S_.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbX4LZWP5S_.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Da-RZCzzAEA",
@@ -1935,10 +2245,14 @@
           "cell": "O19"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 21349,
+      "viewsCheckedAt": "2026-10-15",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Da-RZCzzAEA.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Da-RZCzzAEA.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dbfuk-by5Re",
@@ -1953,10 +2267,14 @@
           "cell": "O107"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14853,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbfuk-by5Re.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dbfuk-by5Re.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbFurYSzTXy",
@@ -1971,10 +2289,14 @@
           "cell": "O108"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 16362,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbFurYSzTXy.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbFurYSzTXy.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcyJhIWgp16",
@@ -1989,10 +2311,14 @@
           "cell": "O109"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 10252,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcyJhIWgp16.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcyJhIWgp16.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dbu40FuPF0p",
@@ -2007,10 +2333,14 @@
           "cell": "O110"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 47566,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbu40FuPF0p.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dbu40FuPF0p.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcnzryDR59A",
@@ -2025,10 +2355,14 @@
           "cell": "O111"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 8510,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcnzryDR59A.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcnzryDR59A.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbzhW-gB9EB",
@@ -2043,10 +2377,14 @@
           "cell": "O115"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 11530,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbzhW-gB9EB.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbzhW-gB9EB.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcIqN5bOoVd",
@@ -2061,10 +2399,14 @@
           "cell": "O116"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 31115,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcIqN5bOoVd.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcIqN5bOoVd.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Db718RipaFB",
@@ -2079,10 +2421,14 @@
           "cell": "O117"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9568,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Db718RipaFB.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Db718RipaFB.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdWH4XjAbxO",
@@ -2101,10 +2447,14 @@
           "cell": "G16"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 39369,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdWH4XjAbxO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdWH4XjAbxO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbndZIXSwQG",
@@ -2126,10 +2476,14 @@
           "cell": "G17"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 47564,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbndZIXSwQG.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbndZIXSwQG.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdEN9cVzfjp",
@@ -2151,15 +2505,14 @@
           "cell": "G18"
         }
       ],
-      "views": 109000,
-      "viewsCheckedAt": "2026-10-21",
-      "metricSource": "https://www.instagram.com/ymmty30/reels/",
+      "views": 109308,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "10.9만",
-      "viewsApproximate": true,
-      "metricBasis": "instagram",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DdEN9cVzfjp.mp4",
-      "poster": "assets/posters/DdEN9cVzfjp.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdEN9cVzfjp.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdEN9cVzfjp.jpg"
     },
     {
       "id": "DblDfyjyoHb",
@@ -2177,10 +2530,14 @@
           "cell": "O125"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 35658,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DblDfyjyoHb.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DblDfyjyoHb.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbiNZ-Jz4rn",
@@ -2202,10 +2559,14 @@
           "cell": "G19"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 73144,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbiNZ-Jz4rn.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbiNZ-Jz4rn.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Db5I6GshkJm",
@@ -2220,15 +2581,14 @@
           "cell": "O127"
         }
       ],
-      "views": 81000,
-      "viewsCheckedAt": "2026-10-21",
-      "metricSource": "https://www.instagram.com/ami_._._suzuki/reels/",
+      "views": 81693,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "8.1만",
-      "viewsApproximate": true,
-      "metricBasis": "instagram",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/Db5I6GshkJm.mp4",
-      "poster": "assets/posters/Db5I6GshkJm.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Db5I6GshkJm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Db5I6GshkJm.jpg"
     },
     {
       "id": "DbVitzNzmRf",
@@ -2270,10 +2630,14 @@
           "cell": "O130"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 26823,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbnM6adzZX8.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbnM6adzZX8.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Degv6k9ABop",
@@ -2288,10 +2652,14 @@
           "cell": "O131"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 34710,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Degv6k9ABop.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Degv6k9ABop.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbVdMEiqp4i",
@@ -2314,10 +2682,14 @@
           "cell": "O46"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 20465,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbVdMEiqp4i.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbVdMEiqp4i.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dbsjtr6vghN",
@@ -2332,10 +2704,14 @@
           "cell": "O134"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 15869,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbsjtr6vghN.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dbsjtr6vghN.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbnTQeihmbC",
@@ -2350,10 +2726,14 @@
           "cell": "O135"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 27720,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbnTQeihmbC.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbnTQeihmbC.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdbemvEzaU5",
@@ -2368,10 +2748,14 @@
           "cell": "O136"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1987,
+      "viewsCheckedAt": "2026-10-18",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdbemvEzaU5.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdbemvEzaU5.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdLieOFpQqR",
@@ -2390,10 +2774,14 @@
           "cell": "G21"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 69240,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdLieOFpQqR.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdLieOFpQqR.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcBUWGSpWUE",
@@ -2408,10 +2796,14 @@
           "cell": "O139"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 17000,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcBUWGSpWUE.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcBUWGSpWUE.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Db8K7YRhWhO",
@@ -2426,15 +2818,19 @@
           "cell": "O140"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 30912,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Db8K7YRhWhO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Db8K7YRhWhO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dbx8R6vPYyO",
       "url": "https://www.instagram.com/p/Dbx8R6vPYyO/",
-      "creator": "reyeyeeeee",
+      "creator": "reyeyeeeee_",
       "country": "대만",
       "productIds": [],
       "productLabel": "",
@@ -2444,10 +2840,14 @@
           "cell": "O142"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 18547,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbx8R6vPYyO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dbx8R6vPYyO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbrsCtHu-KL",
@@ -2462,15 +2862,14 @@
           "cell": "O143"
         }
       ],
-      "views": 18000,
-      "viewsCheckedAt": "2026-10-21",
-      "metricSource": "https://www.instagram.com/ri7tin1025/reels/",
+      "views": 16586,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "1.8만",
-      "viewsApproximate": true,
-      "metricBasis": "instagram",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DbrsCtHu-KL.mp4",
-      "poster": "assets/posters/DbrsCtHu-KL.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbrsCtHu-KL.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbrsCtHu-KL.jpg"
     },
     {
       "id": "Dd029LMPntj",
@@ -2485,10 +2884,14 @@
           "cell": "O144"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 37029,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd029LMPntj.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd029LMPntj.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Db8FMjJoDYY",
@@ -2503,10 +2906,14 @@
           "cell": "O145"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 65415,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Db8FMjJoDYY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Db8FMjJoDYY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd3fjF8zilx",
@@ -2543,10 +2950,14 @@
           "cell": "O147"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 16336,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd3nLXKJ2Af.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd3nLXKJ2Af.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcqkZuuT-TL",
@@ -2561,10 +2972,14 @@
           "cell": "O149"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4961,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcqkZuuT-TL.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcqkZuuT-TL.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcV3-w5xa9s",
@@ -2582,14 +2997,13 @@
         }
       ],
       "views": 815373,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "815,373",
       "viewsApproximate": false,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-japan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DcV3-w5xa9s.mp4",
-      "poster": "assets/posters/DcV3-w5xa9s.jpg"
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcV3-w5xa9s.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcV3-w5xa9s.jpg"
     },
     {
       "id": "DcOQ54PTwL6",
@@ -2604,10 +3018,14 @@
           "cell": "O151"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9637,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcOQ54PTwL6.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcOQ54PTwL6.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbsNkQezkzT",
@@ -2644,10 +3062,14 @@
           "cell": "O154"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 21288,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdD08qNNEA4.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdD08qNNEA4.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcTK9B-JzJt",
@@ -2662,10 +3084,14 @@
           "cell": "O155"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4910,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcTK9B-JzJt.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcTK9B-JzJt.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dbx3PO4pEiU",
@@ -2684,10 +3110,14 @@
           "cell": "O15"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 13230,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbx3PO4pEiU.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dbx3PO4pEiU.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcOA5ikzrJ2",
@@ -2702,10 +3132,14 @@
           "cell": "O158"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 48901,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcOA5ikzrJ2.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcOA5ikzrJ2.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcTL_TQPOo9",
@@ -2738,10 +3172,14 @@
           "cell": "O160"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 24922,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6RHNRp0_K.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd6RHNRp0_K.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcA8BpeqhPE",
@@ -2760,10 +3198,14 @@
           "cell": "O73"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 16088,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcA8BpeqhPE.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcA8BpeqhPE.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcirGiDJQGI",
@@ -2778,10 +3220,14 @@
           "cell": "O164"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3554,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcirGiDJQGI.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcirGiDJQGI.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DbuY-cSSFAS",
@@ -2800,10 +3246,14 @@
           "cell": "O55"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4718,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DbuY-cSSFAS.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DbuY-cSSFAS.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcaKhUxpTJh",
@@ -2821,15 +3271,14 @@
           "cell": "O167"
         }
       ],
-      "views": 276000,
-      "viewsCheckedAt": "2026-10-22",
-      "metricSource": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site",
+      "views": 208898,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
       "mediaType": "video",
-      "viewsDisplay": "27.6만",
-      "viewsApproximate": true,
-      "metricBasis": "showcase",
-      "videoSrc": "https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DcaKhUxpTJh.mp4",
-      "poster": "assets/posters/DcaKhUxpTJh.jpg"
+      "viewsApproximate": false,
+      "metricBasis": "tracking",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcaKhUxpTJh.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcaKhUxpTJh.jpg"
     },
     {
       "id": "Dd6F-zqyx4A",
@@ -2844,10 +3293,14 @@
           "cell": "O168"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 24807,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6F-zqyx4A.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd6F-zqyx4A.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dckrh6uhfxY",
@@ -2862,10 +3315,14 @@
           "cell": "O169"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2452,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dckrh6uhfxY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dckrh6uhfxY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcaQmMAx0PY",
@@ -2884,10 +3341,14 @@
           "cell": "G26"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1646,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcaQmMAx0PY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcaQmMAx0PY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc3XRuOTGPv",
@@ -2902,10 +3363,14 @@
           "cell": "O171"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 45741,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dc3XRuOTGPv.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dc3XRuOTGPv.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dcvojtbzdtb",
@@ -2922,10 +3387,14 @@
           "cell": "O172"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3039,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dcvojtbzdtb.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dcvojtbzdtb.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcOD_nPKGMt",
@@ -2942,10 +3411,14 @@
           "cell": "O173"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4675,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcOD_nPKGMt.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcOD_nPKGMt.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcKiF_4Ro5O",
@@ -2966,10 +3439,14 @@
           "cell": "O9"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2315,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcKiF_4Ro5O.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcKiF_4Ro5O.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcIA3yCJ0g5",
@@ -2986,10 +3463,14 @@
           "cell": "O177"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2879,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcIA3yCJ0g5.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcIA3yCJ0g5.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dcs-T3xzSKo",
@@ -3007,10 +3488,14 @@
           "cell": "O178"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1668,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dcs-T3xzSKo.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dcs-T3xzSKo.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc_tdV3TV4l",
@@ -3028,10 +3513,14 @@
           "cell": "O179"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14006,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dc_tdV3TV4l.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dc_tdV3TV4l.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd320oPxkvl",
@@ -3049,10 +3538,14 @@
           "cell": "O180"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 15445,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd320oPxkvl.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd320oPxkvl.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcvbBMcp4A0",
@@ -3070,10 +3563,14 @@
           "cell": "O181"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 8317,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcvbBMcp4A0.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcvbBMcp4A0.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcDZUm1R81H",
@@ -3095,10 +3592,14 @@
           "cell": "O35"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3888,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcDZUm1R81H.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcDZUm1R81H.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc3EbttBGYN",
@@ -3116,10 +3617,14 @@
           "cell": "O183"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 23399,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dc3EbttBGYN.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dc3EbttBGYN.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcalU_Hhf3L",
@@ -3137,10 +3642,14 @@
           "cell": "O184"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14763,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcalU_Hhf3L.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcalU_Hhf3L.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcvVa8FRZsm",
@@ -3158,10 +3667,14 @@
           "cell": "O185"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 7333,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcvVa8FRZsm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcvVa8FRZsm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdA5uURzyA-",
@@ -3179,10 +3692,14 @@
           "cell": "O187"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3773,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdA5uURzyA-.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdA5uURzyA-.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcbDRB4xBl_",
@@ -3200,10 +3717,14 @@
           "cell": "O189"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5640,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcbDRB4xBl_.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcbDRB4xBl_.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dci5oICzNHO",
@@ -3221,10 +3742,14 @@
           "cell": "O190"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2756,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dci5oICzNHO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dci5oICzNHO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdJZWsPiJU5",
@@ -3239,10 +3764,14 @@
           "cell": "O193"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1298,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdJZWsPiJU5.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdJZWsPiJU5.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcnuEICz5Si",
@@ -3260,10 +3789,14 @@
           "cell": "O195"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 17759,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcnuEICz5Si.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcnuEICz5Si.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcjZS52yeHf",
@@ -3281,10 +3814,14 @@
           "cell": "O196"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 12962,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcjZS52yeHf.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcjZS52yeHf.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcnCu_WRE-C",
@@ -3302,10 +3839,14 @@
           "cell": "O197"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 102604,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcnCu_WRE-C.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcnCu_WRE-C.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeO8AcIhxoV",
@@ -3323,10 +3864,14 @@
           "cell": "O198"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4019,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeO8AcIhxoV.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeO8AcIhxoV.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DclhME1hs1u",
@@ -3344,10 +3889,14 @@
           "cell": "O199"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2205,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DclhME1hs1u.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DclhME1hs1u.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcdsIyWSxLW",
@@ -3369,10 +3918,14 @@
           "cell": "G29"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 12120,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcdsIyWSxLW.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcdsIyWSxLW.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdESaYdzWqJ",
@@ -3394,10 +3947,14 @@
           "cell": "G30"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 991,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdESaYdzWqJ.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdESaYdzWqJ.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dcx6BP9Re3V",
@@ -3415,10 +3972,14 @@
           "cell": "O203"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 8403,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dcx6BP9Re3V.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dcx6BP9Re3V.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcTWgv2p9N6",
@@ -3436,10 +3997,14 @@
           "cell": "O204"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 44647,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcTWgv2p9N6.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcTWgv2p9N6.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc01lnTzPBm",
@@ -3457,10 +4022,14 @@
           "cell": "O205"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 8330,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dc01lnTzPBm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dc01lnTzPBm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd_bzwoTQvb",
@@ -3478,10 +4047,14 @@
           "cell": "O206"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 19734,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd_bzwoTQvb.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd_bzwoTQvb.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdF7XSfyjBG",
@@ -3499,10 +4072,14 @@
           "cell": "O209"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2551,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdF7XSfyjBG.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdF7XSfyjBG.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdYvPqLT0VS",
@@ -3520,10 +4097,14 @@
           "cell": "O210"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 12899,
+      "viewsCheckedAt": "2026-10-17",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdYvPqLT0VS.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdYvPqLT0VS.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcgVuYLKb1Y",
@@ -3541,10 +4122,14 @@
           "cell": "O212"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3316,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcgVuYLKb1Y.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcgVuYLKb1Y.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DcsACjnzB99",
@@ -3562,10 +4147,14 @@
           "cell": "O214"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1012,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcsACjnzB99.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DcsACjnzB99.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdoQXC5pRop",
@@ -3583,10 +4172,14 @@
           "cell": "O215"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 30728,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdoQXC5pRop.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdoQXC5pRop.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd6EEv7NeWh",
@@ -3604,10 +4197,14 @@
           "cell": "O216"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9222,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6EEv7NeWh.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd6EEv7NeWh.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdIdK3wzt14",
@@ -3625,10 +4222,14 @@
           "cell": "O217"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1151,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdIdK3wzt14.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdIdK3wzt14.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DetutI8TwIi",
@@ -3646,10 +4247,14 @@
           "cell": "O223"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 942,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DetutI8TwIi.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DetutI8TwIi.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc3OY9gzOXf",
@@ -3667,10 +4272,14 @@
           "cell": "O224"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 24393,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dc3OY9gzOXf.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dc3OY9gzOXf.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdIoyuXTWjX",
@@ -3688,10 +4297,14 @@
           "cell": "O225"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1413,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdIoyuXTWjX.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdIoyuXTWjX.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd1Qo5ivdd3",
@@ -3709,10 +4322,14 @@
           "cell": "O226"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3718,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd1Qo5ivdd3.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd1Qo5ivdd3.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc8U0-NM0yS",
@@ -3751,10 +4368,14 @@
           "cell": "O230"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 18537,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DerSGLJymcY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DerSGLJymcY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd8p0GJzBud",
@@ -3772,10 +4393,14 @@
           "cell": "O231"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 12203,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd8p0GJzBud.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd8p0GJzBud.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdWACe6xIxL",
@@ -3793,10 +4418,14 @@
           "cell": "O232"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 17759,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdWACe6xIxL.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdWACe6xIxL.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdTvW_XAvIy",
@@ -3814,10 +4443,14 @@
           "cell": "O234"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 10252,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdTvW_XAvIy.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdTvW_XAvIy.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdGnSVfBWx_",
@@ -3835,10 +4468,14 @@
           "cell": "O235"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5410,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdGnSVfBWx_.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdGnSVfBWx_.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdIXW7XTnHo",
@@ -3856,10 +4493,14 @@
           "cell": "O236"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3967,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdIXW7XTnHo.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdIXW7XTnHo.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdEaltMh9B7",
@@ -3877,10 +4518,14 @@
           "cell": "O237"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2731,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdEaltMh9B7.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdEaltMh9B7.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdQKcjxzh-L",
@@ -3898,10 +4543,14 @@
           "cell": "O238"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2982,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdQKcjxzh-L.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdQKcjxzh-L.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdNods0J611",
@@ -3919,10 +4568,14 @@
           "cell": "O239"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9814,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdNods0J611.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdNods0J611.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdRO330uYbs",
@@ -3940,10 +4593,14 @@
           "cell": "O240"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2583,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdRO330uYbs.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdRO330uYbs.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeMd0Q7Bxji",
@@ -3961,10 +4618,14 @@
           "cell": "O241"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1606,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeMd0Q7Bxji.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeMd0Q7Bxji.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd6aUG4zpLH",
@@ -3982,10 +4643,14 @@
           "cell": "O242"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 611,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6aUG4zpLH.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd6aUG4zpLH.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdWXBZchY4g",
@@ -4003,10 +4668,14 @@
           "cell": "O243"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4427,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdWXBZchY4g.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdWXBZchY4g.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdQ-rNYKR17",
@@ -4024,10 +4693,14 @@
           "cell": "O244"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5751,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdQ-rNYKR17.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdQ-rNYKR17.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeMFrrgza_H",
@@ -4045,10 +4718,14 @@
           "cell": "O246"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 73895,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeMFrrgza_H.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeMFrrgza_H.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdeDKg_yTg7",
@@ -4066,10 +4743,14 @@
           "cell": "O247"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 10197,
+      "viewsCheckedAt": "2026-10-19",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdeDKg_yTg7.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdeDKg_yTg7.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dc_DRdOoKLY",
@@ -4087,10 +4768,14 @@
           "cell": "O249"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 23927,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dc_DRdOoKLY.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dc_DRdOoKLY.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdlOMGAMXxJ",
@@ -4108,10 +4793,14 @@
           "cell": "O250"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1752,
+      "viewsCheckedAt": "2026-10-22",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdlOMGAMXxJ.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdlOMGAMXxJ.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJv6HSPeg8",
@@ -4129,10 +4818,14 @@
           "cell": "O251"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 18157,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJv6HSPeg8.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJv6HSPeg8.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdY0EmpyMkl",
@@ -4150,10 +4843,14 @@
           "cell": "O252"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2933,
+      "viewsCheckedAt": "2026-10-17",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdY0EmpyMkl.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdY0EmpyMkl.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd8ib1nBSUG",
@@ -4171,10 +4868,14 @@
           "cell": "O253"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 28424,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd8ib1nBSUG.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd8ib1nBSUG.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdYnmw2iFsv",
@@ -4192,10 +4893,14 @@
           "cell": "O254"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 9189,
+      "viewsCheckedAt": "2026-10-17",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdYnmw2iFsv.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdYnmw2iFsv.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Ddv4LLATTDP",
@@ -4213,10 +4918,14 @@
           "cell": "O257"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1685,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Ddv4LLATTDP.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Ddv4LLATTDP.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Ddiv1bPTtv8",
@@ -4234,10 +4943,14 @@
           "cell": "O258"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4699,
+      "viewsCheckedAt": "2026-10-21",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Ddiv1bPTtv8.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Ddiv1bPTtv8.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeN7WT8TMlx",
@@ -4255,10 +4968,14 @@
           "cell": "O261"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 29020,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeN7WT8TMlx.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeN7WT8TMlx.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdVUxlyBD14",
@@ -4276,10 +4993,14 @@
           "cell": "O263"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1399,
+      "viewsCheckedAt": "2026-10-16",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdVUxlyBD14.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdVUxlyBD14.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Ddbj1NLTZQ9",
@@ -4297,10 +5018,14 @@
           "cell": "O266"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14381,
+      "viewsCheckedAt": "2026-10-18",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Ddbj1NLTZQ9.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Ddbj1NLTZQ9.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdssaDjK2nO",
@@ -4318,10 +5043,14 @@
           "cell": "O267"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 6046,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdssaDjK2nO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdssaDjK2nO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeEbMEcgDQ9",
@@ -4339,10 +5068,14 @@
           "cell": "O268"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 11657,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeEbMEcgDQ9.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeEbMEcgDQ9.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd5WZ62zFHd",
@@ -4360,10 +5093,14 @@
           "cell": "O270"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1383,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd5WZ62zFHd.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd5WZ62zFHd.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DebikFuo1Sm",
@@ -4381,10 +5118,14 @@
           "cell": "O271"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14385,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DebikFuo1Sm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DebikFuo1Sm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DejJWSRJH5f",
@@ -4423,10 +5164,14 @@
           "cell": "O273"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 22780,
+      "viewsCheckedAt": "2026-10-21",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdizHNFsH_L.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdizHNFsH_L.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DegpnhUESOe",
@@ -4444,10 +5189,14 @@
           "cell": "O276"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 71460,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DegpnhUESOe.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DegpnhUESOe.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeOUMKpzceB",
@@ -4465,10 +5214,14 @@
           "cell": "O277"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5612,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeOUMKpzceB.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeOUMKpzceB.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd53TJigK0a",
@@ -4486,10 +5239,14 @@
           "cell": "O278"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1542,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd53TJigK0a.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd53TJigK0a.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd6S-5ui40D",
@@ -4507,10 +5264,14 @@
           "cell": "O281"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 70727,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6S-5ui40D.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd6S-5ui40D.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Deq9lAyvaNA",
@@ -4549,10 +5310,14 @@
           "cell": "O283"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1048,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd08e08BmmP.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd08e08BmmP.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DdoDADmh-9Q",
@@ -4570,10 +5335,14 @@
           "cell": "O284"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2022,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdoDADmh-9Q.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DdoDADmh-9Q.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd_fbWNTqem",
@@ -4591,10 +5360,14 @@
           "cell": "O285"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 13711,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd_fbWNTqem.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd_fbWNTqem.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeIxXw7xADg",
@@ -4612,10 +5385,14 @@
           "cell": "O287"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 121355,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeIxXw7xADg.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeIxXw7xADg.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd1IqCZJQUW",
@@ -4633,10 +5410,14 @@
           "cell": "O288"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3531,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd1IqCZJQUW.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd1IqCZJQUW.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd2-Agrvcq4",
@@ -4654,10 +5435,14 @@
           "cell": "O291"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 128840,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd2-Agrvcq4.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd2-Agrvcq4.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeMQYEShkWw",
@@ -4675,10 +5460,14 @@
           "cell": "O292"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 15499,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeMQYEShkWw.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeMQYEShkWw.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DetfcLjhs-y",
@@ -4696,10 +5485,14 @@
           "cell": "O294"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 10376,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DetfcLjhs-y.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DetfcLjhs-y.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd8xERoSxqe",
@@ -4717,10 +5510,14 @@
           "cell": "O298"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5627,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd8xERoSxqe.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd8xERoSxqe.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd6QjY5Rdzl",
@@ -4738,10 +5535,14 @@
           "cell": "O300"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3420,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6QjY5Rdzl.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd6QjY5Rdzl.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJvigEyCwm",
@@ -4759,10 +5560,14 @@
           "cell": "O301"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 12910,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJvigEyCwm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJvigEyCwm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeA8jCiR5P0",
@@ -4780,10 +5585,14 @@
           "cell": "O303"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1614,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeA8jCiR5P0.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeA8jCiR5P0.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd8YeJ_z1YL",
@@ -4801,10 +5610,14 @@
           "cell": "O305"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1635,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd8YeJ_z1YL.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd8YeJ_z1YL.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJwNfkxbY6",
@@ -4822,10 +5635,14 @@
           "cell": "O309"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1563,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJwNfkxbY6.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJwNfkxbY6.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DejlQwZv7HB",
@@ -4843,10 +5660,14 @@
           "cell": "O313"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 92232,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DejlQwZv7HB.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DejlQwZv7HB.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Deg8JkaS2Oo",
@@ -4864,10 +5685,14 @@
           "cell": "O314"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3659,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Deg8JkaS2Oo.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Deg8JkaS2Oo.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeYiMyLy1xg",
@@ -4885,10 +5710,14 @@
           "cell": "O316"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 31754,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeYiMyLy1xg.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeYiMyLy1xg.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeTxn3hJzr0",
@@ -4906,10 +5735,14 @@
           "cell": "O317"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5091,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeTxn3hJzr0.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeTxn3hJzr0.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DebHtKGxo7r",
@@ -4927,10 +5760,14 @@
           "cell": "O323"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 446,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DebHtKGxo7r.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DebHtKGxo7r.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dedyj--BHmW",
@@ -4969,10 +5806,14 @@
           "cell": "O327"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 4719,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DevurZvODET.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DevurZvODET.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DegiTBpJB2z",
@@ -5011,10 +5852,14 @@
           "cell": "O343"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 14460,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Deg3H5gTZZD.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Deg3H5gTZZD.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DerKAVPMbpk",
@@ -5032,10 +5877,14 @@
           "cell": "O346"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3600,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DerKAVPMbpk.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DerKAVPMbpk.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJfhJKMtcV",
@@ -5053,10 +5902,14 @@
           "cell": "O2"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2609,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJfhJKMtcV.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJfhJKMtcV.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd9YjCxqHxW",
@@ -5074,10 +5927,14 @@
           "cell": "O3"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2833,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd9YjCxqHxW.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd9YjCxqHxW.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DebqDI6S4Lw",
@@ -5095,10 +5952,14 @@
           "cell": "O5"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 5447,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DebqDI6S4Lw.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DebqDI6S4Lw.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeZD83rxQz9",
@@ -5116,10 +5977,14 @@
           "cell": "O13"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1264,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeZD83rxQz9.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeZD83rxQz9.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeQWWcuyjmN",
@@ -5137,10 +6002,14 @@
           "cell": "O15"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1332,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeQWWcuyjmN.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeQWWcuyjmN.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeBiGBpxySg",
@@ -5158,10 +6027,14 @@
           "cell": "O25"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2776,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeBiGBpxySg.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeBiGBpxySg.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DebwpuZzNbK",
@@ -5179,10 +6052,14 @@
           "cell": "O28"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 908,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DebwpuZzNbK.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DebwpuZzNbK.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJMoN3ukGI",
@@ -5200,10 +6077,14 @@
           "cell": "O30"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1341,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJMoN3ukGI.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJMoN3ukGI.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeWRDrtRm5f",
@@ -5221,10 +6102,14 @@
           "cell": "O33"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1394,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeWRDrtRm5f.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeWRDrtRm5f.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeZLz43xF6J",
@@ -5242,10 +6127,14 @@
           "cell": "O37"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3436,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeZLz43xF6J.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeZLz43xF6J.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJlIAMTmab",
@@ -5263,10 +6152,14 @@
           "cell": "O38"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 917,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJlIAMTmab.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJlIAMTmab.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeeOfcrz-5z",
@@ -5284,10 +6177,14 @@
           "cell": "O40"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2299,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeeOfcrz-5z.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeeOfcrz-5z.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeLcpemPPqS",
@@ -5305,10 +6202,14 @@
           "cell": "O43"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 1087,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeLcpemPPqS.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeLcpemPPqS.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dd8osnUgcdg",
@@ -5326,10 +6227,14 @@
           "cell": "O45"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 908,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd8osnUgcdg.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dd8osnUgcdg.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeD5kqMJjQe",
@@ -5347,10 +6252,14 @@
           "cell": "O48"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 3680,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeD5kqMJjQe.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeD5kqMJjQe.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "Dea3-XmSHcO",
@@ -5368,10 +6277,14 @@
           "cell": "O51"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 2031,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dea3-XmSHcO.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/Dea3-XmSHcO.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeL7xlMSKWm",
@@ -5389,10 +6302,14 @@
           "cell": "O53"
         }
       ],
-      "views": null,
-      "viewsCheckedAt": null,
-      "metricSource": null,
-      "mediaType": "unverified"
+      "views": 35666,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeL7xlMSKWm.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeL7xlMSKWm.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     },
     {
       "id": "DeJw5bCSxKt",
@@ -5410,10 +6327,148 @@
           "cell": "O54"
         }
       ],
+      "views": 1729,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeJw5bCSxKt.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeJw5bCSxKt.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
+    },
+    {
+      "id": "DeeVam6JU4c",
+      "url": "https://www.instagram.com/p/DeeVam6JU4c/",
+      "creator": "__minzy.__",
+      "country": "대만",
+      "productIds": [
+        "hydro-cream",
+        "hydro-mask"
+      ],
+      "productLabel": "하이드로부스터 크림, 하이드로부스터 마스크팩",
+      "sources": [
+        {
+          "sheet": "메인 시트",
+          "cell": "N274"
+        }
+      ],
+      "views": 2058,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DeeVam6JU4c.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DeeVam6JU4c.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
+    },
+    {
+      "id": "DeyKHLNpJ2Z",
+      "url": "https://www.instagram.com/p/DeyKHLNpJ2Z/",
+      "creator": "ellahair_724",
+      "country": "대만",
+      "productIds": [
+        "hydro-cream",
+        "hydro-mask"
+      ],
+      "productLabel": "하이드로부스터 크림, 하이드로부스터 마스크팩",
+      "sources": [
+        {
+          "sheet": "메인 시트",
+          "cell": "O286"
+        }
+      ],
       "views": null,
       "viewsCheckedAt": null,
       "metricSource": null,
       "mediaType": "unverified"
+    },
+    {
+      "id": "DejNq9uz1ZV",
+      "url": "https://www.instagram.com/p/DejNq9uz1ZV/",
+      "creator": "omame__chaaan",
+      "country": "일본",
+      "productIds": [
+        "reju-mask",
+        "reju-serum"
+      ],
+      "productLabel": "리쥬부스터 세럼, 리쥬부스터 마스크팩",
+      "sources": [
+        {
+          "sheet": "메인 시트",
+          "cell": "N315"
+        }
+      ],
+      "views": null,
+      "viewsCheckedAt": null,
+      "metricSource": null,
+      "mediaType": "unverified"
+    },
+    {
+      "id": "Degh3xsh2xB",
+      "url": "https://www.instagram.com/p/Degh3xsh2xB/",
+      "creator": "cathering___",
+      "country": "대만",
+      "productIds": [
+        "clear-mask",
+        "reju-cream"
+      ],
+      "productLabel": "리쥬부스터 크림, 클리어부스터 마스크팩",
+      "sources": [
+        {
+          "sheet": "메인 시트",
+          "cell": "N326"
+        }
+      ],
+      "views": null,
+      "viewsCheckedAt": null,
+      "metricSource": null,
+      "mediaType": "unverified"
+    },
+    {
+      "id": "Ded3v7ny9Ee",
+      "url": "https://www.instagram.com/p/Ded3v7ny9Ee/",
+      "creator": "_akro0",
+      "country": "일본",
+      "productIds": [
+        "clear-mask",
+        "reju-cream"
+      ],
+      "productLabel": "리쥬부스터 크림, 클리어부스터 마스크팩",
+      "sources": [
+        {
+          "sheet": "메인 시트",
+          "cell": "N328"
+        }
+      ],
+      "views": null,
+      "viewsCheckedAt": null,
+      "metricSource": null,
+      "mediaType": "unverified"
+    },
+    {
+      "id": "DejAsxcPoHb",
+      "url": "https://www.instagram.com/p/DejAsxcPoHb/",
+      "creator": "onlyyunn_hi",
+      "country": "대만",
+      "productIds": [
+        "hydro-mask",
+        "hydro-serum"
+      ],
+      "productLabel": "하이드로부스터 세럼, 마스크팩",
+      "sources": [
+        {
+          "sheet": " 현지 시딩 (대만)",
+          "cell": "N44"
+        }
+      ],
+      "views": 786,
+      "viewsCheckedAt": "2026-10-23",
+      "metricSource": "https://superinfluencer.web.app/pyderin-tracking",
+      "mediaType": "video",
+      "videoSrc": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DejAsxcPoHb.mp4",
+      "poster": "https://storage.googleapis.com/creo-studio-app-media/covers/instagram/DejAsxcPoHb.jpg",
+      "metricBasis": "tracking",
+      "viewsApproximate": false
     }
   ],
   "audit": {
@@ -5422,8 +6477,13 @@
       "direct_messages": 7,
       "other_platforms": 31
     },
-    "rankingStatus": "partial_showcase_metrics",
-    "trackingStatus": "login_required"
+    "rankingStatus": "tracking_metrics",
+    "trackingStatus": "connected",
+    "sheetPostCount": 270,
+    "trackingGeneratedAt": "2026-10-23T08:23:25+09:00",
+    "matchedTrackingPosts": 266,
+    "measuredTrackingPosts": 252,
+    "mirroredTrackingPosts": 245
   },
   "markets": [
     {

@@ -83,39 +83,6 @@
     pageNumber.style.color = dark ? '#ffffff' : '#777d86';
     pageNumber.style.background = dark ? 'rgba(16,17,20,.45)' : 'rgba(255,255,255,.94)';
   }
-  function setupScrollReveals() {
-    const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
-    if (motionPreference.matches || !('IntersectionObserver' in window)) return;
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('is-revealed');
-        observer.unobserve(entry.target);
-      });
-    }, { root: deck, threshold: .08, rootMargin: '0px 0px -36px 0px' });
-    const selectors = '.p-kicker,h2,.p-lead,.p-metrics,.p-range-art,.p-growth > div,.p-photo-strip figure,.p-inline-proof,.p-step,.p-product,.p-supply,.p-details,.p-concentration,.p-bar-heading,.p-bar-row,.p-study,.p-note,.p-globe,.p-reach,.p-region,.p-entry article,.p-ctas,.p-closing-note,.p-next';
-    sections.slice(1).forEach(section => {
-      if (section.classList.contains('p-scroll-scene')) return;
-      const candidates = Array.from(section.querySelectorAll(selectors));
-      const targets = candidates.filter(element => !candidates.some(parent => parent !== element && parent.contains(element)));
-      targets.forEach((element, index) => {
-        element.classList.add('p-rise');
-        element.style.setProperty('--p-reveal-delay', `${Math.min(index * 45, 180)}ms`);
-        observer.observe(element);
-      });
-    });
-    document.documentElement.classList.add('motion-ready');
-    document.addEventListener('focusin', event => {
-      const target = event.target.closest('.p-rise');
-      if (target) { target.classList.add('is-revealed'); observer.unobserve(target); }
-    });
-    motionPreference.addEventListener('change', event => {
-      if (!event.matches) return;
-      document.documentElement.classList.remove('motion-ready');
-      observer.disconnect();
-    });
-  }
-  setupScrollReveals();
   selector.addEventListener('change', event => applyLanguage(event.target.value, true));
   document.getElementById('soundBtn').addEventListener('click', soundLabel);
   document.addEventListener('pyderin:slide', soundLabel);
@@ -124,7 +91,7 @@
       const destination = document.querySelector(anchor.getAttribute('href'));
       if (!destination) return;
       event.preventDefault();
-      if (window.PYDERIN_OPENING && window.PYDERIN_OPENING.navigate(destination, matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
+      if (window.PYDERIN_PAGER && window.PYDERIN_PAGER.navigate(destination, matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
       destination.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     });
   });
@@ -133,6 +100,7 @@
   applyLanguage(language, false);
   if (/^#s(?:[1-9]|1[0-2])$/.test(location.hash)) {
     requestAnimationFrame(() => {
+      if (window.PYDERIN_PAGER) return;
       const target = document.querySelector(location.hash);
       if (!window.PYDERIN_OPENING || !window.PYDERIN_OPENING.navigate(target, true)) target.scrollIntoView({ behavior: 'instant' });
     });

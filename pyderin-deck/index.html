@@ -1220,7 +1220,7 @@
       .state.names:not(.live) {
         color: var(--dim);
       }
-    
+
       .chart-title { font-size: 11px; letter-spacing: .2em; text-transform: uppercase;
         color: var(--dim); margin-bottom: 16px; display: flex; justify-content: space-between;
         gap: 12px; flex-wrap: wrap; }
@@ -1299,7 +1299,7 @@
       .plink .pt { grid-column: 1; font-family: var(--serif); font-size: 1.2rem;
         line-height: 1.3; color: var(--ink); }
       .plink .pa { grid-column: 2; grid-row: 1 / span 2; font-size: 15px; color: var(--ice2); }
-    
+
       /* ---------- cover film ---------- */
       .coverbg {
         position: absolute;
@@ -1401,7 +1401,7 @@
       }
       .soundbtn.on { color: var(--ink); border-color: var(--ice); }
       .soundbtn.on .si::after { transform: scale(1); background: var(--ice); }
-    
+
       #s5 .orbit { max-width: 340px; }
       #s5 .flow { margin-top: 40px; }
 
@@ -1545,7 +1545,7 @@
         color: var(--ice);
         vertical-align: -4px;
       }
-    
+
       /* ---------- phones ---------- */
       @media (max-width: 760px) {
         /* tall slides grow and scroll instead of being cut off */
@@ -1644,7 +1644,7 @@
         /* 13 */
         .next-steps { gap: 10px 14px; margin-top: 30px; }
       }
-    
+
       /* ---------- spring motion ----------
          A real damped spring sampled into linear(): overshoots ~20% and
          settles, which is what reads as bounce. cubic-bezier is the fallback
@@ -1712,9 +1712,10 @@
         .fstep, .metrics > div, .cnode, .plink { transform: none; }
       }
     </style>
-    <link rel="stylesheet" href="redesign.css?v=opening9">
-    <link rel="stylesheet" href="opening.css?v=opening9">
-    <link rel="stylesheet" href="continuity.css?v=1">
+    <link rel="stylesheet" href="redesign.css?v=470f9c2424">
+
+
+      <link rel="stylesheet" href="presentation.css?v=579f7d4fed">
   </head>
   <noscript>
       <style>
@@ -2111,11 +2112,11 @@
 
         var helixFrame = 0;
         function wakeHelix() {
-          if (!helixFrame && !document.hidden) helixFrame = requestAnimationFrame(animateHelix);
+          if (!helixFrame && !document.hidden && getComputedStyle(hx).display !== 'none') helixFrame = requestAnimationFrame(animateHelix);
         }
         function animateHelix(time) {
           helixFrame = 0;
-          if (document.hidden) return;
+          if (document.hidden || getComputedStyle(hx).display === 'none') return;
           drawHelix(time);
           if (!reduced && current > 0) helixFrame = requestAnimationFrame(animateHelix);
         }
@@ -2227,6 +2228,7 @@
 
         function go(i) {
           i = Math.max(0, Math.min(slides.length - 1, i));
+          if (window.PYDERIN_PAGER) { window.PYDERIN_PAGER.navigate(slides[i], reduced); return; }
           var far = Math.abs(i - current) > 1;
           if (window.PYDERIN_OPENING && window.PYDERIN_OPENING.navigate(slides[i], reduced || far)) return;
           slides[i].scrollIntoView({
@@ -2355,6 +2357,7 @@
 
         /* ---------- keyboard ---------- */
         window.addEventListener('keydown', function (e) {
+          if (window.PYDERIN_PAGER) return;
           if (e.target && (e.target.closest('button, select, input, textarea, summary, a') || e.target.isContentEditable)) return;
           if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' ') {
             e.preventDefault();
@@ -2680,8 +2683,8 @@
       })();
     </script>
     <script src="translations.js"></script>
-    <script src="redesign.js?v=opening9"></script>
-    <script src="opening.js?v=opening9"></script>
-    <script src="continuity.js?v=1"></script>
+    <script src="redesign.js?v=7e9366a42b"></script>
+    <script src="opening.js?v=18fca61e3c"></script>
+    <script src="presentation.js?v=e387e4db1e"></script>
   </body>
 </html>

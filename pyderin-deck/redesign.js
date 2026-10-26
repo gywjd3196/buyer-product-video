@@ -18,6 +18,7 @@
     const label = dictionaries[language][film.muted ? 'hero.off' : 'hero.on'];
     button.querySelector('.st').textContent = label;
     button.setAttribute('aria-label', label);
+    button.title = label;
     button.setAttribute('aria-pressed', String(!film.muted));
   }
   function applyLanguage(code, preservePosition) {

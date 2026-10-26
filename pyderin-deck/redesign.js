@@ -21,7 +21,8 @@
     button.setAttribute('aria-pressed', String(!film.muted));
   }
   function applyLanguage(code, preservePosition) {
-    const active = sections.find(section => {
+    const atEnd = deck.scrollTop + deck.clientHeight >= deck.scrollHeight - 2;
+    const active = atEnd ? sections[sections.length - 1] : sections.find(section => {
       const box = section.getBoundingClientRect();
       return box.top <= 220 && box.bottom > 220;
     });
@@ -57,7 +58,8 @@
     });
     soundLabel();
     try { localStorage.setItem(storageKey, language); } catch (_) {}
-    if (preservePosition && active) deck.scrollTop += active.getBoundingClientRect().top - activeTop;
+    if (preservePosition && atEnd) deck.scrollTop = deck.scrollHeight;
+    else if (preservePosition && active) deck.scrollTop += active.getBoundingClientRect().top - activeTop;
     updateTheme();
   }
   function updateTheme() {
@@ -68,6 +70,12 @@
     });
     const dark = active && active.id === 's1';
     header.dataset.theme = 'light';
+    const heroBottom = sections[0].getBoundingClientRect().bottom;
+    const hideFrame = heroBottom > header.offsetHeight + 1;
+    header.classList.toggle('is-hidden', hideFrame);
+    header.inert = hideFrame;
+    header.setAttribute('aria-hidden', String(hideFrame));
+    document.body.classList.toggle('is-hero', hideFrame);
     const pageNumber = document.getElementById('pageNo');
     pageNumber.style.color = dark ? '#ffffff' : '#777d86';
     pageNumber.style.background = dark ? 'rgba(16,17,20,.45)' : 'rgba(255,255,255,.94)';

@@ -62,6 +62,7 @@
     if (preservePosition && atEnd) deck.scrollTop = deck.scrollHeight;
     else if (preservePosition && active) deck.scrollTop += active.getBoundingClientRect().top - activeTop;
     updateTheme();
+    document.dispatchEvent(new CustomEvent('pyderin:language', { detail: language }));
   }
   function updateTheme() {
     const line = Math.min(220, deck.clientHeight * .3);

@@ -118,7 +118,16 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.on": "Sound on",
     "hero.film": "PYDERIN brand film, English audio",
     "ui.official": "Official site",
-    "s10.reach": "4 continents · 11 overseas markets"
+    "s10.reach": "4 continents · 11 overseas markets",
+    "opening.product": "Product",
+    "opening.science": "PDRN science",
+    "opening.chapters": "Opening chapters",
+    "opening.choose": "Choose a product",
+    "opening.prev": "Previous product",
+    "opening.next": "Next product",
+    "opening.cream": "REJUVUSTER Cream",
+    "opening.serum": "HYDROVUSTER Serum",
+    "opening.mask": "CLEARVUSTER Mask"
   },
   "ko": {
     "s2.label": "PDRN의 기회",
@@ -238,7 +247,16 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.on": "소리 켜짐",
     "hero.film": "PYDERIN 브랜드 영상, 영어 음성",
     "ui.official": "공식 사이트",
-    "s10.reach": "4개 대륙 · 해외 11개 시장"
+    "s10.reach": "4개 대륙 · 해외 11개 시장",
+    "opening.product": "제품 탐색",
+    "opening.science": "원료 연구",
+    "opening.chapters": "초반 장면 선택",
+    "opening.choose": "제품 선택",
+    "opening.prev": "이전 제품",
+    "opening.next": "다음 제품",
+    "opening.cream": "리쥬부스터 크림",
+    "opening.serum": "하이드로부스터 세럼",
+    "opening.mask": "클리어부스터 마스크팩"
   },
   "zh-TW": {
     "s2.label": "PDRN 市場機會",
@@ -358,7 +376,16 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.on": "聲音開啟",
     "hero.film": "PYDERIN 品牌影片，英語音訊",
     "ui.official": "官方網站",
-    "s10.reach": "4 大洲・11 個海外市場"
+    "s10.reach": "4 大洲・11 個海外市場",
+    "opening.product": "探索產品",
+    "opening.science": "原料研究",
+    "opening.chapters": "選擇開場章節",
+    "opening.choose": "選擇產品",
+    "opening.prev": "上一款產品",
+    "opening.next": "下一款產品",
+    "opening.cream": "REJUVUSTER 乳霜",
+    "opening.serum": "HYDROVUSTER 精華液",
+    "opening.mask": "CLEARVUSTER 面膜"
   },
   "ja": {
     "s2.label": "PDRNの可能性",
@@ -478,6 +505,15 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.on": "サウンド オン",
     "hero.film": "PYDERINブランドフィルム、英語音声",
     "ui.official": "公式サイト",
-    "s10.reach": "4大陸・海外11市場"
+    "s10.reach": "4大陸・海外11市場",
+    "opening.product": "製品を見る",
+    "opening.science": "原料研究",
+    "opening.chapters": "オープニングの場面を選択",
+    "opening.choose": "製品を選択",
+    "opening.prev": "前の製品",
+    "opening.next": "次の製品",
+    "opening.cream": "REJUVUSTER クリーム",
+    "opening.serum": "HYDROVUSTER セラム",
+    "opening.mask": "CLEARVUSTER マスク"
   }
 };

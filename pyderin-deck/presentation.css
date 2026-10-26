@@ -3,7 +3,7 @@
 #helix{display:none!important}
 #deck{scroll-padding-top:0;scroll-behavior:auto;overscroll-behavior-y:contain;scroll-snap-type:y proximity;scrollbar-width:thin;scrollbar-color:#a8a8a4 transparent}
 .paging-ready #deck{scroll-snap-type:none}
-#deck::-webkit-scrollbar{width:4px}
+#deck::-webkit-scrollbar{display:block;width:4px}
 #deck::-webkit-scrollbar-thumb{background:#a8a8a4}
 #topFrame{background:#fffffff5;backdrop-filter:none;border-color:#e6e6e2;padding-inline:var(--page-gutter);transition:opacity .2s,visibility .2s}
 #topFrame[data-theme=dark]{background:#181818;color:#fff;border-color:#ffffff22}

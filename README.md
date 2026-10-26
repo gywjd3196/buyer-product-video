@@ -4,6 +4,14 @@
 
 배포: https://pyderin-buyer-videos.tambeautyofficial.chatgpt.site
 
+## 별도 사이트 — PYDERIN Partnership Deck
+
+`pyderin-deck/`에는 https://github.com/gimyedalm-collab/pyderin-deck 에서 가져온
+파트너십 소개 사이트의 원본 HTML과 영상이 있습니다. 이 저장소에서 독립적으로 수정하고
+본인 Vercel 프로젝트로 배포할 수 있습니다. 실행·배포 방법은
+[`pyderin-deck/README.md`](pyderin-deck/README.md)를 참고하세요.
+기존 바이어 영상 사이트의 `dist/`와 Sites 배포 설정은 유지합니다.
+
 ## 화면 구성
 
 - 첫 화면: 제품별 / 국가별 탐색 선택.

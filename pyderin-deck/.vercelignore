@@ -1,0 +1,7 @@
+# working backups must never reach the public site
+index.backup.html
+index.pre-*.html
+# credentials / tooling
+.env*
+.vercel
+.git

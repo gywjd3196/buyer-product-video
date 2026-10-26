@@ -1,0 +1,6 @@
+# local working backups, not part of the published deck
+index.backup.html
+index.pre-*.html
+
+.vercel
+.env*

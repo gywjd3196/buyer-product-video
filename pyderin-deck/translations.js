@@ -116,7 +116,8 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.enter": "Explore",
     "hero.off": "Sound off",
     "hero.on": "Sound on",
-    "hero.film": "PYDERIN brand film, English audio"
+    "hero.film": "PYDERIN brand film, English audio",
+    "ui.official": "Official site"
   },
   "ko": {
     "s2.label": "PDRN의 기회",
@@ -234,7 +235,8 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.enter": "살펴보기",
     "hero.off": "소리 꺼짐",
     "hero.on": "소리 켜짐",
-    "hero.film": "PYDERIN 브랜드 영상, 영어 음성"
+    "hero.film": "PYDERIN 브랜드 영상, 영어 음성",
+    "ui.official": "공식 사이트"
   },
   "zh-TW": {
     "s2.label": "PDRN 市場機會",
@@ -352,7 +354,8 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.enter": "探索",
     "hero.off": "聲音關閉",
     "hero.on": "聲音開啟",
-    "hero.film": "PYDERIN 品牌影片，英語音訊"
+    "hero.film": "PYDERIN 品牌影片，英語音訊",
+    "ui.official": "官方網站"
   },
   "ja": {
     "s2.label": "PDRNの可能性",
@@ -470,6 +473,7 @@ window.PYDERIN_TRANSLATIONS = {
     "hero.enter": "詳しく見る",
     "hero.off": "サウンド オフ",
     "hero.on": "サウンド オン",
-    "hero.film": "PYDERINブランドフィルム、英語音声"
+    "hero.film": "PYDERINブランドフィルム、英語音声",
+    "ui.official": "公式サイト"
   }
 };

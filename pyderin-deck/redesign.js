@@ -66,11 +66,11 @@
       const bounds = section.getBoundingClientRect();
       return bounds.top <= line && bounds.bottom > line;
     });
-    const dark = !active || active.id === 's1' || active.classList.contains('wine');
-    header.dataset.theme = dark ? 'dark' : 'light';
+    const dark = active && active.id === 's1';
+    header.dataset.theme = 'light';
     const pageNumber = document.getElementById('pageNo');
-    pageNumber.style.color = dark ? '#e8c5d0' : '#684251';
-    pageNumber.style.background = dark ? 'rgba(66,24,42,.9)' : 'rgba(248,245,239,.94)';
+    pageNumber.style.color = dark ? '#ffffff' : '#777d86';
+    pageNumber.style.background = dark ? 'rgba(16,17,20,.45)' : 'rgba(255,255,255,.94)';
   }
   selector.addEventListener('change', event => applyLanguage(event.target.value, true));
   document.getElementById('soundBtn').addEventListener('click', soundLabel);

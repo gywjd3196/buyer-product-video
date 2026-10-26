@@ -1712,7 +1712,8 @@
         .fstep, .metrics > div, .cnode, .plink { transform: none; }
       }
     </style>
-    <link rel="stylesheet" href="redesign.css?v=polish7">
+    <link rel="stylesheet" href="redesign.css?v=opening8">
+    <link rel="stylesheet" href="opening.css?v=opening8">
   </head>
   <noscript>
       <style>
@@ -1781,8 +1782,8 @@
         </div>
       </section>
 
-<section class="slide editorial paper " id="s2" data-title="The PDRN opportunity" data-label="s2.label" data-helix="0">
-<div class="wrap"><div class="p-opening"><div class="p-opening-copy"><div class="p-section-intro"><div class="p-kicker"><span>02 / 12</span><span data-i18n="s2.label">PDRN의 기회</span>
+<section class="slide editorial paper  p-scroll-scene" id="s2" data-title="The PDRN opportunity" data-label="s2.label" data-helix="0">
+<div class="wrap p-scroll-stage"><div class="p-opening-hint" aria-hidden="true"><span data-i18n="hero.enter">살펴보기</span><svg viewBox="0 0 14 20"><path d="M7 1v16m-5-5 5 5 5-5"/></svg></div><div class="p-opening-word" aria-hidden="true">PDRN<span>.</span></div><div class="p-opening"><div class="p-opening-copy"><div class="p-section-intro"><div class="p-kicker"><span>02 / 12</span><span data-i18n="s2.label">PDRN의 기회</span>
 </div><div class="p-heading">
 <h2 data-i18n="s2.title">피부 재생의 다음 기준, <em>PDRN.</em></h2>
 <p data-i18n="s2.lead" class="p-lead">한국 피부과에서 시작된 PDRN. 글로벌 시장의 기회는 이제 열리고 있습니다.</p>
@@ -1795,8 +1796,8 @@
 </div>
 </div></div><div class="p-range-art" aria-hidden="true"><img src="assets/products/reju-cream.png" alt="" class="p-pack-cream"><img src="assets/products/hydro-serum.png" alt="" class="p-pack-serum"><img src="assets/products/clear-mask.png" alt="" class="p-pack-mask"></div></div><p data-i18n="s2.note" class="p-note">원료 연구에 관한 내용이며, 완제품 화장품의 효능을 의미하지 않습니다.</p></div>
 </section>
-<section class="slide editorial cool p-feature-dark" id="s3" data-title="Proven in Korea" data-label="s3.label" data-helix="0">
-<div class="wrap"><div class="p-kicker"><span>03 / 12</span><span data-i18n="s3.label">국내 성장</span>
+<section class="slide editorial cool p-feature-dark p-scroll-scene" id="s3" data-title="Proven in Korea" data-label="s3.label" data-helix="0">
+<div class="wrap p-scroll-stage"><div class="p-proof-photo" aria-hidden="true"><img src="assets/opening/pharmacy-shelf.jpg" alt="" loading="lazy"></div><div class="p-kicker"><span>03 / 12</span><span data-i18n="s3.label">국내 성장</span>
 </div><div class="p-growth"><div><strong class="p-giant">2,000<span>+</span></strong>
 <p data-i18n="s3.doors">전국 파트너 약국</p>
 </div><div class="p-growth-story"><div class="p-heading">
@@ -2226,6 +2227,7 @@
         function go(i) {
           i = Math.max(0, Math.min(slides.length - 1, i));
           var far = Math.abs(i - current) > 1;
+          if (window.PYDERIN_OPENING && window.PYDERIN_OPENING.navigate(slides[i], reduced || far)) return;
           slides[i].scrollIntoView({
             behavior: reduced || far ? 'auto' : 'smooth',
           });
@@ -2677,6 +2679,7 @@
       })();
     </script>
     <script src="translations.js"></script>
-    <script src="redesign.js?v=polish7"></script>
+    <script src="redesign.js?v=opening8"></script>
+    <script src="opening.js?v=opening8"></script>
   </body>
 </html>

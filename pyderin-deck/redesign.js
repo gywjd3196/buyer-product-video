@@ -94,6 +94,7 @@
     }, { root: deck, threshold: .08, rootMargin: '0px 0px -36px 0px' });
     const selectors = '.p-kicker,h2,.p-lead,.p-metrics,.p-range-art,.p-growth > div,.p-photo-strip figure,.p-inline-proof,.p-step,.p-product,.p-supply,.p-details,.p-concentration,.p-bar-heading,.p-bar-row,.p-study,.p-note,.p-globe,.p-reach,.p-region,.p-entry article,.p-ctas,.p-closing-note,.p-next';
     sections.slice(1).forEach(section => {
+      if (section.classList.contains('p-scroll-scene')) return;
       const candidates = Array.from(section.querySelectorAll(selectors));
       const targets = candidates.filter(element => !candidates.some(parent => parent !== element && parent.contains(element)));
       targets.forEach((element, index) => {
@@ -122,6 +123,7 @@
       const destination = document.querySelector(anchor.getAttribute('href'));
       if (!destination) return;
       event.preventDefault();
+      if (window.PYDERIN_OPENING && window.PYDERIN_OPENING.navigate(destination, matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
       destination.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     });
   });
@@ -129,6 +131,9 @@
   window.addEventListener('resize', updateTheme);
   applyLanguage(language, false);
   if (/^#s(?:[1-9]|1[0-2])$/.test(location.hash)) {
-    requestAnimationFrame(() => document.querySelector(location.hash).scrollIntoView({ behavior: 'instant' }));
+    requestAnimationFrame(() => {
+      const target = document.querySelector(location.hash);
+      if (!window.PYDERIN_OPENING || !window.PYDERIN_OPENING.navigate(target, true)) target.scrollIntoView({ behavior: 'instant' });
+    });
   }
 })();

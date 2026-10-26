@@ -1712,7 +1712,7 @@
         .fstep, .metrics > div, .cnode, .plink { transform: none; }
       }
     </style>
-    <link rel="stylesheet" href="redesign.css?v=hero-original4">
+    <link rel="stylesheet" href="redesign.css?v=light-motion6">
   </head>
   <noscript>
       <style>
@@ -1731,7 +1731,7 @@
       <canvas id="introFx"></canvas>
     </div>
 
-    <canvas id="helix"></canvas>
+    <canvas id="helix" aria-hidden="true"></canvas>
     <div id="progress"></div>
     <nav id="sideNav" aria-label="Slides"></nav>
     <div id="brandTag">PYDERIN &middot; Global B2B</div>
@@ -2095,7 +2095,10 @@
           hctx.setTransform(DPR, 0, 0, DPR, 0, 0);
         }
         sizeHelix();
-        window.addEventListener('resize', sizeHelix);
+        window.addEventListener('resize', function () {
+          sizeHelix();
+          wakeHelix();
+        });
 
         var mouseX = 0,
           hsT = 0,
@@ -2104,14 +2107,31 @@
           mouseX = e.clientX / window.innerWidth - 0.5;
         });
 
-        var t0 = 0;
+        var helixFrame = 0;
+        function wakeHelix() {
+          if (!helixFrame && !document.hidden) helixFrame = requestAnimationFrame(animateHelix);
+        }
+        function animateHelix(time) {
+          helixFrame = 0;
+          if (document.hidden) return;
+          drawHelix(time);
+          if (!reduced && current > 0) helixFrame = requestAnimationFrame(animateHelix);
+        }
+        document.addEventListener('visibilitychange', function () {
+          if (document.hidden) {
+            cancelAnimationFrame(helixFrame);
+            helixFrame = 0;
+          } else {
+            wakeHelix();
+          }
+        });
         function drawHelix(time) {
-          hs += (hsT - hs) * 0.05;
-          var rot = reduced ? 0 : time * 0.00045 + mouseX * 0.9 + hs * 6.5;
+          hs = reduced ? hsT : hs + (hsT - hs) * 0.055;
+          var rot = reduced ? hs * 5 : time * 0.00014 + mouseX * 0.18 + hs * 5;
           hctx.clearRect(0, 0, HW, HH);
           var cx = HW * 0.5,
             cy = HH * 0.5;
-          var R = Math.min(HW, HH) * 0.21;
+          var R = Math.min(HW, HH) * 0.27;
           var span = HH * 1.25,
             N = 96,
             persp = 900;
@@ -2126,13 +2146,13 @@
               var px = cx + x3 * s,
                 py = cy + y * s * 0.92;
               var depth = (z3 / R + 1) / 2;
-              var a = 0.06 + depth * 0.3;
-              var rad = 1.1 + depth * 2.1;
+              var a = 0.025 + depth * 0.105;
+              var rad = 1.4 + depth * 2.8;
               hctx.beginPath();
               hctx.arc(px, py, rad, 0, 6.2832);
               hctx.fillStyle =
                 'rgba(' +
-                (depth > 0.55 ? '68,88,110' : '116,132,150') +
+                (depth > 0.55 ? '83,111,135' : '133,153,171') +
                 ',' +
                 a +
                 ')';
@@ -2146,15 +2166,14 @@
                 hctx.moveTo(px, py);
                 hctx.lineTo(cx + x2 * s2, cy + y * s2 * 0.92);
                 hctx.strokeStyle =
-                  'rgba(35,62,94,' + (0.03 + depth * 0.07) + ')';
+                  'rgba(83,111,135,' + (0.025 + depth * 0.055) + ')';
                 hctx.lineWidth = 1;
                 hctx.stroke();
               }
             }
           }
-          if (!reduced) requestAnimationFrame(drawHelix);
         }
-        /* The editorial layout uses opaque surfaces; the hidden helix does not animate. */
+        /* A pale version of the original helix moves with the reading position. */
 
         /* ---------- slides / nav / progress ---------- */
         var deck = document.getElementById('deck');
@@ -2171,6 +2190,7 @@
             hsT =
               deck.scrollTop /
               Math.max(1, deck.scrollHeight - deck.clientHeight);
+            if (reduced) wakeHelix();
             var readingLine = deck.getBoundingClientRect().top + Math.min(220, deck.clientHeight * .3);
             var next = 0;
             slides.forEach(function (sl, index) {
@@ -2219,7 +2239,8 @@
           pageNo.innerHTML =
             '<b>' + String(i + 1).padStart(2, '0') + '</b> / ' + slides.length;
           progress.style.width = ((i + 1) / slides.length) * 100 + '%';
-          hx.style.opacity = slides[i].dataset.helix || '.3';
+          hx.style.opacity = i === 0 ? '0' : '1';
+          wakeHelix();
         }
 
         /* failsafes: the intro covers the whole screen and every reveal starts
@@ -2656,6 +2677,6 @@
       })();
     </script>
     <script src="translations.js"></script>
-    <script src="redesign.js?v=hero-original4"></script>
+    <script src="redesign.js?v=light-motion6"></script>
   </body>
 </html>

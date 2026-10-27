@@ -1,10 +1,73 @@
+// Updated 2026-10-27. Views: retained showcase counts + user-provided replacements.
+// Likes: public Instagram post/embed counts. 24K is rounded; _qqsheep hides likes.
+// Hero carousel and stories share the same view-ranked order.
 const reels=[
- {id:'DYhb86Woyrw',creator:'yueh_0720',views:'207만',likes:null,src:'https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DYhb86Woyrw.mp4',poster:'assets/DYhb86Woyrw.jpg',url:'https://www.instagram.com/reel/DYhb86Woyrw/',products:['reju','clear']},
- {id:'DXlzlduEvyu',creator:'hl_yuan',views:'38.2만',likes:null,src:'https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DXlzlduEvyu.mp4',poster:'assets/DXlzlduEvyu.jpg',url:'https://www.instagram.com/reel/DXlzlduEvyu/',products:['reju','clear']},
- {id:'Dbr8U3Oy9qz',creator:'_yk_yuan',views:'30.3만',likes:null,src:'https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/Dbr8U3Oy9qz.mp4',poster:'assets/Dbr8U3Oy9qz.jpg',url:'https://www.instagram.com/p/Dbr8U3Oy9qz/',products:['reju','clear']},
- {id:'DcaKhUxpTJh',creator:'lois06277',views:'27.6만',likes:null,src:'https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/DcaKhUxpTJh.mp4',poster:'assets/DcaKhUxpTJh.jpg',url:'https://www.instagram.com/p/DcaKhUxpTJh/',products:['reju','clear']},
- {id:'Da9nhtcvTN4',creator:'dewichien',views:'11.4만',likes:null,src:'https://pyderin-taiwan-reels-showcase.tambeautyofficial.chatgpt.site/assets/Da9nhtcvTN4.mp4',poster:'assets/Da9nhtcvTN4.jpg',url:'https://www.instagram.com/reel/Da9nhtcvTN4/',products:['reju','clear']}
-];
+  {
+    "id": "Dbr8U3Oy9qz",
+    "creator": "_yk_yuan",
+    "viewsCount": 303000,
+    "likes": 24000,
+    "likesApproximate": true,
+    "products": [
+      "reju",
+      "clear"
+    ],
+    "src": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dbr8U3Oy9qz.mp4",
+    "poster": "assets/Dbr8U3Oy9qz.jpg",
+    "url": "https://www.instagram.com/reel/Dbr8U3Oy9qz/"
+  },
+  {
+    "id": "DcaKhUxpTJh",
+    "creator": "lois06277",
+    "viewsCount": 276000,
+    "likes": 4576,
+    "products": [
+      "reju",
+      "clear"
+    ],
+    "src": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DcaKhUxpTJh.mp4",
+    "poster": "assets/DcaKhUxpTJh.jpg",
+    "url": "https://www.instagram.com/reel/DcaKhUxpTJh/"
+  },
+  {
+    "id": "Db8FMjJoDYY",
+    "creator": "lala._.0412",
+    "viewsCount": 65000,
+    "likes": 3812,
+    "products": [
+      "reju"
+    ],
+    "src": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Db8FMjJoDYY.mp4",
+    "poster": "assets/Db8FMjJoDYY.jpg",
+    "url": "https://www.instagram.com/reel/Db8FMjJoDYY/"
+  },
+  {
+    "id": "Dd6RHNRp0_K",
+    "creator": "_qqsheep",
+    "viewsCount": 25000,
+    "likes": null,
+    "likesHidden": true,
+    "products": [
+      "reju"
+    ],
+    "src": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/Dd6RHNRp0_K.mp4",
+    "poster": "assets/Dd6RHNRp0_K.jpg",
+    "url": "https://www.instagram.com/reel/Dd6RHNRp0_K/"
+  },
+  {
+    "id": "DdTvW_XAvIy",
+    "creator": "inesinesw",
+    "viewsCount": 12000,
+    "likes": 2181,
+    "products": [
+      "reju",
+      "clear"
+    ],
+    "src": "https://storage.googleapis.com/creo-studio-app-media/videos/instagram/DdTvW_XAvIy.mp4",
+    "poster": "assets/DdTvW_XAvIy.jpg",
+    "url": "https://www.instagram.com/reel/DdTvW_XAvIy/"
+  }
+].sort((a,b)=>b.viewsCount-a.viewsCount);
 const productCatalog={reju:{image:'assets/reju-cream.jpg',nameKo:'리쥬부스터 크림',nameZh:'REJUVUSTER 活膚修護霜',line:'REJUVUSTER',url:'https://pyderin.com/product-detail?id=rejuvuster'},clear:{image:'assets/clear-mask.jpg',nameKo:'클리어부스터 마스크팩',nameZh:'CLEARVUSTER 淨膚面膜',line:'CLEARVUSTER',url:'https://pyderin.com/product-detail?id=pyderin-clearvuster-pdrn-skin-reset-mineral-mask'}};
 const translations={
   "ko": {
@@ -146,28 +209,28 @@ const translations={
 };
 const storyTitles={
   "ko": [
-    "207만 회가 증명한<br><strong>대만 시장의 관심</strong>",
+    "30만 회 이상의 조회수로 만나는<br><strong>대만 시장의 관심</strong>",
     "현지 영향력으로 넓히는<br><strong>PYDERIN의 접점</strong>",
     "일상의 경험으로 전하는<br><strong>제품의 가치</strong>",
     "신뢰도 높은 콘텐츠로<br><strong>이어지는 구매 관심</strong>",
     "크리에이터의 언어로<br><strong>완성한 제품 발견</strong>"
   ],
   "zh": [
-    "207萬次觀看<br><strong>見證台灣市場關注</strong>",
+    "逾30萬次觀看<br><strong>見證台灣市場關注</strong>",
     "在地影響力<br><strong>拓展 PYDERIN 接觸點</strong>",
     "真實使用體驗<br><strong>傳遞產品價值</strong>",
     "值得信賴的內容<br><strong>帶動購買興趣</strong>",
     "創作者的語言<br><strong>開啟產品新發現</strong>"
   ],
   "en": [
-    "2.07 million views reflect<br><strong>interest in Taiwan</strong>",
+    "Over 300,000 views reflect<br><strong>interest in Taiwan</strong>",
     "Local voices expand<br><strong>PYDERIN’s reach</strong>",
     "Everyday experiences reveal<br><strong>the value of each product</strong>",
     "Trusted content inspires<br><strong>interest in the products</strong>",
     "A creator’s perspective<br><strong>on product discovery</strong>"
   ],
   "ja": [
-    "207万回再生が示す<br><strong>台湾市場の関心</strong>",
+    "30万回以上の再生が示す<br><strong>台湾市場の関心</strong>",
     "現地発信で広がる<br><strong>PYDERINとの接点</strong>",
     "日常から伝わる<br><strong>製品の価値</strong>",
     "信頼が生み出す<br><strong>購買への関心</strong>",
@@ -177,18 +240,20 @@ const storyTitles={
 const localeMap={'ko':'ko','ja':'ja','zh-TW':'zh','en-US':'en'};
 let lang=localeMap[new URLSearchParams(location.search).get('lang')]||'ko',active=0;
 const track=document.querySelector('#reel-track');
-const formatViews=r=>{const n=parseFloat(r.views)*10000;if(lang==='ja')return `${r.viewsExact?'':'約'}${r.views.replace('만','万')}回`;if(lang==='zh')return `${r.viewsExact?'':'約'}${r.views.replace('만','萬')}次`;if(lang==='en')return `${r.viewsExact?'':'~'}${new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:2}).format(n)}`;return r.viewsExact?`${r.views}회`:`약 ${r.views}`;};
+const numberLocale=()=>({ko:'ko-KR',zh:'zh-TW',ja:'ja-JP',en:'en-US'}[lang]);
+const formatViews=r=>new Intl.NumberFormat(numberLocale(),{notation:'compact',maximumFractionDigits:1}).format(r.viewsCount)+({ko:'회',zh:'次',ja:'回',en:''}[lang]);
+const formatLikes=r=>r.likes==null?translations[lang][r.likesHidden?'hiddenMetric':'pendingMetric']:new Intl.NumberFormat(numberLocale(),r.likesApproximate?{notation:'compact',maximumFractionDigits:1}:{}).format(r.likes);
 function build(){track.replaceChildren();const t=translations[lang];reels.forEach((r,i)=>{const card=document.createElement('article');card.className='reel-card'+(i===active?' is-active':'');card.dataset.index=i;card.tabIndex=0;if(r.pending){card.classList.add('placeholder');card.innerHTML=`<div class="placeholder-inner"><b>+</b><span>${t.next}</span></div>`}else{const video=document.createElement('video');video.src=r.src;video.poster=r.poster;video.muted=true;video.loop=true;video.playsInline=true;video.preload=i<2?'metadata':'none';card.append(video);const top=document.createElement('div');top.className='card-top';top.innerHTML=`<span>${String(i+1).padStart(2,'0')}</span><b>↗</b>`;const cap=document.createElement('div');cap.className='card-caption';cap.innerHTML=`<small>${t.reels}</small><h2>@${r.creator}</h2>`;card.append(top,cap)}card.addEventListener('click',()=>{if(!r.pending)window.open(r.url,'_blank','noopener,noreferrer')});card.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!r.pending){e.preventDefault();window.open(r.url,'_blank','noopener,noreferrer')}});track.append(card)});requestAnimationFrame(()=>center(active,false))}
 function center(index){setActive((index+reels.length)%reels.length)}
-function setActive(index){active=(index+reels.length)%reels.length;[...track.children].forEach((c,i)=>{let offset=i-active;if(offset>reels.length/2)offset-=reels.length;if(offset<-reels.length/2)offset+=reels.length;const distance=Math.abs(offset);c.style.setProperty('--offset',offset);c.style.setProperty('--distance',distance);c.style.zIndex=10-distance;c.classList.toggle('is-active',i===active)});const r=reels[active],t=translations[lang];document.querySelector('#active-creator').textContent='@'+r.creator;document.querySelector('#active-views').textContent=formatViews(r);document.querySelector('#active-likes').textContent=r.likes??(r.likesHidden?t.hiddenMetric:t.pendingMetric);const link=document.querySelector('#active-link');link.href=r.url;const impact=document.querySelector('#impact');impact.classList.remove('rise');void impact.offsetWidth;impact.classList.add('rise');document.querySelectorAll('.reel-card video').forEach((v,i)=>{if(i===active)v.play().catch(()=>{});else v.pause()})}
+function setActive(index){active=(index+reels.length)%reels.length;[...track.children].forEach((c,i)=>{let offset=i-active;if(offset>reels.length/2)offset-=reels.length;if(offset<-reels.length/2)offset+=reels.length;const distance=Math.abs(offset);c.style.setProperty('--offset',offset);c.style.setProperty('--distance',distance);c.style.zIndex=10-distance;c.classList.toggle('is-active',i===active)});const r=reels[active],t=translations[lang];document.querySelector('#active-creator').textContent='@'+r.creator;document.querySelector('#active-views').textContent=formatViews(r);document.querySelector('#active-likes').textContent=formatLikes(r);const link=document.querySelector('#active-link');link.href=r.url;const impact=document.querySelector('#impact');impact.classList.remove('rise');void impact.offsetWidth;impact.classList.add('rise');document.querySelectorAll('.reel-card video').forEach((v,i)=>{if(i===active)v.play().catch(()=>{});else v.pause()})}
 let heroIsVisible=true;
 const heroObserver=new IntersectionObserver(([entry])=>{heroIsVisible=entry.isIntersecting},{threshold:.2});
 heroObserver.observe(document.querySelector('#top'));
 setInterval(()=>{if(heroIsVisible&&document.visibilityState==='visible')center(active+1)},3000);
 let touchStartX=0;track.addEventListener('touchstart',e=>{touchStartX=e.touches[0].clientX},{passive:true});track.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-touchStartX;if(Math.abs(dx)>35)center(active+(dx<0?1:-1))},{passive:true});
 document.querySelector('.prev').addEventListener('click',()=>center(active-1));document.querySelector('.next').addEventListener('click',()=>center(active+1));
-function buildStories(){const container=document.querySelector('#creator-stories'),t=translations[lang];container.replaceChildren();reels.forEach((r,i)=>{const productCards=r.products.map(key=>{const p=productCatalog[key],name=translations[lang][key==='reju'?'rejuProduct':'clearProduct'];return `<a class="story-product" href="${p.url}" target="_blank" rel="noopener noreferrer"><img src="${p.image}" alt="${name}" loading="lazy"><span><small>${p.line}</small><strong>${name}</strong></span><b>↗</b></a>`}).join('');const section=document.createElement('section');section.className='creator-story';section.innerHTML=`<div class="story-copy"><small>${t.featuredVideo} · ${String(i+1).padStart(2,'0')}</small><h2>${storyTitles[lang][i]}</h2><div class="story-stats"><div><span>${t.creator}</span><strong>@${r.creator}</strong></div><div><span>${t.views}</span><strong>${formatViews(r)}</strong></div><div><span>${t.likes}</span><strong>${r.likes??(r.likesHidden?t.hiddenMetric:t.pendingMetric)}</strong></div></div><div class="story-products"><p>${t.introducedProducts}</p><div>${productCards}</div></div><a href="${r.url}" target="_blank" rel="noopener noreferrer"><span>${t.viewOriginal}</span></a></div><div class="story-video"><video src="${r.src}" poster="${r.poster}" controls playsinline preload="metadata" aria-label="@${r.creator} Instagram Reels"></video></div>`;container.append(section)})}
-function applyLanguage(next){lang=next;localStorage.setItem('pyderin-taiwan-reels-lang',lang);document.documentElement.lang=lang;document.querySelector('#language').value=lang;const t=translations[lang];document.querySelectorAll('[data-i18n]').forEach(el=>el.textContent=t[el.dataset.i18n]);document.querySelectorAll('[data-i18n-html]').forEach(el=>el.innerHTML=t[el.dataset.i18nHtml]);if(!track.children.length){buildStories();build();setActive(active)}else{document.querySelectorAll('.card-caption small').forEach(el=>el.textContent=t.reels);document.querySelector('#active-views').textContent=formatViews(reels[active]);document.querySelector('#active-likes').textContent=reels[active].likes??(reels[active].likesHidden?t.hiddenMetric:t.pendingMetric);document.querySelectorAll('.creator-story').forEach((section,i)=>{const r=reels[i];section.querySelector('.story-copy>small').textContent=t.featuredVideo+' · '+String(i+1).padStart(2,'0');section.querySelector('h2').innerHTML=storyTitles[lang][i];const metrics=section.querySelectorAll('.story-stats>div');['creator','views','likes'].forEach((key,j)=>metrics[j].querySelector('span').textContent=t[key]);metrics[1].querySelector('strong').textContent=formatViews(r);metrics[2].querySelector('strong').textContent=r.likes??(r.likesHidden?t.hiddenMetric:t.pendingMetric);section.querySelector('.story-products>p').textContent=t.introducedProducts;section.querySelectorAll('.story-product').forEach((link,j)=>{const name=t[r.products[j]==='reju'?'rejuProduct':'clearProduct'];link.querySelector('strong').textContent=name;link.querySelector('img').alt=name});section.querySelector('.story-copy>a>span').textContent=t.viewOriginal})}}
+function buildStories(){const container=document.querySelector('#creator-stories'),t=translations[lang];container.replaceChildren();reels.forEach((r,i)=>{const productCards=r.products.map(key=>{const p=productCatalog[key],name=translations[lang][key==='reju'?'rejuProduct':'clearProduct'];return `<a class="story-product" href="${p.url}" target="_blank" rel="noopener noreferrer"><img src="${p.image}" alt="${name}" loading="lazy"><span><small>${p.line}</small><strong>${name}</strong></span><b>↗</b></a>`}).join('');const section=document.createElement('section');section.className='creator-story';section.innerHTML=`<div class="story-copy"><small>${t.featuredVideo} · ${String(i+1).padStart(2,'0')}</small><h2>${storyTitles[lang][i]}</h2><div class="story-stats"><div><span>${t.creator}</span><strong>@${r.creator}</strong></div><div><span>${t.views}</span><strong>${formatViews(r)}</strong></div><div><span>${t.likes}</span><strong>${formatLikes(r)}</strong></div></div><div class="story-products"><p>${t.introducedProducts}</p><div>${productCards}</div></div><a href="${r.url}" target="_blank" rel="noopener noreferrer"><span>${t.viewOriginal}</span></a></div><div class="story-video"><video src="${r.src}" poster="${r.poster}" controls playsinline preload="metadata" aria-label="@${r.creator} Instagram Reels"></video></div>`;container.append(section)})}
+function applyLanguage(next){lang=next;localStorage.setItem('pyderin-taiwan-reels-lang',lang);document.documentElement.lang=lang;document.querySelector('#language').value=lang;const t=translations[lang];document.querySelectorAll('[data-i18n]').forEach(el=>el.textContent=t[el.dataset.i18n]);document.querySelectorAll('[data-i18n-html]').forEach(el=>el.innerHTML=t[el.dataset.i18nHtml]);if(!track.children.length){buildStories();build();setActive(active)}else{document.querySelectorAll('.card-caption small').forEach(el=>el.textContent=t.reels);document.querySelector('#active-views').textContent=formatViews(reels[active]);document.querySelector('#active-likes').textContent=formatLikes(reels[active]);document.querySelectorAll('.creator-story').forEach((section,i)=>{const r=reels[i];section.querySelector('.story-copy>small').textContent=t.featuredVideo+' · '+String(i+1).padStart(2,'0');section.querySelector('h2').innerHTML=storyTitles[lang][i];const metrics=section.querySelectorAll('.story-stats>div');['creator','views','likes'].forEach((key,j)=>metrics[j].querySelector('span').textContent=t[key]);metrics[1].querySelector('strong').textContent=formatViews(r);metrics[2].querySelector('strong').textContent=formatLikes(r);section.querySelector('.story-products>p').textContent=t.introducedProducts;section.querySelectorAll('.story-product').forEach((link,j)=>{const name=t[r.products[j]==='reju'?'rejuProduct':'clearProduct'];link.querySelector('strong').textContent=name;link.querySelector('img').alt=name});section.querySelector('.story-copy>a>span').textContent=t.viewOriginal})}}
 document.querySelector('#language').addEventListener('change',e=>applyLanguage(e.target.value));applyLanguage(lang);
 const brandVideos=document.querySelectorAll('.brand-reel video');
 const mobileBrandVideos=matchMedia('(max-width:800px)').matches;

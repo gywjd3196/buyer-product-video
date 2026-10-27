@@ -12,7 +12,7 @@ const product=id=>localizeProduct(data.products.find(p=>p.id===id));
 const image=p=>`<img src="${escape(p.image)}" alt="${escape(p.name)}" loading="lazy" width="600" height="600">`;
 const productCard=raw=>{const p=localizeProduct(raw);return `<a href="#product/${p.id}" class="product-card ${p.tone}"><div class="product-art">${image(p)}<span class="card-arrow"><span class="card-arrow-label">${t('영상 보기')}</span><span class="card-arrow-icon" aria-hidden="true">↗</span></span></div><div class="product-info"><h3>${p.name}</h3></div></a>`;};
 function home(){
- const japan=data.posts.find(p=>p.id==='DaVBW_MS3QL'),taiwan=data.posts.find(p=>p.id==='DYhb86Woyrw');
+ const japan=data.posts.find(p=>p.id==='DaVBW_MS3QL'),taiwan=data.posts.find(p=>p.id==='Dbr8U3Oy9qz');
  app.innerHTML=`<section class="fork-hero" aria-labelledby="hero-title">
   <h1 id="hero-title"><span>${t('인플루언서가 전하는 피더린')}</span><span>${t('제품별·국가별 마케팅 영상')}</span></h1>
   <div class="hero-paths" aria-label="${t('탐색 방식 선택')}">
@@ -42,7 +42,7 @@ function countries(){
   for(const rel of ['dns-prefetch','preconnect']){const link=document.createElement('link');link.rel=rel;link.href=origin;document.head.append(link);}
  }
  app.innerHTML=`<section class="page-intro market-list-intro"><div><h1>${t('세계의 시선으로 만나는 피더린')}</h1><p>${t('일본과 대만, 현지 크리에이터가 전하는 피더린의 이야기를 만나보세요.')}</p></div></section><section class="market-grid" aria-label="${t('국가별 쇼케이스')}">${data.markets.map(m=>{
-  const ids=m.code==='JP'?['DaZ9pv2TFOY','DaVBW_MS3QL','DXEl4BGj4t5']:['Da9nhtcvTN4','DYhb86Woyrw','DXlzlduEvyu'];
+  const ids=m.code==='JP'?['DaZ9pv2TFOY','DaVBW_MS3QL','DXEl4BGj4t5']:['Dbr8U3Oy9qz','DcaKhUxpTJh','Db8FMjJoDYY'];
   return `<a href="#country/${m.code}" class="market-card ${m.code==='JP'?'japan':'taiwan'}" data-market-name="${escape(m.name)}"><div class="market-visual" aria-hidden="true"><div class="market-reels">${ids.map(id=>data.posts.find(p=>p.id===id)).filter(Boolean).map(p=>`<div class="market-reel"><img src="${escape(p.poster)}" alt="" loading="lazy"></div>`).join('')}</div></div><div class="market-info"><h2>${t(m.name)}</h2><span class="market-link-arrow" aria-hidden="true">↗</span></div><span class="market-loading" hidden><span class="market-spinner" aria-hidden="true"></span><span class="market-loading-text" role="status" aria-live="polite" aria-atomic="true"></span></span></a>`;
  }).join('')}</section>`;
  app.querySelectorAll('.market-card').forEach(card=>card.addEventListener('click',event=>{
@@ -85,7 +85,7 @@ window.addEventListener('message',event=>{
 function marketDetail(code){
  const market=data.markets.find(m=>m.code===code);if(!market)return missing();
  const name=t(market.name),folder=code==='JP'?'japan':'taiwan';app.classList.add('showcase-main');app.setAttribute('aria-busy','true');
- app.innerHTML=`<iframe class="showcase-frame" data-market="${code}" src="showcases/${folder}/index.html?lang=${getLanguage()}&v=b5bce05d30" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe><div class="showcase-loading" role="status" aria-live="polite"><span class="market-spinner" aria-hidden="true"></span><p>${t('{market} 쇼케이스를 불러오는 중…',{market:name})}</p><button hidden>${t('다시 불러오기')}</button></div>`;
+ app.innerHTML=`<iframe class="showcase-frame" data-market="${code}" src="showcases/${folder}/index.html?lang=${getLanguage()}&v=ed2b90a7ca" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe><div class="showcase-loading" role="status" aria-live="polite"><span class="market-spinner" aria-hidden="true"></span><p>${t('{market} 쇼케이스를 불러오는 중…',{market:name})}</p><button hidden>${t('다시 불러오기')}</button></div>`;
  const frame=app.querySelector('.showcase-frame'),overlay=app.querySelector('.showcase-loading');
  const showRetry=()=>{if(!frame.isConnected||overlay.hidden)return;overlay.querySelector('.market-spinner').hidden=true;overlay.querySelector('p').textContent=t('데이터를 불러오지 못했습니다.');overlay.querySelector('button').hidden=false;};
  frame.addEventListener('load',()=>{if(frame.contentWindow?.setShowcaseLanguage)finishShowcaseLoading(frame);else showRetry();});

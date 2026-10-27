@@ -1,17 +1,17 @@
-/* Large 24px frames, minimal chrome, and space for real products and evidence. */
-:root{--scene-radius:24px;--scene-edge:20px;--scene-paper:#fff;--scene-surround:#f1f2f0}
-body,#deck{background:var(--scene-surround)}
-.slide.editorial,.slide.editorial.p-feature-dark,#s12.editorial{background:transparent;isolation:isolate;padding-top:calc(var(--frame-height) + 66px);padding-bottom:66px}
-.slide.editorial:not(#s2)::before,#s2 :is(.p-product-panel,.p-science-panel)::before{content:"";display:block;position:absolute;inset:calc(var(--frame-height) + var(--scene-edge)) var(--scene-edge) var(--scene-edge);border-radius:var(--scene-radius);background:var(--scene-paper);opacity:1;transform:none;z-index:-1;pointer-events:none}
+/* Full-width sections, rounded media, and minimal controls. */
+:root{--scene-radius:24px;--scene-paper:#fff}
+body,#deck{background:#fff}
+.slide.editorial,.slide.editorial.p-feature-dark,#s12.editorial{background:var(--scene-paper);isolation:isolate;padding-top:calc(var(--frame-height) + 66px);padding-bottom:66px}
+.slide.editorial:not(#s2)::before,#s2 :is(.p-product-panel,.p-science-panel)::before{content:none;display:none}
 .slide.editorial.p-feature-dark{--scene-paper:#181818}
 #s12.editorial{--scene-paper:#e9ece7}
 #s2.editorial{padding:0;background:transparent}
 #s2::before{display:none}
-#s2 :is(.p-product-panel,.p-science-panel){padding-top:calc(var(--frame-height) + 66px);padding-bottom:66px;background:transparent;isolation:isolate}
+#s2 :is(.p-product-panel,.p-science-panel){padding-top:calc(var(--frame-height) + 66px);padding-bottom:66px;background:var(--scene-paper);isolation:isolate}
 #s2 .p-science-panel{--scene-paper:#eaece6}
 #pageNo{display:none}
 #progress{opacity:.55;height:1px}
-#topFrame{background:#f1f2f0;border-color:transparent}
+#topFrame{background:#fff;border-color:transparent}
 #topFrame[data-theme=dark]{background:#181818;border-color:transparent}
 .p-header-caption{display:none}
 .p-official{border-radius:999px;padding:12px 19px}
@@ -82,12 +82,11 @@ body,#deck{background:var(--scene-surround)}
 #s12 .p-cta{border-radius:999px;padding:17px 24px;font-size:15px}
 #s12 .p-next{border:0;padding-top:0;font-size:14px}
 @media(max-width:1000px){
- :root{--scene-edge:16px}
  #s3 .wrap{gap:40px}#s6 .p-product{padding:28px}#s6 .p-product.pharmacy{padding:28px 28px 175px}
  #s9 .p-study{gap:30px;padding:28px}
 }
 @media(max-width:700px){
- :root{--scene-radius:20px;--scene-edge:10px;--page-gutter:30px}
+ :root{--scene-radius:20px;--page-gutter:30px}
  .slide.editorial,.slide.editorial.p-feature-dark,#s12.editorial{padding:110px 30px 44px}
  #s2.editorial{padding:0}
  #s2 :is(.p-product-panel,.p-science-panel){padding:110px 30px 44px}

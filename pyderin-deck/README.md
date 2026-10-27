@@ -22,6 +22,15 @@
 - `redesign.css` · `redesign.js` · `translations.js`: 기존 콘텐츠 스타일, 공통 헤더, 언어 선택, 한국어·영어·일본어·대만 번체 중국어를 지원합니다. 선택한 언어와 읽던 위치를 보존합니다.
 - `opening.css` · `continuity.css` · `continuity.js`는 이전 연출의 참고 파일이며 현재 페이지에서는 불러오지 않습니다.
 
+2026-10-27 인터랙션: `brand-motion.css`와 `brand-motion.js`는 영상 다음 제품 소개 화면, 03, 08, 10에만 연출을 추가합니다.
+
+- 제품 탐색: 제품별 조명·배경 톤, 선택 전환, 포인터에 반응하는 작은 기울임.
+- 국내 성장: 2,000+ 카운트와 실제 매장 사진 3장 탐색. 사진 안의 버튼은 터치·키보드로도 조작할 수 있습니다.
+- 제품 비교: 원래 수치에 비례한 막대 등장, 선택한 제품과 PYDERIN의 동시 강조.
+- 글로벌 진출: 대륙 선택에 따른 지구본 회전과 경로 강조. 남아프리카공화국의 진출 준비 상태와 점선 경로를 유지합니다.
+- 진입 연출은 화면 도착 뒤 시작하며 스크롤을 차단하지 않습니다. 지도는 전환 후 또는 화면을 벗어나면 애니메이션을 멈춥니다. 동작 줄이기 설정에서는 최종 상태를 바로 보여줍니다.
+- `assets/world-land.json`은 [Natural Earth의 110m 육지 데이터](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson)로 만든 간략화된 육지 점 좌표입니다. 지도는 이 로컬 파일만 읽으며 외부 지도 서비스를 호출하지 않습니다.
+
 미리보기는 저장소 루트에서 다음 명령으로 실행합니다. 이미 4181 서버가 실행 중이면 그대로 사용합니다.
 
 ```sh
@@ -81,3 +90,5 @@ Vercel 공식 문서: https://vercel.com/docs/builds/configure-a-build
 
 4181 미리보기를 데스크톱 폭으로 연 상태에서 `orca tab list --json`의 페이지 ID를 사용합니다.
 `node scripts/verify_deck_scroll.cjs <페이지-ID>`는 실제 페이지에 휠 이벤트를 보내 관성, 연속 입력, 방향 반전, 전환 중 입력, 헤더 및 기본 폼 조작을 확인합니다. 미리보기의 위치는 제품 탐색 화면으로 돌아갑니다.
+
+`node scripts/verify_deck_motion.cjs <페이지-ID>`는 제품·사진 선택, 비교 강조와 데이터 비율, 지도 회전·정지, 대륙 키보드 이동을 확인합니다.

@@ -209,7 +209,7 @@ const translations={
 };
 const storyTitles={
   "ko": [
-    "대만에서도 사랑받는<br><strong>피더린</strong>",
+    "대만에서도<br><strong>사랑받는 피더린</strong>",
     "현지 영향력으로 넓히는<br><strong>PYDERIN의 접점</strong>",
     "일상의 경험으로 전하는<br><strong>제품의 가치</strong>",
     "신뢰도 높은 콘텐츠로<br><strong>이어지는 구매 관심</strong>",

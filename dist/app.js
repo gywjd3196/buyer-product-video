@@ -85,7 +85,7 @@ window.addEventListener('message',event=>{
 function marketDetail(code){
  const market=data.markets.find(m=>m.code===code);if(!market)return missing();
  const name=t(market.name),folder=code==='JP'?'japan':'taiwan';app.classList.add('showcase-main');app.setAttribute('aria-busy','true');
- app.innerHTML=`<iframe class="showcase-frame" data-market="${code}" src="showcases/${folder}/index.html?lang=${getLanguage()}&v=ed2b90a7ca" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe><div class="showcase-loading" role="status" aria-live="polite"><span class="market-spinner" aria-hidden="true"></span><p>${t('{market} 쇼케이스를 불러오는 중…',{market:name})}</p><button hidden>${t('다시 불러오기')}</button></div>`;
+ app.innerHTML=`<iframe class="showcase-frame" data-market="${code}" src="showcases/${folder}/index.html?lang=${getLanguage()}&v=e1c722f025" title="${t('PYDERIN {market} 크리에이터 영상 쇼케이스',{market:name})}" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe><div class="showcase-loading" role="status" aria-live="polite"><span class="market-spinner" aria-hidden="true"></span><p>${t('{market} 쇼케이스를 불러오는 중…',{market:name})}</p><button hidden>${t('다시 불러오기')}</button></div>`;
  const frame=app.querySelector('.showcase-frame'),overlay=app.querySelector('.showcase-loading');
  const showRetry=()=>{if(!frame.isConnected||overlay.hidden)return;overlay.querySelector('.market-spinner').hidden=true;overlay.querySelector('p').textContent=t('데이터를 불러오지 못했습니다.');overlay.querySelector('button').hidden=false;};
  frame.addEventListener('load',()=>{if(frame.contentWindow?.setShowcaseLanguage)finishShowcaseLoading(frame);else showRetry();});

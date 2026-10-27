@@ -1,0 +1,130 @@
+/* Large 24px frames, minimal chrome, and space for real products and evidence. */
+:root{--scene-radius:24px;--scene-edge:20px;--scene-paper:#fff;--scene-surround:#f1f2f0}
+body,#deck{background:var(--scene-surround)}
+.slide.editorial,.slide.editorial.p-feature-dark,#s12.editorial{background:transparent;isolation:isolate;padding-top:calc(var(--frame-height) + 66px);padding-bottom:66px}
+.slide.editorial:not(#s2)::before,#s2 :is(.p-product-panel,.p-science-panel)::before{content:"";display:block;position:absolute;inset:calc(var(--frame-height) + var(--scene-edge)) var(--scene-edge) var(--scene-edge);border-radius:var(--scene-radius);background:var(--scene-paper);opacity:1;transform:none;z-index:-1;pointer-events:none}
+.slide.editorial.p-feature-dark{--scene-paper:#181818}
+#s12.editorial{--scene-paper:#e9ece7}
+#s2.editorial{padding:0;background:transparent}
+#s2::before{display:none}
+#s2 :is(.p-product-panel,.p-science-panel){padding-top:calc(var(--frame-height) + 66px);padding-bottom:66px;background:transparent;isolation:isolate}
+#s2 .p-science-panel{--scene-paper:#eaece6}
+#pageNo{display:none}
+#progress{opacity:.55;height:1px}
+#topFrame{background:#f1f2f0;border-color:transparent}
+#topFrame[data-theme=dark]{background:#181818;border-color:transparent}
+.p-header-caption{display:none}
+.p-official{border-radius:999px;padding:12px 19px}
+.slide.editorial h2,.slide.editorial:is(:lang(ko),:lang(ja),:lang(zh-TW)) h2{font-weight:500;line-height:1.24;letter-spacing:-.045em}
+.p-heading{margin-bottom:30px}
+/* Product names and two arrows replace both rows of numbered selectors. */
+#s2 .p-product-panel{gap:clamp(40px,6vw,90px)}
+#s2 .p-gallery-panel{max-width:570px}
+#s2 .p-gallery-panel .p-range-art{height:min(57svh,550px);border-radius:var(--scene-radius)}
+#s2 .p-gallery-controls{margin-top:20px}
+#s2 .p-gallery-caption{display:grid;grid-template-columns:minmax(0,1fr) 44px 44px;gap:12px;align-items:center}
+#s2 .p-active-product{grid-column:1;grid-row:1;font-size:17px;line-height:1.4;padding-right:10px}
+#s2 .p-gallery-caption button{width:44px;height:44px;border:1px solid #d9dcd5;border-radius:50%;padding:12px;background:#fff}
+#s2 .p-product-prev{grid-column:2;grid-row:1}
+#s2 .p-product-next{grid-column:3;grid-row:1}
+#s2 .p-gallery-caption button:hover{background:#181818;border-color:#181818;color:#fff;transform:none}
+#s2 .p-gallery-caption button:focus-visible{outline:2px solid #b62032;outline-offset:4px}
+#s2 .p-opening-copy{max-width:520px}
+#s2 .p-lead{margin-top:26px;max-width:460px}
+#s2 .p-science-title{font-size:clamp(32px,3.6vw,48px);margin:0 0 22px}
+#s2 .p-science-panel .p-metrics{border:0;margin:0 0 30px;padding:22px 0 30px;gap:0}
+#s2 .p-science-panel .p-metric{border-left:1px solid #cfd4c9}
+#s2 .p-science-panel .p-metric:first-child{border-left:0}
+/* Evidence photographs share the same generous corners as the reference library. */
+#s3 .wrap{grid-template-rows:auto;gap:70px;align-items:center}
+#s3 .p-growth{grid-row:1}
+#s3 .p-proof-gallery{grid-row:1;border-radius:var(--scene-radius);height:min(64svh,660px)}
+#s3 .p-proof-strip,#s3 .p-proof-card,#s3 .p-proof-card:last-child{border-radius:inherit}
+#s3 .p-growth-story{margin-top:42px}
+#s3 .p-growth-rule{display:none}
+#s3 .p-counter-digits{min-width:4.2ch}
+#s3 .p-proof-controls{inset:auto 22px 22px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+#s3 .p-proof-caption{margin:0;min-height:0;font-size:14px}
+#s3 .p-proof-nav{gap:8px;flex:none}
+#s3 .p-proof-nav button{display:grid;place-items:center;flex:none;width:40px;height:40px;min-height:40px;border:1px solid #ffffff60;border-radius:50%;padding:11px;background:#1113;color:#fff;text-align:center;backdrop-filter:blur(10px)}
+#s3 .p-proof-nav button::before{display:none}
+#s3 .p-proof-nav svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.5}
+#s3 .p-proof-nav button:hover{background:#fff;color:#181818}
+#s4 .p-photo-strip figure{border-radius:var(--scene-radius);overflow:hidden}
+#s4 .p-photo-strip{gap:14px}
+#s4 .p-inline-proof{border-color:#dedfd9}
+/* Each section keeps one primary composition; smaller content gets no decorative badges. */
+#s5 .p-step,#s5 .p-step:first-child{display:block;padding:30px 0;border-left:0}
+#s5 .p-step+.p-step{border-left:0}
+#s5 .p-step h3{font-size:26px;font-weight:500}
+#s6 .p-products{gap:24px}
+#s6 .p-product{border:0;border-radius:var(--scene-radius);background:#f2f3ef;padding:36px;min-height:380px}
+#s6 .p-product.pharmacy{border:0;background:#ecf0f3;padding:36px 36px 180px}
+#s6 .p-product-label{font-size:14px;font-weight:500;color:#6c726b;margin-bottom:26px;display:block;letter-spacing:0}
+#s6 .p-product h3{margin:0;font-weight:500}
+#s6 .p-product p{font-size:16px;line-height:1.8}
+#s6 .p-product-use{font-size:14px;line-height:1.7}
+#s7 .p-metrics{border:0;border-radius:var(--scene-radius);padding:32px 18px;background:#f1f3ed}
+#s7 .p-supply{padding:22px 0 0;line-height:1.8}
+#s8 .p-comparison{border-left:0;padding-left:30px}
+#s8 .p-bar-row::before{border-radius:10px}
+#s8 .p-proof-product{height:210px;width:150px}
+#s8 .p-concentration{min-height:200px;padding-right:145px}
+#s9 .p-study{border:0;border-radius:var(--scene-radius);background:#f1f3ed;padding:34px;gap:50px}
+#s9 .p-study-metrics .p-metric{gap:18px}
+#s10 .p-globe>span{display:none}
+#s10 .p-region>div>span{display:none}
+#s10 .p-region{padding:20px 0}
+#s11 .p-entry{gap:24px}
+#s11 .p-entry article,#s11 .p-entry article+article{display:block;margin:0;border:0;border-radius:var(--scene-radius);padding:34px;background:#f1f3ed}
+#s11 .p-entry h3{font-weight:500}
+#s12 .p-ctas{gap:14px}
+#s12 .p-cta{border-radius:999px;padding:17px 24px;font-size:15px}
+#s12 .p-next{border:0;padding-top:0;font-size:14px}
+@media(max-width:1000px){
+ :root{--scene-edge:16px}
+ #s3 .wrap{gap:40px}#s6 .p-product{padding:28px}#s6 .p-product.pharmacy{padding:28px 28px 175px}
+ #s9 .p-study{gap:30px;padding:28px}
+}
+@media(max-width:700px){
+ :root{--scene-radius:20px;--scene-edge:10px;--page-gutter:30px}
+ .slide.editorial,.slide.editorial.p-feature-dark,#s12.editorial{padding:110px 30px 44px}
+ #s2.editorial{padding:0}
+ #s2 :is(.p-product-panel,.p-science-panel){padding:110px 30px 44px}
+ #s2 .p-product-panel{gap:28px}
+ #s2 .p-gallery-panel .p-range-art{height:clamp(270px,39svh,370px);min-height:0}
+ #s2 .p-gallery-controls{margin-top:16px}
+ #s2 .p-active-product{font-size:15px;padding-right:4px}
+ #s2 .p-gallery-caption{grid-template-columns:minmax(0,1fr) 40px 40px;gap:8px}
+ #s2 .p-gallery-caption button{width:40px;height:40px;padding:11px}
+ #s2 .p-lead{margin-top:20px}
+ #s2 .p-science-title{font-size:30px;margin-bottom:24px}
+ #s2 .p-science-panel .p-metrics{padding:0;margin-bottom:28px}
+ #s2 .p-science-panel .p-metric{border:0;padding-top:26px}
+ #s2 .p-science-panel .p-metric:first-child{border-bottom:1px solid #cfd4c9;padding:0 0 24px}
+ #s3 .p-giant{font-size:100px}#s3 .p-growth-story{margin-top:36px}
+ #s3 .p-growth-notes{gap:16px}#s3 .p-growth-notes p{font-size:13px}
+ #s4 .p-photo-strip{gap:8px}#s4 .p-photo-strip figure{border-radius:14px}
+ #s4 .p-photo-strip figcaption{font-size:12px;padding:26px 6px 9px}
+ #s5 .p-step,#s5 .p-step:first-child{padding:22px 0}#s5 .p-step h3{font-size:22px}
+ #s6 .p-products{gap:16px}#s6 .p-product{min-height:0;padding:26px 24px}
+ #s6 .p-product.pharmacy{padding:26px 24px 170px}#s6 .p-product-label{margin-bottom:22px}
+ #s7 .p-metrics{padding:26px 8px}#s7 .p-metric{padding:4px 8px}
+ #s7 .p-supply{padding-top:16px}
+ #s8 .wrap{grid-template-columns:minmax(0,1fr)}
+ #s8 .p-comparison{padding:14px 0 0}#s8 .p-concentration{min-width:0;min-height:170px;padding-right:100px}
+ #s8 .p-concentration strong{font-size:60px}#s8 .p-proof-product{width:110px;height:180px}
+ #s8 .p-bar-row{grid-template-columns:110px minmax(0,1fr) 48px;gap:9px}
+ #s9 .p-study{padding:24px;gap:22px}
+ #s9 .p-study-metrics{gap:10px}#s9 .p-study-metrics .p-metric strong{font-size:clamp(24px,7.7vw,32px)}
+ #s9 .p-study-metrics .p-metric>span{font-size:13px}
+ #s10 .p-region{min-height:100px;padding:17px 0}#s10 .p-globe{width:min(57vw,225px)}
+ #s11 .p-entry{gap:16px}#s11 .p-entry article,#s11 .p-entry article+article{padding:26px 24px}
+ #s12 .p-cta{font-size:14px}#s12 .p-next{font-size:13px}
+}
+@media(max-width:380px){
+ #s8 .p-concentration{display:block;padding-top:20px;padding-right:96px}
+ #s8 .p-concentration strong{font-size:52px}
+ #s8 .p-concentration>span{display:block;margin-top:6px}
+ #s8 .p-proof-product{width:96px}
+}

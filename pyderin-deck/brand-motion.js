@@ -11,7 +11,8 @@
  function animate(element,frames,options={}){
   if(reduced.matches)return;
   const animation=element.animate(frames,{duration:900,easing:'cubic-bezier(.2,.7,.2,1)',...options});
-  animations.add(animation);animation.onfinish=animation.oncancel=()=>animations.delete(animation);
+  const finishTimer=setTimeout(()=>{if(animation.playState!=='finished'&&animation.playState!=='idle')animation.finish()},(options.duration||900)+(options.delay||0)+120);
+  animations.add(animation);animation.onfinish=animation.oncancel=()=>{clearTimeout(finishTimer);animations.delete(animation)};
   return animation;
  }
  function count(element,value){
@@ -40,8 +41,15 @@
  [...gallery.querySelectorAll('img')].forEach(img=>stage.append(img));gallery.append(stage);
  const shadow=document.createElement('div');shadow.className='p-pack-shadow';gallery.prepend(shadow);
  const light=document.createElement('div');light.className='p-pack-light';gallery.append(light);
- function lightSweep(){animate(light,[{transform:'translateX(-110%)'},{transform:'translateX(110%)'}],{duration:1100,easing:'cubic-bezier(.2,.5,.3,1)'})}
- function productTone(){productPanel.dataset.productTone=gallery.dataset.selectedProduct;if(active.has(product))lightSweep()}
+ let productChange;
+ function lightSweep(){light.getAnimations().forEach(animation=>animation.cancel());animate(light,[{transform:'translateX(-110%)'},{transform:'translateX(110%)'}],{duration:1100,easing:'cubic-bezier(.2,.5,.3,1)'})}
+ function productTone(){
+  productChange?.cancel();productPanel.dataset.productTone=gallery.dataset.selectedProduct;
+  if(active.has(product)){
+   const image=stage.querySelectorAll('img')[Number(gallery.dataset.selectedProduct)];
+   productChange=animate(image,[{opacity:0,transform:'translateY(30px) scale(.88)'},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:1050});lightSweep();
+  }
+ }
  new MutationObserver(productTone).observe(gallery,{attributes:true,attributeFilter:['data-selected-product']});productTone();
  gallery.addEventListener('pointermove',event=>{
   if(!finePointer.matches||reduced.matches)return;
@@ -58,13 +66,15 @@
  controls.innerHTML='<span class="p-proof-caption"></span><div class="p-proof-nav"></div>';proof.append(controls);
  const caption=controls.querySelector('.p-proof-caption'),proofNav=controls.querySelector('.p-proof-nav');
  let photoIndex=2;
- const photoButtons=photos.map((photo,index)=>{
-  const button=document.createElement('button');button.type='button';button.textContent=String(index+1).padStart(2,'0');
-  button.addEventListener('click',()=>selectPhoto(index));button.addEventListener('focus',()=>selectPhoto(index));proofNav.append(button);return button;
+ const photoButtons=[-1,1].map(direction=>{
+  const button=document.createElement('button');button.type='button';button.className=direction<0?'p-proof-prev':'p-proof-next';
+  button.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${direction<0?'m14 6-6 6 6 6':'m10 6 6 6-6 6'}"/></svg>`;
+  button.addEventListener('click',()=>selectPhoto((photoIndex+direction+photos.length)%photos.length));proofNav.append(button);return button;
  });
+ caption.setAttribute('aria-live','polite');
  function selectPhoto(index){
   photoIndex=index;proof.dataset.photo=String(index);
-  photos.forEach((photo,i)=>{photo.classList.toggle('is-current',i===index);photo.setAttribute('aria-hidden',String(i!==index));photoButtons[i].setAttribute('aria-pressed',String(i===index))});
+  photos.forEach((photo,i)=>{photo.classList.toggle('is-current',i===index);photo.setAttribute('aria-hidden',String(i!==index))});
   caption.textContent=messages()[`s4.cap${index+1}`];
  }
  proof.addEventListener('pointermove',event=>{
@@ -74,11 +84,11 @@
  });
  proofNav.addEventListener('keydown',event=>{
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
-  event.preventDefault();const index=event.key==='Home'?0:event.key==='End'?2:(photoIndex+(event.key==='ArrowRight'?1:2))%3;photoButtons[index].focus({preventScroll:true});
+  event.preventDefault();const index=event.key==='Home'?0:event.key==='End'?2:(photoIndex+(event.key==='ArrowRight'?1:2))%3;selectPhoto(index);
  });
  const giant=growth.querySelector('.p-giant');giant.setAttribute('aria-label','2,000+');
  giant.innerHTML='<b class="p-counter-digits" aria-hidden="true">2,000</b><span aria-hidden="true">+</span>';
- const growthNumber=giant.querySelector('b'),rule=document.createElement('i');rule.className='p-growth-rule';rule.setAttribute('aria-hidden','true');growth.querySelector('.p-growth-story').prepend(rule);
+ const growthNumber=giant.querySelector('b');
 
  // 08: compare any row against PYDERIN, preserving the original values and widths.
  const chart=comparison.querySelector('.p-comparison'),rows=[...chart.querySelectorAll('.p-bar-row')];
@@ -182,16 +192,17 @@
 
  function labels(){
   const t=messages();proof.setAttribute('aria-label',t['s4.label']);
-  photos.forEach((photo,i)=>{photo.querySelector('img').alt=t[`s4.cap${i+1}`];photoButtons[i].setAttribute('aria-label',t[`s4.cap${i+1}`])});
+  photos.forEach((photo,i)=>photo.querySelector('img').alt=t[`s4.cap${i+1}`]);
+  photoButtons[0].setAttribute('aria-label',t['motion.prevPhoto']);photoButtons[1].setAttribute('aria-label',t['motion.nextPhoto']);
   selectPhoto(photoIndex);
   regions.forEach((item,i)=>item.setAttribute('aria-label',`${t[`s10.region${i}`]}. ${t[`s10.countries${i}`]}`));
  }
  labels();document.addEventListener('pyderin:language',labels);
  function enter(scene){
-  if(scene===product){animate(stage,[{opacity:.4,transform:'translateY(20px) scale(.94)'},{opacity:1,transform:'translateY(0) scale(1)'}]);lightSweep()}
-  if(scene===growth){selectPhoto(2);animate(proof,[{clipPath:'inset(100% 0 0 0)'},{clipPath:'inset(0 0 0 0)'}],{duration:850});count(growthNumber,2000);animate(rule,[{transform:'scaleX(0)'},{transform:'scaleX(1)'}],{duration:600,delay:250,fill:'backwards'})}
-  if(scene===comparison){count(concentrationDigits,10000);rows.forEach((row,i)=>animate(row.querySelector('i'),[{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],{duration:800,delay:i*45,fill:'backwards'}));animate(comparison.querySelector('.p-proof-product'),[{opacity:.4,transform:'translateY(14px)'},{opacity:1,transform:'translateY(0)'}],{duration:950})}
-  if(scene===world)globeTo(pinnedRegion,true);
+  if(scene===product){animate(stage,[{opacity:0,transform:'translateY(48px) scale(.82)'},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:1150});lightSweep()}
+  if(scene===growth){selectPhoto(2);animate(proof,[{clipPath:'inset(100% 0 0 0)'},{clipPath:'inset(0 0 0 0)'}],{duration:1000});animate(photos[2].querySelector('img'),[{transform:'scale(1.16)'},{transform:'scale(1)'}],{duration:1200});count(growthNumber,2000)}
+  if(scene===comparison){count(concentrationDigits,10000);rows.forEach((row,i)=>animate(row.querySelector('i'),[{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],{duration:950,delay:i*50,fill:'backwards'}));animate(comparison.querySelector('.p-proof-product'),[{opacity:0,transform:'translateY(32px) scale(.85)'},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:1100})}
+  if(scene===world){animate(canvas,[{opacity:.3,transform:'scale(.9)'},{opacity:1,transform:'scale(1)'}],{duration:1100});globeTo(pinnedRegion,true)}
  }
  let arrivalTimer;
  function checkScenes(){

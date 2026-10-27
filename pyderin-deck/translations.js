@@ -1,6 +1,8 @@
 /* Localized deck copy. zh-TW uses Traditional Chinese for Taiwan. */
 window.PYDERIN_TRANSLATIONS = {
   "en": {
+    "motion.prevPhoto": "Previous photo",
+    "motion.nextPhoto": "Next photo",
     "s2.label": "The PDRN opportunity",
     "s2.title": "The next standard in skincare. <em>PDRN.</em>",
     "s2.lead": "Established in Korean dermatology. An emerging opportunity worldwide.",
@@ -130,6 +132,8 @@ window.PYDERIN_TRANSLATIONS = {
     "opening.mask": "CLEARVUSTER Mask"
   },
   "ko": {
+    "motion.prevPhoto": "이전 사진",
+    "motion.nextPhoto": "다음 사진",
     "s2.label": "PDRN의 기회",
     "s2.title": "피부 재생의 다음 기준, <em>PDRN.</em>",
     "s2.lead": "한국 피부과에서 시작된 PDRN. 글로벌 시장의 기회는 이제 열리고 있습니다.",
@@ -259,6 +263,8 @@ window.PYDERIN_TRANSLATIONS = {
     "opening.mask": "클리어부스터 마스크팩"
   },
   "zh-TW": {
+    "motion.prevPhoto": "上一張照片",
+    "motion.nextPhoto": "下一張照片",
     "s2.label": "PDRN 市場機會",
     "s2.title": "再生保養的下一步，<em>PDRN。</em>",
     "s2.lead": "源自韓國皮膚科，全球市場仍在發展初期。",
@@ -388,6 +394,8 @@ window.PYDERIN_TRANSLATIONS = {
     "opening.mask": "CLEARVUSTER 面膜"
   },
   "ja": {
+    "motion.prevPhoto": "前の写真",
+    "motion.nextPhoto": "次の写真",
     "s2.label": "PDRNの可能性",
     "s2.title": "再生スキンケアの次の基準、<em>PDRN。</em>",
     "s2.lead": "韓国の皮膚科から世界へ。海外市場は、まだ成長の初期段階です。",
